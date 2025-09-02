@@ -6,14 +6,14 @@ import { BookOpen, ArrowLeft, MessageCircle } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 
 const catalogueProducts = [
-    { name: "Crème Visage à la Bave d'Escargot", image: "https://picsum.photos/400/400?random=51", hint: "face cream" },
-    { name: "Masque Cheveux à la Kératine", image: "https://picsum.photos/400/400?random=52", hint: "hair mask" },
-    { name: "Fond de Teint Longue Tenue", image: "https://picsum.photos/400/400?random=53", hint: "foundation makeup" },
-    { name: "Rouge à Lèvres Mat Velours", image: "https://picsum.photos/400/400?random=54", hint: "lipstick" },
-    { name: "Huile Sèche Pailletée Corps et Cheveux", image: "https://picsum.photos/400/400?random=55", hint: "shimmer body oil" },
-    { name: "Détartrant pour Machine à Café", image: "https://picsum.photos/400/400?random=56", hint: "cleaning product" },
-    { name: "Nettoyant Four et Plaque de Cuisson", image: "https://picsum.photos/400/400?random=57", hint: "oven cleaner" },
-    { name: "Parfum d'Ambiance Bois d'Orient", image: "https://picsum.photos/400/400?random=58", hint: "home fragrance" },
+    { name: "Crème Visage à la Bave d'Escargot", image: "/images/catalogue/creme-visage.jpg", hint: "face cream" },
+    { name: "Masque Cheveux à la Kératine", image: "/images/catalogue/masque-cheveux.jpg", hint: "hair mask" },
+    { name: "Fond de Teint Longue Tenue", image: "/images/catalogue/fond-de-teint.jpg", hint: "foundation makeup" },
+    { name: "Rouge à Lèvres Mat Velours", image: "/images/catalogue/rouge-a-levres.jpg", hint: "lipstick" },
+    { name: "Huile Sèche Pailletée Corps et Cheveux", image: "/images/catalogue/huile-seche.jpg", hint: "shimmer body oil" },
+    { name: "Détartrant pour Machine à Café", image: "/images/catalogue/detartrant.jpg", hint: "cleaning product" },
+    { name: "Nettoyant Four et Plaque de Cuisson", image: "/images/catalogue/nettoyant-four.jpg", hint: "oven cleaner" },
+    { name: "Parfum d'Ambiance Bois d'Orient", image: "/images/catalogue/parfum-ambiance.jpg", hint: "home fragrance" },
 ];
 
 
@@ -54,7 +54,8 @@ export default function CataloguePage() {
                                 <Image
                                     src={product.image}
                                     alt={product.name}
-                                    fill
+                                    width={400}
+                                    height={400}
                                     data-ai-hint={product.hint}
                                     className="object-cover"
                                 />
@@ -69,6 +70,7 @@ export default function CataloguePage() {
                                         <MessageCircle className="mr-2 h-4 w-4" />
                                         Commander
                                     </a>
+
                                 </Button>
                             </CardFooter>
                         </Card>

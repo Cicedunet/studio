@@ -3,7 +3,10 @@ import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils";
 import './globals.css';
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:9002';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: 'Élégance & Bien-Être | Liz-Francine',
   description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec Liz-Francine.',
   icons: {

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Sparkles, ShoppingCart, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List } from "lucide-react";
+import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List } from "lucide-react";
 
 const navLinks = [
   { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
@@ -57,7 +57,6 @@ const Hero = () => {
                           <Link
                             href={link.href}
                             className="transition-colors hover:text-primary flex items-center gap-2"
-                            target={link.target}
                           >
                             <link.icon className="h-5 w-5" />
                             {link.label}
@@ -93,7 +92,7 @@ const Hero = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              src="https://picsum.photos/600/600"
+              src="/images/portrait.jpg"
               alt="Portrait de Liz-Francine"
               width={500}
               height={500}
@@ -108,7 +107,6 @@ const Hero = () => {
             <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
                 <Link
                 href={link.href}
-                target={link.target}
                 className="flex items-center gap-2"
                 >
                 <link.icon className="h-5 w-5 text-primary" />

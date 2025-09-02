@@ -8,32 +8,32 @@ import Footer from "@/components/layout/Footer";
 const slimmingProducts = [
     {
         name: "Thé Détox",
-        image: "https://picsum.photos/400/400?random=11",
+        image: "/images/minceur/the-detox.jpg",
         hint: "detox tea"
     },
     {
         name: "Brûleur de Graisses",
-        image: "https://picsum.photos/400/400?random=12",
+        image: "/images/minceur/bruleur-graisses.jpg",
         hint: "fat burner supplement"
     },
     {
         name: "Shake Protéiné",
-        image: "https://picsum.photos/400/400?random=13",
+        image: "/images/minceur/shake-proteine.jpg",
         hint: "protein shake"
     },
     {
         name: "Crème Anti-Cellulite",
-        image: "https://picsum.photos/400/400?random=14",
+        image: "/images/minceur/creme-anti-cellulite.jpg",
         hint: "anti-cellulite cream"
     },
     {
         name: "Coupe-Faim Naturel",
-        image: "https://picsum.photos/400/400?random=15",
+        image: "/images/minceur/coupe-faim.jpg",
         hint: "natural appetite suppressant"
     },
      {
         name: "Draineur Intense",
-        image: "https://picsum.photos/400/400?random=16",
+        image: "/images/minceur/draineur-intense.jpg",
         hint: "detox drink"
     },
 ];
@@ -75,7 +75,8 @@ export default function ProduitsMinceurPage() {
                                 <Image
                                     src={product.image}
                                     alt={product.name}
-                                    fill
+                                    width={400}
+                                    height={400}
                                     data-ai-hint={product.hint}
                                     className="object-cover"
                                 />
