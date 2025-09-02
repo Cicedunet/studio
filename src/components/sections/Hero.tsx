@@ -2,22 +2,15 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Sparkles, ShoppingCart, Weight, BookOpen, Instagram, Facebook, MessageCircle } from "lucide-react";
+import { Menu, Sparkles, ShoppingCart, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone } from "lucide-react";
 
 const navLinks = [
-  { href: "/#decouvrir", label: "Découvrir" },
-  { href: "/#profiler", label: "Mon Parfum Idéal" },
-  { href: "/#catalogue", label: "Catalogue" },
-  { href: "/#business", label: "Business" },
-  { href: "/#offres", label: "Offres" },
-  { href: "/#contact", label: "Contact" },
+  { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
+  { href: "#catalogue", label: "Catalogue", icon: ShoppingCart },
+  { href: "#business", label: "Business", icon: Briefcase },
+  { href: "#offres", label: "Offres", icon: Gift },
+  { href: "#contact", label: "Contact", icon: Phone },
 ];
-
-const ctaLinks = [
-  { href: "/parfums", label: "Liste des Parfums", icon: ShoppingCart},
-  { href: "/produits-minceur", label: "Produits Minceur", icon: Weight },
-  { href: "https://www.chogangroupspa.com/referral/LIZA948BE/FR", label: "Catalogue", icon: BookOpen },
-]
 
 const socialLinks = [
     { href: "https://www.instagram.com/lizfrancine_elegance/", label: "Instagram", icon: Instagram },
@@ -28,7 +21,7 @@ const socialLinks = [
 
 const Hero = () => {
   return (
-    <section id="decouvrir" className="relative pt-20 md:pt-24 pb-12 md:pb-20">
+    <section id="decouvrir" className="relative pt-12 md:pt-20 pb-12 md:pb-20">
       <div
         className="absolute inset-x-0 top-0 h-full bg-gradient-to-b from-accent/50 to-background"
         aria-hidden="true"
@@ -39,17 +32,6 @@ const Hero = () => {
               <Sparkles className="h-6 w-6 text-primary" />
               <span>Élégance & Bien-Être</span>
             </Link>
-             <nav className="hidden md:flex flex-wrap items-center justify-center gap-x-6 text-lg font-medium">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="transition-colors hover:text-primary"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </nav>
              <div className="md:hidden">
               <Sheet>
                 <SheetTrigger asChild>
@@ -69,8 +51,9 @@ const Hero = () => {
                         <SheetClose asChild key={link.href}>
                           <Link
                             href={link.href}
-                            className="transition-colors hover:text-primary"
+                            className="transition-colors hover:text-primary flex items-center gap-2"
                           >
+                            <link.icon className="h-5 w-5" />
                             {link.label}
                           </Link>
                         </SheetClose>
@@ -114,34 +97,19 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="mt-16 md:mt-24">
-            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-              {ctaLinks.map((link) => {
-                const Icon = link.icon;
-                const isExternal = link.href.startsWith('http');
-                const linkContent = (
-                   <div className="flex items-center justify-center text-center gap-4 rounded-lg border bg-card p-6 text-card-foreground shadow-sm transition-transform hover:scale-105 hover:shadow-lg">
-                      <Icon className="h-8 w-8 text-primary" />
-                      <span className="text-lg font-semibold">{link.label}</span>
-                    </div>
-                );
-                
-                if (isExternal) {
-                  return (
-                    <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer">
-                      {linkContent}
-                    </a>
-                  )
-                }
-
-                return (
-                  <Link href={link.href} key={link.href} >
-                   {linkContent}
-                  </Link>
-                )
-              })}
-            </div>
-        </div>
+        <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium">
+            {navLinks.map((link) => (
+            <Button asChild key={link.href} variant="outline" size="lg" className="transition-transform hover:scale-105 hover:shadow-lg">
+                <Link
+                href={link.href}
+                className="flex items-center gap-2"
+                >
+                <link.icon className="h-5 w-5" />
+                {link.label}
+                </Link>
+            </Button>
+            ))}
+        </nav>
       </div>
     </section>
   );

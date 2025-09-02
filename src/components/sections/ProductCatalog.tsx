@@ -18,7 +18,7 @@ export default function ProductCatalog() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-3">
+        <div className="mt-12 grid gap-8 md:grid-cols-2">
             <Card className="flex flex-col items-center justify-center p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
                 <List className="h-10 w-10 text-primary" />
                 <h3 className="mt-4 text-2xl font-bold">Liste des Parfums</h3>
@@ -35,24 +35,17 @@ export default function ProductCatalog() {
                     <Link href="/produits-minceur">Voir les produits</Link>
                 </Button>
             </Card>
-            <Card className="flex flex-col items-center justify-center p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
-                <BookOpen className="h-10 w-10 text-primary" />
+        </div>
+
+         <div className="mt-16 text-center">
+             <Card className="inline-block p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
+                <BookOpen className="mx-auto h-10 w-10 text-primary" />
                 <h3 className="mt-4 text-2xl font-bold">Catalogues Complets</h3>
                 <p className="mt-2 text-muted-foreground">Cosmétiques, bien-être, maison et plus encore.</p>
                 <Button asChild className="mt-6">
                     <a href="https://www.chogangroupspa.com/referral/LIZA948BE/FR" target="_blank" rel="noopener noreferrer">Voir les catalogues</a>
                 </Button>
             </Card>
-        </div>
-
-         <div className="mt-16 text-center">
-            <h3 className="font-headline text-2xl font-bold">Prêt(e) à shopper ?</h3>
-            <p className="mt-2 text-lg text-muted-foreground">Visitez ma boutique en ligne pour passer votre commande.</p>
-            <Button asChild size="lg" className="mt-6 text-lg">
-                <a href="https://www.chogangroupspa.com/referral/LIZA948BE/FR" target="_blank" rel="noopener noreferrer">
-                    Accéder à la Boutique
-                </a>
-            </Button>
         </div>
       </div>
     </section>
