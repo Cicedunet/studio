@@ -40,10 +40,10 @@ export default function ProductCatalog() {
          <div className="mt-16 text-center">
              <Card className="inline-block p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
                 <BookOpen className="mx-auto h-10 w-10 text-accent" />
-                <h3 className="mt-4 text-2xl font-bold">Catalogues Complets</h3>
+                <h3 className="mt-4 text-2xl font-bold">Catalogue Complet</h3>
                 <p className="mt-2 text-muted-foreground">Cosmétiques, bien-être, maison et plus encore.</p>
                 <Button asChild className="mt-6">
-                    <a href="https://www.chogangroupspa.com/referral/LIZA948BE/FR" target="_blank" rel="noopener noreferrer">Voir les catalogues</a>
+                    <Link href="/catalogue">Voir le catalogue</Link>
                 </Button>
             </Card>
         </div>

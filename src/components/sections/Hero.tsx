@@ -14,7 +14,7 @@ const navLinks = [
 const productLinks = [
     { href: "/parfums", label: "Parfums", icon: List },
     { href: "/produits-minceur", label: "Minceur", icon: Weight },
-    { href: "https://www.chogangroupspa.com/referral/LIZA948BE/FR", label: "Catalogue Complet", icon: BookOpen, target: "_blank" },
+    { href: "/catalogue", label: "Catalogue", icon: BookOpen },
 ]
 
 const socialLinks = [
