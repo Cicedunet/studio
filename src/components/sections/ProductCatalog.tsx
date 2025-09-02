@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Store, BookOpen, List } from "lucide-react";
+import { Store, BookOpen, List, Weight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const products = [
     {
@@ -60,13 +61,21 @@ export default function ProductCatalog() {
             ))}
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
+        <div className="mt-12 grid gap-8 md:grid-cols-3">
             <Card className="flex flex-col items-center justify-center p-8 text-center">
                 <List className="h-10 w-10 text-primary" />
                 <h3 className="mt-4 text-2xl font-bold">Liste des Parfums</h3>
                 <p className="mt-2 text-muted-foreground">Consultez la liste complète de nos équivalences de parfums.</p>
                 <Button asChild className="mt-6">
-                    <a href="https://drive.google.com/drive/u/0/mobile/folders/1JlFrM7owE9ANEtLlO0uA5QEdUFv4RRf9" target="_blank" rel="noopener noreferrer">Voir la liste</a>
+                    <Link href="/parfums">Voir la liste</Link>
+                </Button>
+            </Card>
+             <Card className="flex flex-col items-center justify-center p-8 text-center">
+                <Weight className="h-10 w-10 text-primary" />
+                <h3 className="mt-4 text-2xl font-bold">Produits Minceur</h3>
+                <p className="mt-2 text-muted-foreground">Découvrez notre gamme de produits pour vous aider à atteindre vos objectifs.</p>
+                <Button asChild className="mt-6">
+                    <Link href="/produits-minceur">Voir les produits</Link>
                 </Button>
             </Card>
             <Card className="flex flex-col items-center justify-center p-8 text-center">
