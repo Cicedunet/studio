@@ -71,7 +71,7 @@ const Hero = () => {
         </header>
 
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
-          <div className="flex flex-col items-start space-y-6">
+          <div className="flex flex-col items-start space-y-6 row-start-2 md:row-start-auto">
             <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               Josy Madie: Votre guide vers l'Élégance & le Bien-Être
             </h1>
@@ -92,7 +92,7 @@ const Hero = () => {
                 })}
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center row-start-1 md:row-start-auto">
             <Image
               src="/images/portrait.jpg"
               alt="Portrait de Josy Madie"
