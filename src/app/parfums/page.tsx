@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Sparkles, ArrowLeft } from "lucide-react";
+import { Sparkles, ArrowLeft, MessageCircle } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 
 const perfumeList = [
@@ -32,7 +32,7 @@ const perfumeList = [
 export default function ParfumsPage() {
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
-        <header className="py-6 bg-secondary">
+        <header className="py-6 bg-secondary/50">
              <div className="container mx-auto px-4 md:px-6">
                  <Button asChild variant="outline">
                     <Link href="/">
@@ -45,7 +45,7 @@ export default function ParfumsPage() {
         <main className="flex-grow py-12 md:py-20">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="mx-auto max-w-3xl text-center">
-                    <Sparkles className="mx-auto h-12 w-12 text-primary" />
+                    <Sparkles className="mx-auto h-12 w-12 text-primary animate-pulse" />
                     <h1 className="mt-4 font-headline text-4xl font-bold tracking-tight md:text-5xl">
                         Liste de nos Parfums
                     </h1>
@@ -55,8 +55,12 @@ export default function ParfumsPage() {
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    {perfumeList.map((perfume, index) => (
-                        <Card key={index} className="overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    {perfumeList.map((perfume, index) => {
+                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le parfum : ${perfume.name}. Pouvez-vous m'en dire plus ?`);
+                        const whatsappUrl = `https://wa.me/+33652915596?text=${whatsappMessage}`;
+
+                        return (
+                        <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                            <CardHeader className="p-0">
                                 <div className="aspect-square relative w-full overflow-hidden">
                                 <Image
@@ -68,11 +72,19 @@ export default function ParfumsPage() {
                                 />
                                 </div>
                             </CardHeader>
-                            <CardContent className="p-4">
+                            <CardContent className="p-4 flex-grow">
                                 <CardTitle className="text-lg text-center h-12 flex items-center justify-center">{perfume.name}</CardTitle>
                             </CardContent>
+                            <CardFooter className="p-4 pt-0">
+                                <Button asChild className="w-full">
+                                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                                        <MessageCircle className="mr-2 h-4 w-4" />
+                                        Commander
+                                    </a>
+                                </Button>
+                            </CardFooter>
                         </Card>
-                    ))}
+                    )})}
                 </div>
                  <div className="mt-16 text-center">
                     <h3 className="font-headline text-2xl font-bold">Une senteur vous intéresse ?</h3>

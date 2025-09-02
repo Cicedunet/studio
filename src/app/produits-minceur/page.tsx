@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { Weight, ArrowLeft } from "lucide-react";
+import { Weight, ArrowLeft, MessageCircle } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 
 const slimmingProducts = [
@@ -41,7 +41,7 @@ const slimmingProducts = [
 export default function ProduitsMinceurPage() {
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
-        <header className="py-6 bg-secondary">
+        <header className="py-6 bg-secondary/50">
              <div className="container mx-auto px-4 md:px-6">
                 <Button asChild variant="outline">
                     <Link href="/">
@@ -54,7 +54,7 @@ export default function ProduitsMinceurPage() {
         <main className="flex-grow py-12 md:py-20">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="mx-auto max-w-3xl text-center">
-                    <Weight className="mx-auto h-12 w-12 text-primary" />
+                    <Weight className="mx-auto h-12 w-12 text-primary animate-bounce" />
                     <h1 className="mt-4 font-headline text-4xl font-bold tracking-tight md:text-5xl">
                         Nos Produits Minceur
                     </h1>
@@ -64,8 +64,12 @@ export default function ProduitsMinceurPage() {
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    {slimmingProducts.map((product) => (
-                        <Card key={product.name} className="overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                    {slimmingProducts.map((product) => {
+                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name}. Pouvez-vous m'en dire plus ?`);
+                        const whatsappUrl = `https://wa.me/+33652915596?text=${whatsappMessage}`;
+
+                        return (
+                        <Card key={product.name} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                             <CardHeader className="p-0">
                                 <div className="aspect-square relative w-full overflow-hidden">
                                 <Image
@@ -77,11 +81,19 @@ export default function ProduitsMinceurPage() {
                                 />
                                 </div>
                             </CardHeader>
-                            <CardContent className="p-4">
-                                <CardTitle className="text-xl text-center">{product.name}</CardTitle>
+                            <CardContent className="p-4 flex-grow">
+                                <CardTitle className="text-xl text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
                             </CardContent>
+                            <CardFooter className="p-4 pt-0">
+                                 <Button asChild className="w-full">
+                                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                                        <MessageCircle className="mr-2 h-4 w-4" />
+                                        Commander
+                                    </a>
+                                </Button>
+                            </CardFooter>
                         </Card>
-                    ))}
+                    )})}
                 </div>
 
                  <div className="mt-16 text-center">

@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Sparkles, ShoppingCart, Weight, BookOpen } from "lucide-react";
+import { Menu, Sparkles, ShoppingCart, Weight, BookOpen, Instagram, Facebook, MessageCircle } from "lucide-react";
 
 const navLinks = [
   { href: "/#decouvrir", label: "Découvrir" },
@@ -17,6 +17,13 @@ const ctaLinks = [
   { href: "/parfums", label: "Liste des Parfums", icon: ShoppingCart},
   { href: "/produits-minceur", label: "Produits Minceur", icon: Weight },
   { href: "https://www.chogangroupspa.com/referral/LIZA948BE/FR", label: "Boutique en ligne", icon: BookOpen },
+]
+
+const socialLinks = [
+    { href: "https://www.instagram.com/lizfrancine_elegance/", label: "Instagram", icon: Instagram },
+    { href: "https://www.facebook.com/profile.php?id=61561083971213", label: "Facebook", icon: Facebook },
+    { href: "https://www.tiktok.com/@lizfrancine_elegance", label: "TikTok", icon: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6"><path d="M16.5 6.5a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z" /><path d="M11.5 16.5v-11" /><path d="m7.5 11.5 8-4" /></svg> },
+    { href: "https://wa.me/+33652915596", label: "WhatsApp", icon: MessageCircle }
 ]
 
 const Hero = () => {
@@ -83,13 +90,16 @@ const Hero = () => {
             <p className="text-lg text-muted-foreground md:text-xl">
               Maman comblée, Infirmière et distributrice passionnée de parfums & cosmétiques haut de gamme. Depuis la douce Corrèze, je partage ma passion pour l'élégance au quotidien.
             </p>
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Button asChild size="lg" className="text-lg">
-                <Link href="#profiler">Trouvez votre parfum signature</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="text-lg">
-                <Link href="#business">Démarrez votre aventure</Link>
-              </Button>
+             <div className="flex gap-4 pt-4">
+                {socialLinks.map((social) => {
+                    const Icon = social.icon;
+                    return (
+                        <a href={social.href} key={social.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-primary">
+                            <Icon />
+                            <span className="sr-only">{social.label}</span>
+                        </a>
+                    )
+                })}
             </div>
           </div>
           <div className="flex justify-center">
@@ -110,7 +120,7 @@ const Hero = () => {
                 const Icon = link.icon;
                 const isExternal = link.href.startsWith('http');
                 const linkContent = (
-                   <div className="flex items-center gap-4 rounded-lg border bg-card p-6 text-card-foreground shadow-sm transition-transform hover:scale-105 hover:shadow-lg">
+                   <div className="flex items-center justify-center text-center gap-4 rounded-lg border bg-card p-6 text-card-foreground shadow-sm transition-transform hover:scale-105 hover:shadow-lg">
                       <Icon className="h-8 w-8 text-primary" />
                       <span className="text-lg font-semibold">{link.label}</span>
                     </div>
