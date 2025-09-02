@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
       <main className="flex-grow">
         <Hero />
-        <ScentProfiler />
+        
         <ProductCatalog />
         <BusinessOpportunity />
         <Offers />
