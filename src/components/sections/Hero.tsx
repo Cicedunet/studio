@@ -73,10 +73,12 @@ const Hero = () => {
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
           <div className="flex flex-col items-start space-y-6">
             <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-              Liz-Francine: Votre guide vers l'Élégance & le Bien-Être
+              Josy Madie: Votre guide vers l'Élégance & le Bien-Être
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              Maman comblée, Infirmière et distributrice passionnée de parfums & cosmétiques haut de gamme. Depuis la douce Corrèze, je partage ma passion pour l'élégance au quotidien.
+              Je suis Josy Madie, maman , professionnelle des chiffres et distributrice de parfums haut de gamme. Passionnée par le bien être et l élegance, je partage ici des produits et astuces qui vont ravir ton quotidien. Je t'aide également à construire ton propre business en toute liberté suivi de conseils à la clé.
+              <br/><br/>
+              Je t invite à explorer mon univers raffiné.
             </p>
              <div className="flex gap-4 pt-4">
                 {socialLinks.map((social) => {
@@ -93,7 +95,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <Image
               src="/images/portrait.jpg"
-              alt="Portrait de Liz-Francine"
+              alt="Portrait de Josy Madie"
               width={500}
               height={500}
               data-ai-hint="elegant woman portrait"

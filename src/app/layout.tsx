@@ -7,8 +7,8 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:9002';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: 'Élégance & Bien-Être | Liz-Francine',
-  description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec Liz-Francine.',
+  title: 'Élégance & Bien-Être | Josy Madie',
+  description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec Josy Madie.',
   icons: {
     icon: '/favicon.ico',
   },

@@ -11,7 +11,7 @@ const Footer = () => {
             <span>Élégance & Bien-Être</span>
           </Link>
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Liz-Francine. Tous droits réservés.
+            © {new Date().getFullYear()} Josy Madie. Tous droits réservés.
           </p>
           <div className="flex gap-4">
             {/* Add social links here if available */}
