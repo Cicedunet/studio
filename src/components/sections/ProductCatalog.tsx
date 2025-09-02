@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Store, BookOpen, List, Weight, ShoppingCart } from "lucide-react";
+import { Store, BookOpen, List, Weight, ShoppingCart, Sparkles } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export default function ProductCatalog() {
     <section id="catalogue" className="py-20 md:py-24">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
-          <ShoppingCart className="mx-auto h-12 w-12 text-primary" />
+          <ShoppingCart className="mx-auto h-12 w-12 text-primary animate-bounce" />
           <h2 className="mt-4 font-headline text-3xl font-bold tracking-tight md:text-4xl">
             Explorez un Univers de Senteurs et de Bien-Être
           </h2>
@@ -19,17 +19,17 @@ export default function ProductCatalog() {
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
-            <Card className="flex flex-col items-center justify-center p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
-                <List className="h-10 w-10 text-primary" />
-                <h3 className="mt-4 text-2xl font-bold">Liste des Parfums</h3>
+            <Card className="flex flex-col items-center justify-center p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
+                <Sparkles className="h-10 w-10 text-accent" />
+                <h3 className="mt-4 text-2xl font-bold">Parfums d'Exception</h3>
                 <p className="mt-2 text-muted-foreground">Consultez la liste complète de nos équivalences de parfums.</p>
                 <Button asChild className="mt-6">
-                    <Link href="/parfums">Voir la liste</Link>
+                    <Link href="/parfums">Voir les parfums</Link>
                 </Button>
             </Card>
-             <Card className="flex flex-col items-center justify-center p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
-                <Weight className="h-10 w-10 text-primary" />
-                <h3 className="mt-4 text-2xl font-bold">Produits Minceur</h3>
+             <Card className="flex flex-col items-center justify-center p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
+                <Weight className="h-10 w-10 text-accent" />
+                <h3 className="mt-4 text-2xl font-bold">Objectif Minceur</h3>
                 <p className="mt-2 text-muted-foreground">Découvrez notre gamme pour vous aider à atteindre vos objectifs.</p>
                 <Button asChild className="mt-6">
                     <Link href="/produits-minceur">Voir les produits</Link>
@@ -38,8 +38,8 @@ export default function ProductCatalog() {
         </div>
 
          <div className="mt-16 text-center">
-             <Card className="inline-block p-8 text-center transition-transform hover:scale-105 hover:shadow-xl">
-                <BookOpen className="mx-auto h-10 w-10 text-primary" />
+             <Card className="inline-block p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
+                <BookOpen className="mx-auto h-10 w-10 text-accent" />
                 <h3 className="mt-4 text-2xl font-bold">Catalogues Complets</h3>
                 <p className="mt-2 text-muted-foreground">Cosmétiques, bien-être, maison et plus encore.</p>
                 <Button asChild className="mt-6">
