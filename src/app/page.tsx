@@ -1,3 +1,25 @@
+import Header from '@/components/layout/Header';
+import Hero from '@/components/sections/Hero';
+import ScentProfiler from '@/components/sections/ScentProfiler';
+import ProductCatalog from '@/components/sections/ProductCatalog';
+import BusinessOpportunity from '@/components/sections/BusinessOpportunity';
+import Offers from '@/components/sections/Offers';
+import Contact from '@/components/sections/Contact';
+import Footer from '@/components/layout/Footer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
+      <Header />
+      <main className="flex-grow">
+        <Hero />
+        <ScentProfiler />
+        <ProductCatalog />
+        <BusinessOpportunity />
+        <Offers />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
