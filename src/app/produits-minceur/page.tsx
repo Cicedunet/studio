@@ -65,9 +65,9 @@ export default function ProduitsMinceurPage() {
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {slimmingProducts.map((product) => (
-                        <Card key={product.name}>
+                        <Card key={product.name} className="overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                             <CardHeader className="p-0">
-                                <div className="aspect-square relative w-full overflow-hidden rounded-t-lg">
+                                <div className="aspect-square relative w-full overflow-hidden">
                                 <Image
                                     src={product.image}
                                     alt={product.name}
