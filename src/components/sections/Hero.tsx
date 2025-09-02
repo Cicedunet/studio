@@ -26,13 +26,13 @@ const socialLinks = [
 
 const Hero = () => {
   return (
-    <section id="decouvrir" className="relative pt-12 md:pt-20 pb-12 md:pb-20">
+    <section id="decouvrir" className="relative pt-12 md:pt-20 pb-12 md:pb-20 overflow-hidden">
       <div
         className="absolute inset-x-0 top-0 h-full bg-gradient-to-b from-secondary/50 to-background"
         aria-hidden="true"
       />
       <div className="container relative mx-auto px-4 md:px-6">
-        <header className="flex justify-between items-center mb-8 md:mb-12">
+        <header className="flex justify-between items-center mb-8 md:mb-12 animate-in fade-in slide-in-from-top-4 duration-1000">
             <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
               <Sparkles className="h-6 w-6 text-primary animate-pulse" />
               <span>Élégance & Bien-Être</span>
@@ -71,7 +71,7 @@ const Hero = () => {
         </header>
 
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
-          <div className="flex flex-col items-start space-y-6 row-start-2 md:row-start-auto">
+          <div className="flex flex-col items-start space-y-6 row-start-2 md:row-start-auto animate-in fade-in slide-in-from-left-8 duration-1000 delay-200">
             <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
               Josy Madie: Votre guide vers l'Élégance & le Bien-Être
             </h1>
@@ -81,10 +81,10 @@ const Hero = () => {
               Je t invite à explorer mon univers raffiné.
             </p>
              <div className="flex gap-4 pt-4">
-                {socialLinks.map((social) => {
+                {socialLinks.map((social, index) => {
                     const Icon = social.icon;
                     return (
-                        <a href={social.href} key={social.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-all duration-300 hover:text-primary hover:scale-125 hover:rotate-6">
+                        <a href={social.href} key={social.href} target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-all duration-300 hover:text-primary hover:scale-125 hover:rotate-6 animate-in fade-in zoom-in-50 duration-500" style={{animationDelay: `${600 + index * 100}ms`}}>
                             <Icon />
                             <span className="sr-only">{social.label}</span>
                         </a>
@@ -92,7 +92,7 @@ const Hero = () => {
                 })}
             </div>
           </div>
-          <div className="flex justify-center row-start-1 md:row-start-auto">
+          <div className="flex justify-center row-start-1 md:row-start-auto animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
             <Image
               src="/images/portrait.jpg"
               alt="Portrait de Josy Madie"
@@ -104,7 +104,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium">
+        <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-400">
             {[...productLinks, ...navLinks].map((link) => (
             <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
                 <Link

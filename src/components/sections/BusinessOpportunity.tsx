@@ -36,7 +36,7 @@ export default function BusinessOpportunity() {
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (
-            <Card key={index}>
+            <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
               <CardHeader>
                 <Quote className="h-8 w-8 text-accent" />
               </CardHeader>

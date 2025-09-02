@@ -9,9 +9,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: 'Élégance & Bien-Être | Josy Madie',
   description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec Josy Madie.',
-  icons: {
-    icon: '/favicon.ico',
-  },
 };
 
 export default function RootLayout({
