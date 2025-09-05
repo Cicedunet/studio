@@ -1,54 +1,68 @@
+"use client";
+
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 import { Weight, ArrowLeft, MessageCircle } from "lucide-react";
 import Footer from "@/components/layout/Footer";
+import { CurrencySwitcher } from "@/components/CurrencySwitcher";
+import { useCurrency } from "@/context/CurrencyContext";
+import { convertPrice } from "@/lib/currency";
 
 const slimmingProducts = [
     {
         name: "Thé Détox",
         image: "/images/minceur/the-detox.jpg",
-        hint: "detox tea"
+        hint: "detox tea",
+        price: 22
     },
     {
         name: "Brûleur de Graisses",
         image: "/images/minceur/bruleur-graisses.jpg",
-        hint: "fat burner supplement"
+        hint: "fat burner supplement",
+        price: 35
     },
     {
         name: "Shake Protéiné",
         image: "/images/minceur/shake-proteine.jpg",
-        hint: "protein shake"
+        hint: "protein shake",
+        price: 45
     },
     {
         name: "Crème Anti-Cellulite",
         image: "/images/minceur/creme-anti-cellulite.jpg",
-        hint: "anti-cellulite cream"
+        hint: "anti-cellulite cream",
+        price: 30
     },
     {
         name: "Coupe-Faim Naturel",
         image: "/images/minceur/coupe-faim.jpg",
-        hint: "natural appetite suppressant"
+        hint: "natural appetite suppressant",
+        price: 28
     },
      {
         name: "Draineur Intense",
         image: "/images/minceur/draineur-intense.jpg",
-        hint: "detox drink"
+        hint: "detox drink",
+        price: 26
     },
 ];
 
 export default function ProduitsMinceurPage() {
+  const { currency } = useCurrency();
+
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
         <header className="py-6 bg-secondary/50">
-             <div className="container mx-auto px-4 md:px-6">
+             <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
                 <Button asChild variant="outline">
                     <Link href="/">
                         <ArrowLeft className="mr-2 h-4 w-4" />
                         Retour à l'accueil
                     </Link>
                 </Button>
+                <CurrencySwitcher />
             </div>
         </header>
         <main className="flex-grow py-12 md:py-20">
@@ -67,6 +81,7 @@ export default function ProduitsMinceurPage() {
                     {slimmingProducts.map((product) => {
                         const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name}. Pouvez-vous m'en dire plus ?`);
                         const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
+                        const price = convertPrice(product.price, currency);
 
                         return (
                         <Card key={product.name} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
@@ -84,6 +99,7 @@ export default function ProduitsMinceurPage() {
                             </CardHeader>
                             <CardContent className="p-4 flex-grow">
                                 <CardTitle className="text-xl text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
+                                <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
                             </CardContent>
                             <CardFooter className="p-4 pt-0">
                                  <Button asChild className="w-full">

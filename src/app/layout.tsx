@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils";
+import { CurrencyProvider } from '@/context/CurrencyContext';
 import './globals.css';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:9002';
@@ -24,7 +25,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
       </head>
       <body className={cn("font-body antialiased", "bg-background font-sans")}>
-        {children}
+        <CurrencyProvider>
+          {children}
+        </CurrencyProvider>
         <Toaster />
       </body>
     </html>

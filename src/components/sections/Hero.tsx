@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List } from "lucide-react";
 
 const navLinks = [
@@ -37,36 +38,39 @@ const Hero = () => {
             <Sparkles className="h-6 w-6 text-primary animate-pulse" />
             <span>Élégance & Bien-Être</span>
           </Link>
-          <div className="md:hidden">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="outline" size="icon">
-                  <Menu className="h-6 w-6" />
-                  <span className="sr-only">Ouvrir le menu</span>
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right">
-                <div className="flex flex-col gap-6 p-6">
-                  <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
-                    <Sparkles className="h-6 w-6 text-primary" />
-                    <span>Élégance & Bien-Être</span>
-                  </Link>
-                  <nav className="flex flex-col gap-4 text-lg font-medium">
-                    {[...productLinks, ...navLinks].map((link) => (
-                      <SheetClose asChild key={link.href}>
-                        <Link
-                          href={link.href}
-                          className="transition-colors hover:text-primary flex items-center gap-2"
-                        >
-                          <link.icon className="h-5 w-5" />
-                          {link.label}
-                        </Link>
-                      </SheetClose>
-                    ))}
-                  </nav>
-                </div>
-              </SheetContent>
-            </Sheet>
+          <div className="flex items-center gap-4">
+            <CurrencySwitcher />
+            <div className="md:hidden">
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="outline" size="icon">
+                    <Menu className="h-6 w-6" />
+                    <span className="sr-only">Ouvrir le menu</span>
+                  </Button>
+                </SheetTrigger>
+                <SheetContent side="right">
+                  <div className="flex flex-col gap-6 p-6">
+                    <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
+                      <Sparkles className="h-6 w-6 text-primary" />
+                      <span>Élégance & Bien-Être</span>
+                    </Link>
+                    <nav className="flex flex-col gap-4 text-lg font-medium">
+                      {[...productLinks, ...navLinks].map((link) => (
+                        <SheetClose asChild key={link.href}>
+                          <Link
+                            href={link.href}
+                            className="transition-colors hover:text-primary flex items-center gap-2"
+                          >
+                            <link.icon className="h-5 w-5" />
+                            {link.label}
+                          </Link>
+                        </SheetClose>
+                      ))}
+                    </nav>
+                  </div>
+                </SheetContent>
+              </Sheet>
+            </div>
           </div>
         </header>
 
