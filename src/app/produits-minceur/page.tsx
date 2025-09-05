@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -10,47 +11,27 @@ import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { useCurrency } from "@/context/CurrencyContext";
 import { convertPrice } from "@/lib/currency";
 
-const slimmingProducts = [
-    {
-        name: "Thé Détox",
-        image: "/images/minceur/the-detox.jpg",
-        hint: "detox tea",
-        price: 22
-    },
-    {
-        name: "Brûleur de Graisses",
-        image: "/images/minceur/bruleur-graisses.jpg",
-        hint: "fat burner supplement",
-        price: 35
-    },
-    {
-        name: "Shake Protéiné",
-        image: "/images/minceur/shake-proteine.jpg",
-        hint: "protein shake",
-        price: 45
-    },
-    {
-        name: "Crème Anti-Cellulite",
-        image: "/images/minceur/creme-anti-cellulite.jpg",
-        hint: "anti-cellulite cream",
-        price: 30
-    },
-    {
-        name: "Coupe-Faim Naturel",
-        image: "/images/minceur/coupe-faim.jpg",
-        hint: "natural appetite suppressant",
-        price: 28
-    },
-     {
-        name: "Draineur Intense",
-        image: "/images/minceur/draineur-intense.jpg",
-        hint: "detox drink",
-        price: 26
-    },
-];
+interface Product {
+  id: number;
+  name: string;
+  image: string;
+  hint: string;
+  price: number;
+  category: string;
+}
 
 export default function ProduitsMinceurPage() {
   const { currency } = useCurrency();
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    fetch('/produits.json')
+      .then(response => response.json())
+      .then(data => {
+        const slimmingProducts = data.products.filter((p: Product) => p.category === 'minceur');
+        setProducts(slimmingProducts);
+      });
+  }, []);
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -78,10 +59,10 @@ export default function ProduitsMinceurPage() {
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    {slimmingProducts.map((product) => {
-                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
+                    {products.map((product) => {
                         const price = convertPrice(product.price, currency);
+                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
+                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
 
                         return (
                         <Card key={product.name} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">

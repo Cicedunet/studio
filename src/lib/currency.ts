@@ -4,6 +4,7 @@ export const exchangeRates: { [key: string]: number } = {
   EUR: 1,
   USD: 1.08,
   GBP: 0.85,
+  XOF: 655.957,
 };
 
 export const convertPrice = (price: number, currency: Currency) => {
