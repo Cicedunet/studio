@@ -14,6 +14,7 @@ export const currencies: Currency[] = [
   { code: 'EUR', name: 'Euro', symbol: '€' },
   { code: 'USD', name: 'US Dollar', symbol: '$' },
   { code: 'GBP', name: 'British Pound', symbol: '£' },
+  { code: 'XOF', name: 'CFA Franc', symbol: 'FCFA' },
 ];
 
 // Define the context type

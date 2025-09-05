@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -10,20 +11,27 @@ import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { useCurrency } from "@/context/CurrencyContext";
 import { convertPrice } from "@/lib/currency";
 
-const catalogueProducts = [
-    { name: "Crème Visage à la Bave d'Escargot", image: "/images/catalogue/creme-visage.jpg", hint: "face cream", price: 38 },
-    { name: "Masque Cheveux à la Kératine", image: "/images/catalogue/masque-cheveux.jpg", hint: "hair mask", price: 24 },
-    { name: "Fond de Teint Longue Tenue", image: "/images/catalogue/fond-de-teint.jpg", hint: "foundation makeup", price: 29 },
-    { name: "Rouge à Lèvres Mat Velours", image: "/images/catalogue/rouge-a-levres.jpg", hint: "lipstick", price: 18 },
-    { name: "Huile Sèche Pailletée Corps et Cheveux", image: "/images/catalogue/huile-seche.jpg", hint: "shimmer body oil", price: 26 },
-    { name: "Détartrant pour Machine à Café", image: "/images/catalogue/detartrant.jpg", hint: "cleaning product", price: 12 },
-    { name: "Nettoyant Four et Plaque de Cuisson", image: "/images/catalogue/nettoyant-four.jpg", hint: "oven cleaner", price: 15 },
-    { name: "Parfum d'Ambiance Bois d'Orient", image: "/images/catalogue/parfum-ambiance.jpg", hint: "home fragrance", price: 20 },
-];
-
+interface Product {
+  id: number;
+  name: string;
+  image: string;
+  hint: string;
+  price: number;
+  category: string;
+}
 
 export default function CataloguePage() {
   const { currency } = useCurrency();
+  const [products, setProducts] = useState<Product[]>([]);
+
+  useEffect(() => {
+    fetch('/produits.json')
+      .then(response => response.json())
+      .then(data => {
+        const catalogueProducts = data.products.filter((p: Product) => p.category === 'catalogue');
+        setProducts(catalogueProducts);
+      });
+  }, []);
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -51,10 +59,10 @@ export default function CataloguePage() {
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    {catalogueProducts.map((product, index) => {
-                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
+                    {products.map((product, index) => {
                         const price = convertPrice(product.price, currency);
+                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
+                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
 
                         return (
                         <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
