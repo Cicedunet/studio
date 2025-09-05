@@ -66,7 +66,7 @@ export default function ProduitsMinceurPage() {
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {slimmingProducts.map((product) => {
                         const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+33652915596?text=${whatsappMessage}`;
+                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
 
                         return (
                         <Card key={product.name} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">

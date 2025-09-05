@@ -45,7 +45,7 @@ export default function CataloguePage() {
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {catalogueProducts.map((product, index) => {
                         const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+33652915596?text=${whatsappMessage}`;
+                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
 
                         return (
                         <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">

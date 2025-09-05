@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
   },
   images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'static3.depositphotos.com',
+        // Optional: you can add pathname patterns if needed
+        // pathname: '/1000859/**',
+      },
     ],
   },
 };

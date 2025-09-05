@@ -19,7 +19,7 @@ export default function Contact() {
           </p>
           <div className="mt-8">
             <Button asChild size="lg" className="text-lg gap-2">
-              <a href="https://wa.me/+33652915596" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+32466423584" target="_blank" rel="noopener noreferrer">
                 <WhatsAppIcon className="h-6 w-6" />
                 Discutons sur WhatsApp
               </a>
