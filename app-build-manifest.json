@@ -17,6 +17,14 @@
       "static/chunks/523-b9abdfca72686a6a.js",
       "static/chunks/app/layout-935afe23b970bf32.js"
     ],
+    "/catalogue/page": [
+      "static/chunks/webpack-4927ab880aa53c11.js",
+      "static/chunks/4bd1b696-8068f37cb173e5f8.js",
+      "static/chunks/684-91659ed38786c79d.js",
+      "static/chunks/main-app-8e8cada1700d90e7.js",
+      "static/chunks/992-4c506555a9f3b1b0.js",
+      "static/chunks/app/catalogue/page-d899db3ea29a3f1f.js"
+    ],
     "/page": [
       "static/chunks/webpack-4927ab880aa53c11.js",
       "static/chunks/4bd1b696-8068f37cb173e5f8.js",
@@ -26,14 +34,6 @@
       "static/chunks/475-a810edab0d3a8286.js",
       "static/chunks/234-fc4396c12e435098.js",
       "static/chunks/app/page-13898d6c74380074.js"
-    ],
-    "/catalogue/page": [
-      "static/chunks/webpack-4927ab880aa53c11.js",
-      "static/chunks/4bd1b696-8068f37cb173e5f8.js",
-      "static/chunks/684-91659ed38786c79d.js",
-      "static/chunks/main-app-8e8cada1700d90e7.js",
-      "static/chunks/992-4c506555a9f3b1b0.js",
-      "static/chunks/app/catalogue/page-d899db3ea29a3f1f.js"
     ],
     "/parfums/page": [
       "static/chunks/webpack-4927ab880aa53c11.js",
