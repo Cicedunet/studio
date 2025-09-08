@@ -70,7 +70,8 @@
       "image": "/images/parfums/parfum-1.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 10,
@@ -78,7 +79,8 @@
       "image": "/images/parfums/parfum-2.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 11,
@@ -86,7 +88,8 @@
       "image": "/images/parfums/parfum-3.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 12,
@@ -94,7 +97,8 @@
       "image": "/images/parfums/parfum-4.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 13,
@@ -102,7 +106,8 @@
       "image": "/images/parfums/parfum-5.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 14,
@@ -110,7 +115,8 @@
       "image": "/images/parfums/parfum-6.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 15,
@@ -118,7 +124,8 @@
       "image": "/images/parfums/parfum-7.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 16,
@@ -126,7 +133,8 @@
       "image": "/images/parfums/parfum-8.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 17,
@@ -134,7 +142,8 @@
       "image": "/images/parfums/parfum-9.jpg",
       "hint": "perfume bottle",
       "price": 25,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 18,
@@ -142,7 +151,8 @@
       "image": "/images/parfums/parfum-10.jpg",
       "hint": "perfume bottle",
       "price": 28,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 19,
@@ -150,7 +160,8 @@
       "image": "/images/parfums/parfum-11.jpg",
       "hint": "perfume bottle",
       "price": 28,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 20,
@@ -158,7 +169,8 @@
       "image": "/images/parfums/parfum-12.jpg",
       "hint": "perfume bottle",
       "price": 28,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 21,
@@ -166,7 +178,8 @@
       "image": "/images/parfums/parfum-13.jpg",
       "hint": "perfume bottle",
       "price": 28,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 22,
@@ -174,7 +187,8 @@
       "image": "/images/parfums/parfum-14.jpg",
       "hint": "perfume bottle",
       "price": 28,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 23,
@@ -182,7 +196,8 @@
       "image": "/images/parfums/parfum-15.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "homme"
     },
     {
       "id": 24,
@@ -190,7 +205,8 @@
       "image": "/images/parfums/parfum-16.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "mixte"
     },
     {
       "id": 25,
@@ -198,7 +214,8 @@
       "image": "/images/parfums/parfum-17.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "mixte"
     },
     {
       "id": 26,
@@ -206,7 +223,8 @@
       "image": "/images/parfums/parfum-18.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "femme"
     },
     {
       "id": 27,
@@ -214,7 +232,8 @@
       "image": "/images/parfums/parfum-19.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "mixte"
     },
     {
       "id": 28,
@@ -222,7 +241,8 @@
       "image": "/images/parfums/parfum-20.jpg",
       "hint": "perfume bottle",
       "price": 35,
-      "category": "parfums"
+      "category": "parfums",
+      "subCategory": "mixte"
     },
     {
       "id": 29,
