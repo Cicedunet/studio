@@ -5,7 +5,9 @@
             "image": "/images/catalogue/creme-visage.jpg",
             "hint": "face cream",
             "price": 38,
-            "category": "catalogue"
+            "category": "catalogue",
+            "subCategory": "creme-de-visage",
+            "description": "Un soin régénérant et hydratant d'exception pour une peau visiblement plus jeune et éclatante."
         },
         {
             "id": 2,
@@ -13,7 +15,8 @@
             "image": "/images/catalogue/masque-cheveux.jpg",
             "hint": "hair mask",
             "price": 24,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Réparez et nourrissez vos cheveux en profondeur pour une chevelure douce, brillante et pleine de vitalité."
         },
         {
             "id": 3,
@@ -21,7 +24,8 @@
             "image": "/images/catalogue/fond-de-teint.jpg",
             "hint": "foundation makeup",
             "price": 29,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Un teint parfait et unifié du matin au soir avec notre fond de teint couvrant et confortable."
         },
         {
             "id": 4,
@@ -29,7 +33,8 @@
             "image": "/images/catalogue/rouge-a-levres.jpg",
             "hint": "lipstick",
             "price": 18,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Des lèvres sublimées d'une couleur intense et d'un fini mat velouté pour un sourire inoubliable."
         },
         {
             "id": 5,
@@ -37,7 +42,8 @@
             "image": "/images/catalogue/huile-seche.jpg",
             "hint": "shimmer body oil",
             "price": 26,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Illuminez votre peau et vos cheveux d'un voile pailleté et parfumé pour un effet glamour assuré."
         },
         {
             "id": 6,
@@ -45,7 +51,8 @@
             "image": "/images/catalogue/detartrant.jpg",
             "hint": "cleaning product",
             "price": 12,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Prolongez la durée de vie de votre machine à café et retrouvez le goût authentique de vos expressos."
         },
         {
             "id": 7,
@@ -53,7 +60,8 @@
             "image": "/images/catalogue/nettoyant-four.jpg",
             "hint": "oven cleaner",
             "price": 15,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Éliminez les graisses les plus tenaces sans effort pour un four et des plaques de cuisson impeccables."
         },
         {
             "id": 8,
@@ -61,7 +69,18 @@
             "image": "/images/catalogue/parfum-ambiance.jpg",
             "hint": "home fragrance",
             "price": 20,
-            "category": "catalogue"
+            "category": "catalogue",
+            "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
+        },
+        {
+            "id": 40,
+            "name": "Déodorant Fraîcheur 24h",
+            "image": "/images/catalogue/deodorant.jpg",
+            "hint": "deodorant",
+            "price": 15,
+            "category": "catalogue",
+            "subCategory": "deodorant",
+            "description": "Restez frais et confiant toute la journée avec notre déodorant efficacité 24h, sans sels d'aluminium."
         },
         {
             "id": 9,
@@ -70,7 +89,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Une fragrance florale et gourmande pour une femme pétillante et pleine de vie."
         },
         {
             "id": 10,
@@ -79,7 +99,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un parfum envoûtant et sensuel, idéal pour une soirée inoubliable."
         },
         {
             "id": 11,
@@ -88,7 +109,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un bouquet floral iconique pour une femme élégante et sophistiquée."
         },
         {
             "id": 12,
@@ -97,7 +119,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Une fragrance fraîche et audacieuse pour une femme libre et indépendante."
         },
         {
             "id": 13,
@@ -106,7 +129,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un parfum chypré et fruité pour une femme moderne et affirmée."
         },
         {
             "id": 14,
@@ -115,7 +139,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Une fragrance gourmande et envoûtante pour une femme audacieuse et irrésistible."
         },
         {
             "id": 15,
@@ -124,7 +149,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un parfum frais et pétillant, parfait pour une journée ensoleillée."
         },
         {
             "id": 16,
@@ -133,7 +159,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Une fragrance audacieuse et sophistiquée pour une femme fatale et mystérieuse."
         },
         {
             "id": 17,
@@ -142,7 +169,8 @@
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un parfum floral et boisé pour une femme élégante et audacieuse."
         },
         {
             "id": 18,
@@ -151,7 +179,8 @@
             "hint": "perfume bottle",
             "price": 28,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Une fragrance fraîche et puissante pour un homme authentique et viril."
         },
         {
             "id": 19,
@@ -160,7 +189,8 @@
             "hint": "perfume bottle",
             "price": 28,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Un parfum boisé et aromatique pour un homme élégant et charismatique."
         },
         {
             "id": 20,
@@ -169,7 +199,8 @@
             "hint": "perfume bottle",
             "price": 28,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Un parfum frais et aquatique pour un homme libre et séduisant."
         },
         {
             "id": 21,
@@ -178,7 +209,8 @@
             "hint": "perfume bottle",
             "price": 28,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Un parfum épicé et cuiré pour un homme audacieux et flamboyant."
         },
         {
             "id": 22,
@@ -187,7 +219,8 @@
             "hint": "perfume bottle",
             "price": 28,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Un parfum boisé et minéral pour un homme authentique et raffiné."
         },
         {
             "id": 23,
@@ -196,7 +229,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "homme"
+            "subCategory": "homme",
+            "description": "Un parfum fruité et boisé pour un homme confiant et conquérant."
         },
         {
             "id": 24,
@@ -205,7 +239,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "mixte"
+            "subCategory": "mixte",
+            "description": "Une fragrance ambrée et florale pour une personnalité unique et inoubliable."
         },
         {
             "id": 25,
@@ -214,7 +249,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "mixte"
+            "subCategory": "mixte",
+            "description": "Un parfum boisé et épicé pour une âme libre et créative."
         },
         {
             "id": 26,
@@ -223,7 +259,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "femme"
+            "subCategory": "femme",
+            "description": "Un bouquet floral poudré pour une femme romantique et moderne."
         },
         {
             "id": 27,
@@ -232,7 +269,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "mixte"
+            "subCategory": "mixte",
+            "description": "Un parfum boisé et oriental pour une personnalité mystérieuse et charismatique."
         },
         {
             "id": 28,
@@ -241,7 +279,8 @@
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
-            "subCategory": "mixte"
+            "subCategory": "mixte",
+            "description": "Un parfum boisé et aromatique pour un esprit nomade et bohème."
         },
         {
             "id": 29,
@@ -249,7 +288,8 @@
             "image": "/images/minceur/the-detox.jpg",
             "hint": "detox tea",
             "price": 22,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Purifiez votre corps et retrouvez votre légèreté avec notre thé détox aux plantes bienfaisantes."
         },
         {
             "id": 30,
@@ -257,7 +297,8 @@
             "image": "/images/minceur/bruleur-graisses.jpg",
             "hint": "fat burner supplement",
             "price": 35,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Accélérez votre métabolisme et atteignez vos objectifs minceur plus rapidement avec notre brûleur de graisses."
         },
         {
             "id": 31,
@@ -265,7 +306,8 @@
             "image": "/images/minceur/shake-proteine.jpg",
             "hint": "protein shake",
             "price": 45,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Un en-cas sain et gourmand pour préserver votre masse musculaire et éviter les fringales."
         },
         {
             "id": 32,
@@ -273,7 +315,8 @@
             "image": "/images/minceur/creme-anti-cellulite.jpg",
             "hint": "anti-cellulite cream",
             "price": 30,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Lissez votre peau et estompez l'aspect peau d'orange avec notre crème anti-cellulite ultra-efficace."
         },
         {
             "id": 33,
@@ -281,7 +324,8 @@
             "image": "/images/minceur/coupe-faim.jpg",
             "hint": "natural appetite suppressant",
             "price": 28,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Contrôlez vos envies de grignotage et réduisez votre apport calorique grâce à notre coupe-faim naturel."
         },
         {
             "id": 34,
@@ -289,7 +333,8 @@
             "image": "/images/minceur/draineur-intense.jpg",
             "hint": "detox drink",
             "price": 26,
-            "category": "minceur"
+            "category": "minceur",
+            "description": "Éliminez l'excès d'eau et les toxines pour affiner votre silhouette et vous sentir plus légère."
         },
         {
             "name": "Test Product",
@@ -297,7 +342,8 @@
             "hint": "test hint",
             "price": 123,
             "category": "minceur",
-            "id": 35
+            "id": 35,
+            "description": "Ceci est une description de test pour un produit."
         },
         {
             "name": "Test Product",
@@ -305,7 +351,8 @@
             "hint": "test hint",
             "price": 123,
             "category": "minceur",
-            "id": 36
+            "id": 36,
+            "description": "Ceci est une description de test pour un produit."
         },
         {
             "name": "Test Product",
@@ -313,7 +360,8 @@
             "hint": "test hint",
             "price": 123,
             "category": "minceur",
-            "id": 37
+            "id": 37,
+            "description": "Ceci est une description de test pour un produit."
         },
         {
             "name": "Test Product",
@@ -321,7 +369,8 @@
             "hint": "test hint",
             "price": 123,
             "category": "minceur",
-            "id": 38
+            "id": 38,
+            "description": "Ceci est une description de test pour un produit."
         },
         {
             "name": "Test Product",
@@ -329,7 +378,8 @@
             "hint": "test hint",
             "price": 123,
             "category": "minceur",
-            "id": 39
+            "id": 39,
+            "description": "Ceci est une description de test pour un produit."
         }
     ]
 }

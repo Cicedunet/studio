@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
+import { Cart } from "@/components/Cart";
 import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List } from "lucide-react";
 
 const navLinks = [
@@ -40,6 +41,7 @@ const Hero = () => {
           </Link>
           <div className="flex items-center gap-4">
             <CurrencySwitcher />
+            <Cart />
             <div className="md:hidden">
               <Sheet>
                 <SheetTrigger asChild>
