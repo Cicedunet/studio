@@ -1,15 +1,13 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import { Weight, ArrowLeft, MessageCircle } from "lucide-react";
+import { Weight, ArrowLeft } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
-import { useCurrency } from "@/context/CurrencyContext";
-import { convertPrice } from "@/lib/currency";
+import { ProductCard } from '@/components/ProductCard';
+import { Cart } from '@/components/Cart';
 
 interface Product {
   id: number;
@@ -18,10 +16,10 @@ interface Product {
   hint: string;
   price: number;
   category: string;
+  subCategory?: string;
 }
 
 export default function ProduitsMinceurPage() {
-  const { currency } = useCurrency();
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
@@ -43,7 +41,10 @@ export default function ProduitsMinceurPage() {
                         Retour à l'accueil
                     </Link>
                 </Button>
-                <CurrencySwitcher />
+                <div className="flex items-center gap-4">
+                  <CurrencySwitcher />
+                  <Cart />
+                </div>
             </div>
         </header>
         <main className="flex-grow py-12 md:py-20">
@@ -59,39 +60,9 @@ export default function ProduitsMinceurPage() {
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    {products.map((product) => {
-                        const price = convertPrice(product.price, currency);
-                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit minceur : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
-
-                        return (
-                        <Card key={product.name} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                            <CardHeader className="p-0">
-                                <div className="aspect-square relative w-full overflow-hidden">
-                                <Image
-                                    src={product.image}
-                                    alt={product.name}
-                                    width={400}
-                                    height={400}
-                                    data-ai-hint={product.hint}
-                                    className="object-cover"
-                                />
-                                </div>
-                            </CardHeader>
-                            <CardContent className="p-4 flex-grow">
-                                <CardTitle className="text-xl text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
-                                <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
-                            </CardContent>
-                            <CardFooter className="p-4 pt-0">
-                                 <Button asChild className="w-full">
-                                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                                        <MessageCircle className="mr-2 h-4 w-4" />
-                                        Commander
-                                    </a>
-                                </Button>
-                            </CardFooter>
-                        </Card>
-                    )})}
+                    {products.map((product) => (
+                        <ProductCard key={product.id} product={product} />
+                    ))}
                 </div>
 
                  <div className="mt-16 text-center">

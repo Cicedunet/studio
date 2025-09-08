@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils";
 import { CurrencyProvider } from '@/context/CurrencyContext';
+import { CartProvider } from '@/context/CartContext';
 import './globals.css';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:9002';
@@ -26,7 +27,9 @@ export default function RootLayout({
       </head>
       <body className={cn("font-body antialiased", "bg-background font-sans")}>
         <CurrencyProvider>
-          {children}
+          <CartProvider>
+            {children}
+          </CartProvider>
         </CurrencyProvider>
         <Toaster />
       </body>

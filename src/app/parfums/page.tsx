@@ -1,15 +1,13 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
-import { Sparkles, ArrowLeft, MessageCircle } from "lucide-react";
+import { Sparkles, ArrowLeft } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
-import { useCurrency } from "@/context/CurrencyContext";
-import { convertPrice } from "@/lib/currency";
+import { ProductCard } from '@/components/ProductCard';
+import { Cart } from '@/components/Cart';
 
 interface Product {
   id: number;
@@ -18,11 +16,12 @@ interface Product {
   hint: string;
   price: number;
   category: string;
+  subCategory?: string;
 }
 
 export default function ParfumsPage() {
-  const { currency } = useCurrency();
   const [products, setProducts] = useState<Product[]>([]);
+  const [filter, setFilter] = useState('tous');
 
   useEffect(() => {
     fetch('/produits.json')
@@ -32,6 +31,13 @@ export default function ParfumsPage() {
         setProducts(perfumeProducts);
       });
   }, []);
+
+  const filteredProducts = products.filter(p => {
+    if (filter === 'tous') return true;
+    return p.subCategory === filter;
+  });
+
+  const categories = ['tous', 'femme', 'homme', 'mixte'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -43,7 +49,10 @@ export default function ParfumsPage() {
                         Retour à l'accueil
                     </Link>
                 </Button>
-                <CurrencySwitcher />
+                <div className="flex items-center gap-4">
+                  <CurrencySwitcher />
+                  <Cart />
+                </div>
             </div>
         </header>
         <main className="flex-grow py-12 md:py-20">
@@ -58,41 +67,25 @@ export default function ParfumsPage() {
                     </p>
                 </div>
 
-                <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    {products.map((perfume, index) => {
-                        const price = convertPrice(perfume.price, currency);
-                        const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le parfum : ${perfume.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
-                        const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
-
-                        return (
-                        <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                           <CardHeader className="p-0">
-                                <div className="aspect-square relative w-full overflow-hidden">
-                                <Image
-                                    src={perfume.image}
-                                    alt={perfume.name}
-                                    width={400}
-                                    height={400}
-                                    data-ai-hint={perfume.hint}
-                                    className="object-cover"
-                                />
-                                </div>
-                            </CardHeader>
-                            <CardContent className="p-4 flex-grow">
-                                <CardTitle className="text-lg text-center h-12 flex items-center justify-center">{perfume.name}</CardTitle>
-                                <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
-                            </CardContent>
-                            <CardFooter className="p-4 pt-0">
-                                <Button asChild className="w-full">
-                                    <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                                        <MessageCircle className="mr-2 h-4 w-4" />
-                                        Commander
-                                    </a>
-                                </Button>
-                            </CardFooter>
-                        </Card>
-                    )})}
+                <div className="my-8 flex justify-center gap-2 md:gap-4">
+                    {categories.map(category => (
+                        <Button
+                            key={category}
+                            variant={filter === category ? 'default' : 'outline'}
+                            onClick={() => setFilter(category)}
+                            className="capitalize"
+                        >
+                            {category === 'tous' ? 'Tous' : category}
+                        </Button>
+                    ))}
                 </div>
+
+                <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                    {filteredProducts.map(perfume => (
+                        <ProductCard key={perfume.id} product={perfume} />
+                    ))}
+                </div>
+
                  <div className="mt-16 text-center">
                     <h3 className="font-headline text-2xl font-bold">Une senteur vous intéresse ?</h3>
                     <p className="mt-2 text-lg text-muted-foreground">Contactez-moi pour passer commande ou pour obtenir un échantillon.</p>
