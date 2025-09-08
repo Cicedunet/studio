@@ -1,336 +1,335 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Crème Visage à la Bave d'Escargot",
-      "image": "/images/catalogue/creme-visage.jpg",
-      "hint": "face cream",
-      "price": 38,
-      "category": "catalogue"
-    },
-    {
-      "id": 2,
-      "name": "Masque Cheveux à la Kératine",
-      "image": "/images/catalogue/masque-cheveux.jpg",
-      "hint": "hair mask",
-      "price": 24,
-      "category": "catalogue"
-    },
-    {
-      "id": 3,
-      "name": "Fond de Teint Longue Tenue",
-      "image": "/images/catalogue/fond-de-teint.jpg",
-      "hint": "foundation makeup",
-      "price": 29,
-      "category": "catalogue"
-    },
-    {
-      "id": 4,
-      "name": "Rouge à Lèvres Mat Velours",
-      "image": "/images/catalogue/rouge-a-levres.jpg",
-      "hint": "lipstick",
-      "price": 18,
-      "category": "catalogue"
-    },
-    {
-      "id": 5,
-      "name": "Huile Sèche Pailletée Corps et Cheveux",
-      "image": "/images/catalogue/huile-seche.jpg",
-      "hint": "shimmer body oil",
-      "price": 26,
-      "category": "catalogue"
-    },
-    {
-      "id": 6,
-      "name": "Détartrant pour Machine à Café",
-      "image": "/images/catalogue/detartrant.jpg",
-      "hint": "cleaning product",
-      "price": 12,
-      "category": "catalogue"
-    },
-    {
-      "id": 7,
-      "name": "Nettoyant Four et Plaque de Cuisson",
-      "image": "/images/catalogue/nettoyant-four.jpg",
-      "hint": "oven cleaner",
-      "price": 15,
-      "category": "catalogue"
-    },
-    {
-      "id": 8,
-      "name": "Parfum d'Ambiance Bois d'Orient",
-      "image": "/images/catalogue/parfum-ambiance.jpg",
-      "hint": "home fragrance",
-      "price": 20,
-      "category": "catalogue"
-    },
-    {
-      "id": 9,
-      "name": "N°1 - Inspiré par La Vie Est Belle",
-      "image": "/images/parfums/parfum-1.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 10,
-      "name": "N°2 - Inspiré par Black Opium",
-      "image": "/images/parfums/parfum-2.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 11,
-      "name": "N°3 - Inspiré par J'adore",
-      "image": "/images/parfums/parfum-3.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 12,
-      "name": "N°4 - Inspiré par Coco Mademoiselle",
-      "image": "/images/parfums/parfum-4.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 13,
-      "name": "N°5 - Inspiré par Si",
-      "image": "/images/parfums/parfum-5.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 14,
-      "name": "N°6 - Inspiré par Angel",
-      "image": "/images/parfums/parfum-6.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 15,
-      "name": "N°7 - Inspiré par Light Blue",
-      "image": "/images/parfums/parfum-7.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 16,
-      "name": "N°8 - Inspiré par Good Girl",
-      "image": "/images/parfums/parfum-8.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 17,
-      "name": "N°9 - Inspiré par L'Interdit",
-      "image": "/images/parfums/parfum-9.jpg",
-      "hint": "perfume bottle",
-      "price": 25,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 18,
-      "name": "N°10 - Inspiré par Sauvage",
-      "image": "/images/parfums/parfum-10.jpg",
-      "hint": "perfume bottle",
-      "price": 28,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 19,
-      "name": "N°11 - Inspiré par Bleu de Chanel",
-      "image": "/images/parfums/parfum-11.jpg",
-      "hint": "perfume bottle",
-      "price": 28,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 20,
-      "name": "N°12 - Inspiré par Acqua di Gio",
-      "image": "/images/parfums/parfum-12.jpg",
-      "hint": "perfume bottle",
-      "price": 28,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 21,
-      "name": "N°13 - Inspiré par 1 Million",
-      "image": "/images/parfums/parfum-13.jpg",
-      "hint": "perfume bottle",
-      "price": 28,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 22,
-      "name": "N°14 - Inspiré par Terre d'Hermès",
-      "image": "/images/parfums/parfum-14.jpg",
-      "hint": "perfume bottle",
-      "price": 28,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 23,
-      "name": "N°15 - Inspiré par Aventus",
-      "image": "/images/parfums/parfum-15.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "homme"
-    },
-    {
-      "id": 24,
-      "name": "N°16 - Inspiré par Baccarat Rouge 540",
-      "image": "/images/parfums/parfum-16.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "mixte"
-    },
-    {
-      "id": 25,
-      "name": "N°17 - Inspiré par Santal 33",
-      "image": "/images/parfums/parfum-17.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "mixte"
-    },
-    {
-      "id": 26,
-      "name": "N°18 - Inspiré par Delina",
-      "image": "/images/parfums/parfum-18.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "femme"
-    },
-    {
-      "id": 27,
-      "name": "N°19 - Inspiré par Oud Wood",
-      "image": "/images/parfums/parfum-19.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "mixte"
-    },
-    {
-      "id": 28,
-      "name": "N°20 - Inspiré par Gypsy Water",
-      "image": "/images/parfums/parfum-20.jpg",
-      "hint": "perfume bottle",
-      "price": 35,
-      "category": "parfums",
-      "subCategory": "mixte"
-    },
-    {
-      "id": 29,
-      "name": "Thé Détox",
-      "image": "/images/minceur/the-detox.jpg",
-      "hint": "detox tea",
-      "price": 22,
-      "category": "minceur"
-    },
-    {
-      "id": 30,
-      "name": "Brûleur de Graisses",
-      "image": "/images/minceur/bruleur-graisses.jpg",
-      "hint": "fat burner supplement",
-      "price": 35,
-      "category": "minceur"
-    },
-    {
-      "id": 31,
-      "name": "Shake Protéiné",
-      "image": "/images/minceur/shake-proteine.jpg",
-      "hint": "protein shake",
-      "price": 45,
-      "category": "minceur"
-    },
-    {
-      "id": 32,
-      "name": "Crème Anti-Cellulite",
-      "image": "/images/minceur/creme-anti-cellulite.jpg",
-      "hint": "anti-cellulite cream",
-      "price": 30,
-      "category": "minceur"
-    },
-    {
-      "id": 33,
-      "name": "Coupe-Faim Naturel",
-      "image": "/images/minceur/coupe-faim.jpg",
-      "hint": "natural appetite suppressant",
-      "price": 28,
-      "category": "minceur"
-    },
-    {
-      "id": 34,
-      "name": "Draineur Intense",
-      "image": "/images/minceur/draineur-intense.jpg",
-      "hint": "detox drink",
-      "price": 26,
-      "category": "minceur"
-    },
-    {
-      "name": "Test Product",
-      "image": "/images/test.jpg",
-      "hint": "test hint",
-      "price": 123,
-      "category": "minceur",
-      "id": 35
-    },
-    {
-      "name": "Test Product",
-      "image": "/images/test.jpg",
-      "hint": "test hint",
-      "price": 123,
-      "category": "minceur",
-      "id": 36
-    },
-    {
-      "name": "Test Product",
-      "image": "/images/test.jpg",
-      "hint": "test hint",
-      "price": 123,
-      "category": "minceur",
-      "id": 37
-    },
-    {
-      "name": "Test Product",
-      "image": "/images/test.jpg",
-      "hint": "test hint",
-      "price": 123,
-      "category": "minceur",
-      "id": 38
-    },
-    {
-      "name": "Test Product",
-      "image": "/images/parfums/parfum-1.jpg",
-      "hint": "test hint",
-      "price": 123,
-      "category": "minceur",
-      "id": 39
-    }
-  ]
+    "products": [{
+            "id": 1,
+            "name": "Crème Visage à la Bave d'Escargot",
+            "image": "/images/catalogue/creme-visage.jpg",
+            "hint": "face cream",
+            "price": 38,
+            "category": "catalogue"
+        },
+        {
+            "id": 2,
+            "name": "Masque Cheveux à la Kératine",
+            "image": "/images/catalogue/masque-cheveux.jpg",
+            "hint": "hair mask",
+            "price": 24,
+            "category": "catalogue"
+        },
+        {
+            "id": 3,
+            "name": "Fond de Teint Longue Tenue",
+            "image": "/images/catalogue/fond-de-teint.jpg",
+            "hint": "foundation makeup",
+            "price": 29,
+            "category": "catalogue"
+        },
+        {
+            "id": 4,
+            "name": "Rouge à Lèvres Mat Velours",
+            "image": "/images/catalogue/rouge-a-levres.jpg",
+            "hint": "lipstick",
+            "price": 18,
+            "category": "catalogue"
+        },
+        {
+            "id": 5,
+            "name": "Huile Sèche Pailletée Corps et Cheveux",
+            "image": "/images/catalogue/huile-seche.jpg",
+            "hint": "shimmer body oil",
+            "price": 26,
+            "category": "catalogue"
+        },
+        {
+            "id": 6,
+            "name": "Détartrant pour Machine à Café",
+            "image": "/images/catalogue/detartrant.jpg",
+            "hint": "cleaning product",
+            "price": 12,
+            "category": "catalogue"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "/images/catalogue/nettoyant-four.jpg",
+            "hint": "oven cleaner",
+            "price": 15,
+            "category": "catalogue"
+        },
+        {
+            "id": 8,
+            "name": "Parfum d'Ambiance Bois d'Orient",
+            "image": "/images/catalogue/parfum-ambiance.jpg",
+            "hint": "home fragrance",
+            "price": 20,
+            "category": "catalogue"
+        },
+        {
+            "id": 9,
+            "name": "N°1 - Inspiré par La Vie Est Belle",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10,
+            "name": "N°2 - Inspiré par Black Opium",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 11,
+            "name": "N°3 - Inspiré par J'adore",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 12,
+            "name": "N°4 - Inspiré par Coco Mademoiselle",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 13,
+            "name": "N°5 - Inspiré par Si",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 14,
+            "name": "N°6 - Inspiré par Angel",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 15,
+            "name": "N°7 - Inspiré par Light Blue",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 16,
+            "name": "N°8 - Inspiré par Good Girl",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 17,
+            "name": "N°9 - Inspiré par L'Interdit",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 25,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 18,
+            "name": "N°10 - Inspiré par Sauvage",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 28,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 19,
+            "name": "N°11 - Inspiré par Bleu de Chanel",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 28,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 20,
+            "name": "N°12 - Inspiré par Acqua di Gio",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 28,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 21,
+            "name": "N°13 - Inspiré par 1 Million",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 28,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 22,
+            "name": "N°14 - Inspiré par Terre d'Hermès",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 28,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 23,
+            "name": "N°15 - Inspiré par Aventus",
+            "image": "/images/parfums/parfumF.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "homme"
+        },
+        {
+            "id": 24,
+            "name": "N°16 - Inspiré par Baccarat Rouge 540",
+            "image": "/images/parfums/parfum-16.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 25,
+            "name": "N°17 - Inspiré par Santal 33",
+            "image": "/images/parfums/parfum-17.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 26,
+            "name": "N°18 - Inspiré par Delina",
+            "image": "/images/parfums/parfumH.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "femme"
+        },
+        {
+            "id": 27,
+            "name": "N°19 - Inspiré par Oud Wood",
+            "image": "/images/parfums/parfum-19.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 28,
+            "name": "N°20 - Inspiré par Gypsy Water",
+            "image": "/images/parfums/parfum-20.jpg",
+            "hint": "perfume bottle",
+            "price": 35,
+            "category": "parfums",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 29,
+            "name": "Thé Détox",
+            "image": "/images/minceur/the-detox.jpg",
+            "hint": "detox tea",
+            "price": 22,
+            "category": "minceur"
+        },
+        {
+            "id": 30,
+            "name": "Brûleur de Graisses",
+            "image": "/images/minceur/bruleur-graisses.jpg",
+            "hint": "fat burner supplement",
+            "price": 35,
+            "category": "minceur"
+        },
+        {
+            "id": 31,
+            "name": "Shake Protéiné",
+            "image": "/images/minceur/shake-proteine.jpg",
+            "hint": "protein shake",
+            "price": 45,
+            "category": "minceur"
+        },
+        {
+            "id": 32,
+            "name": "Crème Anti-Cellulite",
+            "image": "/images/minceur/creme-anti-cellulite.jpg",
+            "hint": "anti-cellulite cream",
+            "price": 30,
+            "category": "minceur"
+        },
+        {
+            "id": 33,
+            "name": "Coupe-Faim Naturel",
+            "image": "/images/minceur/coupe-faim.jpg",
+            "hint": "natural appetite suppressant",
+            "price": 28,
+            "category": "minceur"
+        },
+        {
+            "id": 34,
+            "name": "Draineur Intense",
+            "image": "/images/minceur/draineur-intense.jpg",
+            "hint": "detox drink",
+            "price": 26,
+            "category": "minceur"
+        },
+        {
+            "name": "Test Product",
+            "image": "/images/test.jpg",
+            "hint": "test hint",
+            "price": 123,
+            "category": "minceur",
+            "id": 35
+        },
+        {
+            "name": "Test Product",
+            "image": "/images/test.jpg",
+            "hint": "test hint",
+            "price": 123,
+            "category": "minceur",
+            "id": 36
+        },
+        {
+            "name": "Test Product",
+            "image": "/images/test.jpg",
+            "hint": "test hint",
+            "price": 123,
+            "category": "minceur",
+            "id": 37
+        },
+        {
+            "name": "Test Product",
+            "image": "/images/test.jpg",
+            "hint": "test hint",
+            "price": 123,
+            "category": "minceur",
+            "id": 38
+        },
+        {
+            "name": "Test Product",
+            "image": "/images/parfums/parfum-1.jpg",
+            "hint": "test hint",
+            "price": 123,
+            "category": "minceur",
+            "id": 39
+        }
+    ]
 }
