@@ -17,6 +17,7 @@ interface Product {
   price: number;
   category: string;
   subCategory?: string;
+  description?: string;
 }
 
 interface ProductCardProps {
@@ -56,6 +57,7 @@ export function ProductCard({ product }: ProductCardProps) {
       </CardHeader>
       <CardContent className="p-4 flex-grow">
         <CardTitle className="text-lg text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
+        <p className="text-sm text-muted-foreground text-center mt-2 h-20 overflow-hidden">{product.description}</p>
         <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
       </CardContent>
       <CardFooter className="p-4 pt-0 flex flex-col space-y-2">
