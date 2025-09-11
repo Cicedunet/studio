@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         // Optional: you can add pathname patterns if needed
         // pathname: '/1000859/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'orianacosmetic.com',
+      },
     ],
   },
 };

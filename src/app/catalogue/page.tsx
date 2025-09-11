@@ -18,20 +18,36 @@ interface Product {
   hint: string;
   price: number;
   category: string;
+  description?: string;
+  subCategory?: string;
 }
 
 export default function CataloguePage() {
   const { currency } = useCurrency();
-  const [products, setProducts] = useState<Product[]>([]);
+  const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+  const [activeFilter, setActiveFilter] = useState<string>('all');
 
   useEffect(() => {
     fetch('/produits.json')
       .then(response => response.json())
       .then(data => {
         const catalogueProducts = data.products.filter((p: Product) => p.category === 'catalogue');
-        setProducts(catalogueProducts);
+        setAllProducts(catalogueProducts);
+        setFilteredProducts(catalogueProducts);
       });
   }, []);
+
+  const handleFilter = (filter: string) => {
+    setActiveFilter(filter);
+    if (filter === 'all') {
+      setFilteredProducts(allProducts);
+    } else {
+      setFilteredProducts(allProducts.filter(p => p.subCategory === filter));
+    }
+  };
+
+  const subCategories = ['all', 'creme-de-visage', 'deodorant'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -58,8 +74,21 @@ export default function CataloguePage() {
                     </p>
                 </div>
 
+                <div className="my-8 flex justify-center gap-4">
+                    {subCategories.map(filter => (
+                        <Button
+                            key={filter}
+                            variant={activeFilter === filter ? 'default' : 'outline'}
+                            onClick={() => handleFilter(filter)}
+                            className="capitalize"
+                        >
+                            {filter === 'all' ? 'Tous' : filter.replace('-', ' ')}
+                        </Button>
+                    ))}
+                </div>
+
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    {products.map((product, index) => {
+                    {filteredProducts.map((product, index) => {
                         const price = convertPrice(product.price, currency);
                         const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
                         const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
@@ -80,6 +109,7 @@ export default function CataloguePage() {
                             </CardHeader>
                             <CardContent className="p-4 flex-grow">
                                 <CardTitle className="text-lg text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
+                                <p className="text-sm text-muted-foreground text-center mt-2 h-20 overflow-hidden">{product.description}</p>
                                 <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
                             </CardContent>
                             <CardFooter className="p-4 pt-0">
