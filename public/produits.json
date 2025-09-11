@@ -146,7 +146,7 @@
         },
         {
             "id": 18,
-            "name": "N°10 - Inspiré par Sauvage",
+            "name": "Bergamote, Poivre",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
             "price": 28,
@@ -155,7 +155,7 @@
         },
         {
             "id": 19,
-            "name": "N°11 - Inspiré par Bleu de Chanel",
+            "name": "Agrumes, Bergamote, Citron, Poivre rose",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
             "price": 28,
@@ -164,7 +164,7 @@
         },
         {
             "id": 20,
-            "name": "N°12 - Inspiré par Acqua di Gio",
+            "name": "Ananas, Bergamote, Cassis, Pomme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
             "price": 28,
@@ -173,7 +173,7 @@
         },
         {
             "id": 21,
-            "name": "N°13 - Inspiré par 1 Million",
+            "name": " Mandarine, Menthe, Pamplemousse",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
             "price": 28,
