@@ -122,165 +122,119 @@
             "subCategory": "femme",
             "description": "Une fragrance fraîche et audacieuse pour une femme libre et indépendante."
         },
-        {
-            "id": 13,
-            "name": "N°5 - Inspiré par Si",
-            "image": "/images/parfums/parfumH.jpg",
-            "hint": "perfume bottle",
-            "price": 25,
-            "category": "parfums",
-            "subCategory": "femme",
-            "description": "Un parfum chypré et fruité pour une femme moderne et affirmée."
-        },
+
         {
             "id": 14,
-            "name": "N°6 - Inspiré par Angel",
-            "image": "/images/parfums/parfumH.jpg",
+            "name": "Chogan femme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_107_Chogan-46898280.jpg?v=1738491220&width=690",
             "hint": "perfume bottle",
             "price": 25,
             "category": "parfums",
             "subCategory": "femme",
-            "description": "Une fragrance gourmande et envoûtante pour une femme audacieuse et irrésistible."
+            "description": "Parfum raffiné et élégant qui célèbre la pureté et la féminité. Sa fragrance lumineuse et fraîche, mêlant des notes florales délicates, offre une sensation de sophistication et de sérénité. Idéal pour une femme qui souhaite exprimer son charme naturel avec une touche de grâce et de légèreté, il ajoute une note de luxe et de douceur à chaque occasion."
         },
-        {
-            "id": 15,
-            "name": "N°7 - Inspiré par Light Blue",
-            "image": "/images/parfums/parfumH.jpg",
-            "hint": "perfume bottle",
-            "price": 25,
-            "category": "parfums",
-            "subCategory": "femme",
-            "description": "Un parfum frais et pétillant, parfait pour une journée ensoleillée."
-        },
-        {
-            "id": 16,
-            "name": "N°8 - Inspiré par Good Girl",
-            "image": "/images/parfums/parfumH.jpg",
-            "hint": "perfume bottle",
-            "price": 25,
-            "category": "parfums",
-            "subCategory": "femme",
-            "description": "Une fragrance audacieuse et sophistiquée pour une femme fatale et mystérieuse."
-        },
-        {
-            "id": 17,
-            "name": "N°9 - Inspiré par L'Interdit",
-            "image": "/images/parfums/parfumH.jpg",
-            "hint": "perfume bottle",
-            "price": 25,
-            "category": "parfums",
-            "subCategory": "femme",
-            "description": "Un parfum floral et boisé pour une femme élégante et audacieuse."
-        },
+
+
         {
             "id": 18,
-            "name": "Bergamote, Poivre",
+            "name": "Chogan homme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
-            "price": 28,
+            "price": 18,
             "category": "parfums",
             "subCategory": "homme",
-            "description": "Une fragrance fraîche et puissante pour un homme authentique et viril."
+            "description": "Parfum qui se démarque par son côté très audacieux et chic. Avec ses notes épicées et boisées, il est souvent considéré comme une fragrance idéale pour les soirées ou les moments où l'on veut faire forte impression. C’est un parfum qui ne passe pas inaperçu et qui évoque le style et la confiance en soi."
         },
         {
             "id": 19,
-            "name": "Agrumes, Bergamote, Citron, Poivre rose",
+            "name": "Chogan homme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
-            "price": 28,
+            "price": 35,
             "category": "parfums",
             "subCategory": "homme",
-            "description": "Un parfum boisé et aromatique pour un homme élégant et charismatique."
+            "description": "Célèbre pour son style frais et élégant, il évoque la légèreté et la liberté de la mer. Ses notes de citron et de jasmin offrent une fragrance vivifiante, parfaite pour un usage quotidien et les moments de détente. Le flacon, simple et épuré, reflète son caractère raffiné et intemporel, idéal pour ceux en quête de fraîcheur et de sophistication."
         },
         {
             "id": 20,
-            "name": "Ananas, Bergamote, Cassis, Pomme",
+            "name": "Chogan homme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
-            "price": 28,
+            "price": 35,
             "category": "parfums",
             "subCategory": "homme",
-            "description": "Un parfum frais et aquatique pour un homme libre et séduisant."
+            "description": "Parfum emblématique, qui allie chaleur et sophistication. Il est connu pour ses notes distinctives de cuir et de bois, mélangées avec des touches épicées et fruitées. Ce parfum dégage une aura de confiance et d'élégance, parfait pour les occasions spéciales ou les soirées."
         },
         {
             "id": 21,
-            "name": " Mandarine, Menthe, Pamplemousse",
+            "name": "Chogan homme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
-            "price": 28,
+            "price": 35,
             "category": "parfums",
             "subCategory": "homme",
-            "description": "Un parfum épicé et cuiré pour un homme audacieux et flamboyant."
+            "description": "Parfum audacieux et charismatique, qui incarne la virilité tout en restant séduisant et raffiné. Avec son caractère à la fois sensuel et dynamique, il est parfait pour l'homme moderne, sûr de lui et désireux de marquer les esprits. Cette fragrance unique allie force et douceur, la rendant aussi bien adaptée aux journées actives qu'aux soirées où l'on souhaite affirmer son style. Le Chogan 016 est une déclaration de personnalitéirrésistible et magnétique, combinant tradition et modernité."
         },
         {
             "id": 22,
-            "name": "N°14 - Inspiré par Terre d'Hermès",
-            "image": "/images/parfums/parfumF.jpg",
+            "name": "Chogan homme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_037_Chogan-46927363.jpg?v=1738490992&width=690",
             "hint": "perfume bottle",
-            "price": 28,
+            "price": 30,
             "category": "parfums",
             "subCategory": "homme",
             "description": "Un parfum boisé et minéral pour un homme authentique et raffiné."
         },
         {
             "id": 23,
-            "name": "N°15 - Inspiré par Aventus",
+            "name": "Chogan homme",
             "image": "/images/parfums/parfumF.jpg",
             "hint": "perfume bottle",
             "price": 35,
             "category": "parfums",
             "subCategory": "homme",
-            "description": "Un parfum fruité et boisé pour un homme confiant et conquérant."
+            "description": "Parfum séduisant et charismatique, conçu pour l’homme qui incarne l’élégance et le mystère. Son caractère intense et épicé évoque une masculinité moderne, parfaite pour ceux qui recherchent une fragrance qui captive les sens. Idéal pour les soirées et les occasions spéciales, Chogan 265 dégage une aura de séduction et de confiance. Cette fragrance est une signature olfactive mémorable et addictive, idéale pour l’homme qui souhaite laisser une impression durable avec style. Prix ​​habituel35,00€"
         },
         {
             "id": 24,
-            "name": "N°16 - Inspiré par Baccarat Rouge 540",
-            "image": "/images/parfums/parfum-16.jpg",
+            "name": "Chogan homme/femme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_118_Chogan-46874688.jpg?v=1738492187&width=690",
             "hint": "perfume bottle",
-            "price": 35,
+            "price": 52,
             "category": "parfums",
             "subCategory": "mixte",
-            "description": "Une fragrance ambrée et florale pour une personnalité unique et inoubliable."
+            "description": "Parfum élégant et captivant, conçu pour ceux qui recherchent une expérience olfactive luxueuse et mémorable. Son caractère floral et boisé évoque une sensualité sophistiquée, parfaite pour ceux qui aiment les fragrances riches et audacieuses. Idéal pour les soirées et les occasions spéciales, Chogan 118 dégage une aura de mystère et de séduction. Cette fragrance est une signature olfactive opulente et distinctive, idéale pour ceux qui souhaitent exprimer leur style avec confiance et raffinement."
         },
         {
             "id": 25,
-            "name": "N°17 - Inspiré par Santal 33",
-            "image": "/images/parfums/parfum-17.jpg",
+            "name": "Chogan homme/femme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_117_Chogan-46904070.jpg?v=1738492694&width=690",
             "hint": "perfume bottle",
-            "price": 35,
+            "price": 52,
             "category": "parfums",
             "subCategory": "mixte",
-            "description": "Un parfum boisé et épicé pour une âme libre et créative."
+            "description": "Parfum riche et chaleureux, conçu pour ceux qui recherchent une expérience olfactive à la fois gourmande et sensuelle. Son caractère opulent et épicé évoque une sophistication captivante, parfaite pour ceux qui aiment les fragrances intenses et réconfortantes. Idéal pour les soirées et les occasions spéciales, Chogan 117 dégage une aura de luxe et de charme. Cette fragrance est une signature olfactive mémorable et enveloppante, idéale pour ceux qui souhaitent laisser une impression durable avec élégance et audace."
         },
-        {
-            "id": 26,
-            "name": "N°18 - Inspiré par Delina",
-            "image": "/images/parfums/parfumH.jpg",
-            "hint": "perfume bottle",
-            "price": 35,
-            "category": "parfums",
-            "subCategory": "femme",
-            "description": "Un bouquet floral poudré pour une femme romantique et moderne."
-        },
+
         {
             "id": 27,
-            "name": "N°19 - Inspiré par Oud Wood",
-            "image": "/images/parfums/parfum-19.jpg",
+            "name": "Chogan homme/femme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_125_Chogan-46874856.jpg?v=1738492730&width=690",
             "hint": "perfume bottle",
-            "price": 35,
+            "price": 52,
             "category": "parfums",
             "subCategory": "mixte",
-            "description": "Un parfum boisé et oriental pour une personnalité mystérieuse et charismatique."
+            "description": "Parfum lumineux et rafraîchissant, conçu pour ceux qui recherchent une expérience olfactive estivale et vivifiante. Son caractère floral et citrus évoque la douceur des journées ensoleillées sur la côte italienne, parfait pour ceux qui aiment les fragrances légères et enjouées. Idéal pour les escapades en bord de mer ou les moments de détente, Chogan 125 dégage une aura de sérénité et de sophistication. Cette fragrance est une signature olfactive éclatante et joyeuse, idéale pour ceux qui souhaitent exprimer leur style avec fraîcheur et élégance."
         },
         {
             "id": 28,
-            "name": "N°20 - Inspiré par Gypsy Water",
-            "image": "/images/parfums/parfum-20.jpg",
+            "name": "Chogan homme/femme",
+            "image": "https://orianacosmetic.com/cdn/shop/files/PARFUM-CHOGAN-N_143_Chogan-46948681.jpg?v=1738449362&width=355",
             "hint": "perfume bottle",
-            "price": 35,
+            "price": 52,
             "category": "parfums",
             "subCategory": "mixte",
-            "description": "Un parfum boisé et aromatique pour un esprit nomade et bohème."
+            "description": "Une fragrance douce et pétillante, idéale pour celles et ceux qui aiment se chouchouter avec des senteurs gourmandes et raffinées. Enrichi d'accords délicieusement vanillés, ce parfum envoûte les sens avec ses notes irrésistibles."
         },
         {
             "id": 29,
