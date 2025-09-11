@@ -296,7 +296,7 @@
             "hint": "test hint",
             "price": 27.90,
             "category": "minceur",
-            "id": 35,
+            "id": 3597,
             "description": "SPEEDSLEEP est un complément alimentaire innovant sous forme de gel, conçu pour favoriser un sommeil réparateur et de qualité. Sa formule exclusive brevetée SOMNIWELL™ associe la mélatonine, reconnue pour réduire le temps d’endormissement, à des extraits de pavot de Californie, pavot rouge, passiflore, tilleul et griffonia, qui agissent ensemble pour apaiser le système nerveux, limiter les réveils nocturnes et soutenir la régularité du cycle veille-sommeil. Grâce à sa texture en gel et son goût agréable de figue, SPEEDSLEEP offre une absorption rapide et une efficacité optimale dès la prise."
         },
         {
@@ -305,7 +305,7 @@
             "hint": "test hint",
             "price": 44.90,
             "category": "minceur",
-            "id": 36,
+            "id": 3676,
             "description": "DREN FAST est un complément alimentaire à action drainante, conçu pour accompagner efficacement les régimes destinés à rééquilibrer le poids corporel. Grâce à son complexe exclusif Equitullas™, un mélange synergique d'extraits de plantes, ce produit stimule le métabolisme, favorise la digestion et aide à éliminer les excès d'eau et les toxines. Les extraits de bouleau, orthosiphon, thé vert, ananas, artichaut ou encore raisin agissent ensemble pour purifier l'organisme, améliorer la circulation, réduire les ballonnements et atténuer la sensation de jambes lourdes. Avec DREN FAST, adoptez un rituel naturel pour vous sentir plus léger(e) et plein(e) d'énergie au quotidien.."
         },
         {
@@ -314,7 +314,7 @@
             "hint": "test hint",
             "price": 24.90,
             "category": "minceur",
-            "id": 37,
+            "id": 3700,
             "description": "MULTIGELVIT est un complément alimentaire multivitaminé prêt à l’emploi, sous forme de gel aromatisé à la mandarine, conçu pour soutenir le bien-être général et les performances mentales. Grâce à sa formule brevetée IPERVITAMY™, il fournit un apport équilibré en vitamines B, C, H (Biotine), acide folique, et L-carnitine, contribuant à réduire la fatigue, renforcer le système immunitaire et soutenir le métabolisme énergétique."
         },
         {
@@ -323,7 +323,7 @@
             "hint": "test hint",
             "price": 39,
             "category": "minceur",
-            "id": 38,
+            "id": 8638,
             "description": "Dren Fast est un complément alimentaire spécialement conçu pour favoriser le drainage des fluides corporels. Enrichi avec Equitullas™, un mélange innovant d'extraits de plantes, il aide à détoxifier le corps, rétablir un métabolisme cellulaire optimal, et améliorer la circulation des fluides corporels. Ce produit contribue à une peau éclatante et à une élimination efficace des toxines et des déchets."
         },
         {
@@ -332,10 +332,10 @@
             "hint": "test hint",
             "price": 139,
             "category": "minceur",
-            "id": 39,
+            "id": 1139,
             "description": "SKINAIL COLLAGEN est un complément alimentaire formulé pour sublimer la peau, les cheveux et les ongles grâce au complexe breveté CBH-TOTAL™. Il associe collagène, vitamines B, zinc et extraits de plantes reconnues pour leurs bienfaits"
         }, {
-            "id": 29,
+            "id": 999,
             "name": "MYVERA CRUSH Collagen + Complément alimentaire beauté",
             "image": "https://orianacosmetic.com/cdn/shop/files/MYVERA-CRUSH-Collagen-_-Complement-alimentaire-beaute_Chogan-263466926.png?v=1754103103&width=355",
             "hint": "detox tea",
@@ -344,7 +344,7 @@
             "description": "MYVERA CRUSH Collagen + est un complément alimentaire innovant conçu pour soutenir la beauté de la peau, des cheveux et des ongles. Formulé à base de jus et pulpe d’aloe vera, de vitamine C, de collagène hydrolysé, d’acide hyaluronique, de myrtille et de zinc, il constitue une synergie puissante réunie dans le complexe breveté ALO-COMPLEX™. Ce complexe agit en profondeur pour purifier l’organisme, favoriser l’hydratation de la peau, renforcer la microcirculation et prévenir les signes du vieillissement cutané. Grâce à son goût agréable de myrtille et sa formule liquide prête à consommer, MYVERA CRUSH Collagen + est un rituel quotidien idéal pour retrouver éclat, tonicité et vitalité."
 
         }, {
-            "id": 29,
+            "id": 900,
             "name": "MYVERA CRUSH Woman + Complément alimentaire",
             "image": "https://orianacosmetic.com/cdn/shop/files/MYVERA-CRUSH-Woman-_-Complement-alimentaire_Chogan-263468214.png?v=1754103181&width=355",
             "hint": "detox tea",
@@ -354,7 +354,7 @@
 
 
         }, {
-            "id": 29,
+            "id": 893,
             "name": "MYVERA CRUSH Man + Complément alimentaire",
             "image": "https://orianacosmetic.com/cdn/shop/files/MYVERA-CRUSH-Man-_-Complement-alimentaire_Chogan-263468091.png?v=1754103155&width=355",
             "hint": "detox tea",
@@ -363,7 +363,7 @@
             "description": "MYVERA CRUSH Man + est un complément alimentaire tonique-adaptogène, formulé pour soutenir naturellement les niveaux de testostérone et favoriser le bien-être masculin. Composé de jus et de pulpe d'Aloe Vera, de vitamine C et d'extraits végétaux tels que le Goji, l'Arginine, la betterave et l'Éleuthérocoque, ce produit est conçu pour améliorer la vitalité, l'énergie et les performances physiques. Il aide également à lutter contre la fatigue et à maintenir une production active d'oxyde nitrique, un puissant vasodilatateur, pour optimiser la circulation sanguine et soutenir les fonctions cognitives. Ce complément est enrichi du breveté ALO-COMPLEX™, offrant une action purifiante et antioxydante. MYVERA CRUSH Man + est idéal pour ceux recherchant un soutien énergétique et cognitif optimal dans un format pratique en flacons unidose de 285 ml."
 
         }, {
-            "id": 29,
+            "id": 765,
             "name": "MYVERA CRUSH - Wellness Discovery",
             "image": "https://orianacosmetic.com/cdn/shop/files/MYVERA-CRUSH-Man-_-Complement-alimentaire_Chogan-263468091.png?v=1754103155&width=355",
             "hint": "detox tea",
@@ -372,7 +372,7 @@
             "description": "MYVERA CRUSH Collagen + est un complément alimentaire au goût délicieux de myrtille, à base de jus et de pulpe d’aloe vera et de vitamine C, réunis dans le complexe exclusif breveté ALO-COMPLEX™. Cette formule innovante est conçue pour favoriser la beauté de la peau, des cheveux et des ongles"
 
         }, {
-            "id": 29,
+            "id": 567,
             "name": "SUPPLEFIT ISO-WHEY",
             "image": "https://orianacosmetic.com/cdn/shop/files/SUPPLEFIT-ISO-WHEY_Chogan-265462936.png?v=1754103582&width=355",
             "hint": "detox tea",
@@ -381,7 +381,7 @@
             "description": "SuppleFit Iso-Whey est un complément alimentaire à base de protéines natives isolées du lactosérum, conçu pour aider à renforcer et construire le tissu musculaire. Sa formule est enrichie en magnésium, pour réduire la fatigue et favoriser la synthèse des protéines, ainsi qu’en prébiotiques pour soutenir l’équilibre de la flore intestinale. Le produit est facilement soluble dans de l’eau, du lait ou des boissons végétales, et se distingue par son agréable goût de noix de coco. Il est recommandé pour les sportifs ou pour toute personne souhaitant augmenter son apport en protéines de manière pratique et savoureuse."
 
         }, {
-            "id": 29,
+            "id": 1000,
             "name": "JUS ET PULPE D'ALOE VERA AVEC DU JUS DE GOJI",
             "image": "https://orianacosmetic.com/cdn/shop/files/JUS-ET-PULPE-D_ALOE-VERA-AVEC-DU-JUS-DE-GOJI_Chogan-264538779.png?v=1754103324&width=355",
             "hint": "detox tea",
@@ -390,7 +390,7 @@
             "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Goji est un complément alimentaire qui combine les bienfaits naturels de l'Aloe Vera et du Goji pour favoriser le bien-être général. Ce produit est formulé pour soutenir la digestion, apporter une action antioxydante et purifier l’organisme. Il est particulièrement bénéfique pour la santé du transit intestinal et pour un effet apaisant sur le système digestif"
 
         }, {
-            "id": 29,
+            "id": 349,
             "name": "JUS ET PULPE D’ALOE VERA 99,5%",
             "image": "https://orianacosmetic.com/cdn/shop/files/JUS-ET-PULPE-D_ALOE-VERA-99_5_Chogan-264528738.png?v=1754103311&width=690",
             "hint": "detox tea",
@@ -399,7 +399,7 @@
             "description": "Le Jus et Pulpe d’Aloe Vera est un complément alimentaire pur à 99,5%, conçu pour apporter les bienfaits de l'Aloe Vera de manière naturelle. Il aide à maintenir une bonne digestion et peut être utilisé pour ses propriétés apaisantes et hydratantes. Le produit est certifié pour sa pureté et contient des conservateurs naturels pour une meilleure conservation."
 
         }, {
-            "id": 29,
+            "id": 456,
             "name": "JUS ET PULPE d'ALOE VERA AVEC JUS DE MYRTILLE",
             "image": "https://orianacosmetic.com/cdn/shop/files/JUS-ET-PULPE-d_ALOE-VERA-AVEC-JUS-DE-MYRTILLE_Chogan-264616978.png?v=1754103362&width=690",
             "hint": "detox tea",
@@ -408,7 +408,7 @@
             "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Myrtille est un complément alimentaire alliant les propriétés de l'Aloe Vera et de la Myrtille, offrant une expérience saine et bénéfique pour l'organisme. Il est spécialement conçu pour soutenir la digestion, favoriser l'hydratation et posséder des effets antioxydants naturels. Ce produit est idéal pour purifier le corps et améliorer le bien-être général."
 
         }, {
-            "id": 29,
+            "id": 297,
             "name": "JUS ET PULPE d'ALOE VERA AVEC INFUSION DE THÉ VERT",
             "image": "https://orianacosmetic.com/cdn/shop/files/JUS-ET-PULPE-d_ALOE-VERA-AVEC-INFUSION-DE-THE-VERT_Chogan-264644147.png?v=1754103389&width=690",
             "hint": "detox tea",
@@ -417,7 +417,7 @@
             "description": "Le Jus et Pulpe d'Aloe Vera avec Infusion de Thé Vert est un complément alimentaire unique qui associe les bienfaits de l'Aloe Vera et du thé vert. Il soutient le métabolisme, favorise la digestion et offre des propriétés antioxydantes grâce à l'infusion de thé vert. Ce produit est une excellente solution pour purifier l'organisme et améliorer le bien-être général tout en offrant une sensation de fraîcheur."
 
         }, {
-            "id": 29,
+            "id": 239,
             "name": "ELIX ACTIVE à l'extrait d’escargot",
             "image": "https://orianacosmetic.com/cdn/shop/files/ELIX-ACTIVE-a-l_extrait-d_escargot_Chogan-264708253.png?v=1754103428&width=355",
             "hint": "detox tea",
@@ -426,7 +426,7 @@
             "description": "ELIX FLUID avec extrait d'escargot est un complément alimentaire sous forme de sirop, formulé pour favoriser la fonctionnalité des muqueuses du système respiratoire. Il contient de l'extrait d'escargot (Helix aspersa) ainsi que des extraits de plantes soigneusement sélectionnées, telles que l'Althaea (Althaea officinalis), l'Eucalyptus (Eucalyptus globulus), et le Sureau (Sambucus nigra). Ce sirop, aromatisé au citron, est conçu pour apaiser et soutenir le bien-être respiratoire."
 
         }, {
-            "id": 29,
+            "id": 339,
             "name": "ELIX ACTIVE à l'extrait d’escargot",
             "image": "https://orianacosmetic.com/cdn/shop/files/ELIX-FLUID-avec-extrait-d_escargot_Chogan-264682472.png?v=1754103402&width=690",
             "hint": "detox tea",
