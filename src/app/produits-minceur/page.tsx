@@ -68,13 +68,7 @@ export default function ProduitsMinceurPage() {
                     <TabsTrigger value="complements-alimentaires">Compléments Alimentaires</TabsTrigger>
                   </TabsList>
                   <TabsContent value="produits-minceur">
-                    <div className="my-8 text-center">
-                        <Button asChild size="lg" className="text-lg animate-pulse">
-                            <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer">
-                                Devenir consultant(e) et profitez de -50% sur vos commandes
-                            </a>
-                        </Button>
-                    </div>
+                   
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
                         {produitsMinceur.map((product) => (
                             <ProductCard key={product.id} product={product} />
@@ -82,13 +76,7 @@ export default function ProduitsMinceurPage() {
                     </div>
                   </TabsContent>
                   <TabsContent value="complements-alimentaires">
-                    <div className="my-8 text-center">
-                        <Button asChild size="lg" className="text-lg animate-pulse">
-                            <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer">
-                                Devenir consultant(e) et profitez de -50% sur vos commandes
-                            </a>
-                        </Button>
-                    </div>
+                   
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
                         {complementsAlimentaires.map((product) => (
                             <ProductCard key={product.id} product={product} />
@@ -101,7 +89,7 @@ export default function ProduitsMinceurPage() {
                     <h3 className="font-headline text-2xl font-bold">Intéressé(e) par un produit ?</h3>
                     <p className="mt-2 text-lg text-muted-foreground">Contactez-moi pour des conseils personnalisés et pour passer votre commande.</p>
                      <Button asChild size="lg" className="mt-6 text-lg">
-                        <a href="https://www.chogangroupspa.com/referral/LIZA948BE/FR" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer">
                             Voir sur la boutique
                         </a>
                     </Button>
