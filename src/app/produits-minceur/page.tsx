@@ -8,6 +8,7 @@ import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { ProductCard } from '@/components/ProductCard';
 import { Cart } from '@/components/Cart';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface Product {
   id: number;
@@ -61,27 +62,26 @@ export default function ProduitsMinceurPage() {
                     </p>
                 </div>
 
-                <div className="mt-12">
-                  <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl text-center mb-8">
-                    Produits Minceur
-                  </h2>
-                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                      {produitsMinceur.map((product) => (
-                          <ProductCard key={product.id} product={product} />
-                      ))}
-                  </div>
-                </div>
-
-                <div className="mt-16">
-                  <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl text-center mb-8">
-                    Compléments Alimentaires
-                  </h2>
-                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                      {complementsAlimentaires.map((product) => (
-                          <ProductCard key={product.id} product={product} />
-                      ))}
-                  </div>
-                </div>
+                <Tabs defaultValue="produits-minceur" className="mt-12">
+                  <TabsList className="grid w-full grid-cols-2">
+                    <TabsTrigger value="produits-minceur">Produits Minceur</TabsTrigger>
+                    <TabsTrigger value="complements-alimentaires">Compléments Alimentaires</TabsTrigger>
+                  </TabsList>
+                  <TabsContent value="produits-minceur">
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                        {produitsMinceur.map((product) => (
+                            <ProductCard key={product.id} product={product} />
+                        ))}
+                    </div>
+                  </TabsContent>
+                  <TabsContent value="complements-alimentaires">
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                        {complementsAlimentaires.map((product) => (
+                            <ProductCard key={product.id} product={product} />
+                        ))}
+                    </div>
+                  </TabsContent>
+                </Tabs>
 
                  <div className="mt-16 text-center">
                     <h3 className="font-headline text-2xl font-bold">Intéressé(e) par un produit ?</h3>
