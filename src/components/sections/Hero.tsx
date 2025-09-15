@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { Cart } from "@/components/Cart";
-import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List } from "lucide-react";
+import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List, ShoppingBag } from "lucide-react";
 
 const navLinks = [
   { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
@@ -124,6 +124,12 @@ const Hero = () => {
               </Link>
             </Button>
           ))}
+          <Button asChild size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg bg-primary text-primary-foreground hover:bg-primary/90">
+            <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <ShoppingBag className="h-5 w-5" />
+              Aller à la boutique
+            </a>
+          </Button>
         </nav>
       </div>
     </section>

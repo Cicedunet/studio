@@ -20,14 +20,16 @@ interface Product {
 }
 
 export default function ProduitsMinceurPage() {
-  const [products, setProducts] = useState<Product[]>([]);
+  const [produitsMinceur, setProduitsMinceur] = useState<Product[]>([]);
+  const [complementsAlimentaires, setComplementsAlimentaires] = useState<Product[]>([]);
 
   useEffect(() => {
     fetch('/produits.json')
       .then(response => response.json())
       .then(data => {
-        const slimmingProducts = data.products.filter((p: Product) => p.category === 'minceur');
-        setProducts(slimmingProducts);
+        const allSlimmingProducts = data.products.filter((p: Product) => p.category === 'minceur');
+        setProduitsMinceur(allSlimmingProducts.filter((p: Product) => p.subCategory === 'produit-minceur'));
+        setComplementsAlimentaires(allSlimmingProducts.filter((p: Product) => p.subCategory === 'complement-alimentaire'));
       });
   }, []);
 
@@ -52,17 +54,33 @@ export default function ProduitsMinceurPage() {
                 <div className="mx-auto max-w-3xl text-center">
                     <Weight className="mx-auto h-12 w-12 text-primary animate-bounce" />
                     <h1 className="mt-4 font-headline text-4xl font-bold tracking-tight md:text-5xl">
-                        Nos Produits Minceur
+                        Nos Produits Minceur et Compléments Alimentaires
                     </h1>
                     <p className="mt-4 text-lg text-muted-foreground">
                        Une sélection de produits de haute qualité pour vous accompagner dans votre parcours bien-être et atteindre vos objectifs.
                     </p>
                 </div>
 
-                <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    {products.map((product) => (
-                        <ProductCard key={product.id} product={product} />
-                    ))}
+                <div className="mt-12">
+                  <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl text-center mb-8">
+                    Produits Minceur
+                  </h2>
+                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                      {produitsMinceur.map((product) => (
+                          <ProductCard key={product.id} product={product} />
+                      ))}
+                  </div>
+                </div>
+
+                <div className="mt-16">
+                  <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl text-center mb-8">
+                    Compléments Alimentaires
+                  </h2>
+                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                      {complementsAlimentaires.map((product) => (
+                          <ProductCard key={product.id} product={product} />
+                      ))}
+                  </div>
                 </div>
 
                  <div className="mt-16 text-center">
