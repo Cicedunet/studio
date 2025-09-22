@@ -4,22 +4,38 @@ import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { Cart } from "@/components/Cart";
-import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List, ShoppingBag } from "lucide-react";
+import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List, ShoppingBag, HeartPulse, Droplets } from "lucide-react";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const navLinks = [
+  { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
+  { href: "#business", label: "Business", icon: Briefcase },
+  { href: "#offres", label: "Offres", icon: Gift },
   { href: "#contact", label: "Contact", icon: Phone },
 ];
 
 const productLinks = [
   { href: "/parfums", label: "Parfums", icon: List },
   { href: "/produits-minceur", label: "Minceur", icon: Weight },
-  { href: "/catalogue", label: "Catalogue", icon: BookOpen },
+  { href: "/catalogue?category=complement-alimentaire", label: "Complément Alimentaire", icon: HeartPulse },
+  {
+    label: "Catalogue",
+    icon: BookOpen,
+    subLinks: [
+      { href: "/catalogue?category=senteur-maison", label: "Senteur Maison" },
+      { href: "/catalogue?category=produit-pour-la-peau", label: "Produit pour la peau" },
+      { href: "/catalogue?category=lunettes", label: "Lunettes" },
+      { href: "/catalogue?category=autre", label: "Autre" },
+    ],
+  },
+  { href: "/catalogue?category=produit-entretien", label: "Produit Entretien", icon: Droplets },
 ];
 
 const socialLinks = [
   { href: "https://www.instagram.com/lizfrancine_elegance/", label: "Instagram", icon: Instagram },
   { href: "https://www.facebook.com/profile.php?id=61561083971213", label: "Facebook", icon: Facebook },
-  { href: "https://www.tiktok.com/@lizfrancine_elegance", label: "TikTok", icon: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6"><path d="M16.5 6.5a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z" /><path d="M11.5 16.5v-11" /><path d="m7.5 11.5 8-4" /></svg> },
+  { href: "https://www.tiktok.com/@lizfrancine_elegance", label: "TikTok", icon: () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6"><path d="M16.5 6.5a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0Z" /><path d="M11.5 16.5v-11" /><path d="m7.5 11.5 8-4" /></svg> },
   { href: "https://wa.me/+32466423584", label: "WhatsApp", icon: MessageCircle }
 ];
 
@@ -48,32 +64,51 @@ const Hero = () => {
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right">
-                  <div className="flex h-full flex-col gap-6 p-6">
+                  <div className="flex flex-col gap-6 p-6">
                     <Link href="/" className="flex items-center gap-2 font-headline text-xl font-bold">
                       <Sparkles className="h-6 w-6 text-primary" />
                       <span>Élégance & Bien-Être</span>
                     </Link>
                     <nav className="flex flex-col gap-4 text-lg font-medium">
                       {[...productLinks, ...navLinks].map((link) => (
-                        <SheetClose asChild key={link.href}>
-                          <Link
-                            href={link.href}
-                            className="transition-colors hover:text-primary flex items-center gap-2"
-                          >
-                            <link.icon className="h-5 w-5" />
-                            {link.label}
-                          </Link>
-                        </SheetClose>
+                        link.subLinks ? (
+                          <Accordion type="single" collapsible className="w-full" key={link.label}>
+                            <AccordionItem value="item-1" className="border-b-0">
+                              <AccordionTrigger className="hover:no-underline">
+                                <span className="transition-colors hover:text-primary flex items-center gap-2">
+                                  <link.icon className="h-5 w-5" />
+                                  {link.label}
+                                </span>
+                              </AccordionTrigger>
+                              <AccordionContent>
+                                <div className="flex flex-col gap-4 pl-8 pt-2">
+                                  {link.subLinks.map((subLink) => (
+                                    <SheetClose asChild key={subLink.href}>
+                                      <Link
+                                        href={subLink.href}
+                                        className="transition-colors hover:text-primary flex items-center gap-2"
+                                      >
+                                        {subLink.label}
+                                      </Link>
+                                    </SheetClose>
+                                  ))}
+                                </div>
+                              </AccordionContent>
+                            </AccordionItem>
+                          </Accordion>
+                        ) : (
+                          <SheetClose asChild key={link.href}>
+                            <Link
+                              href={link.href}
+                              className="transition-colors hover:text-primary flex items-center gap-2"
+                            >
+                              <link.icon className="h-5 w-5" />
+                              {link.label}
+                            </Link>
+                          </SheetClose>
+                        )
                       ))}
                     </nav>
-                    <div className="mt-auto">
-                        <Button asChild size="lg" className="w-full transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg bg-primary text-primary-foreground hover:bg-primary/90">
-                            <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                                <ShoppingBag className="h-5 w-5" />
-                                Aller à la boutique
-                            </a>
-                        </Button>
-                    </div>
                   </div>
                 </SheetContent>
               </Sheet>
@@ -119,15 +154,33 @@ const Hero = () => {
 
         <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-400">
           {[...productLinks, ...navLinks].map((link) => (
-            <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
-              <Link
-                href={link.href}
-                className="flex items-center gap-2"
-              >
-                <link.icon className="h-5 w-5 text-primary" />
-                {link.label}
-              </Link>
-            </Button>
+            link.subLinks ? (
+              <DropdownMenu key={link.label}>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary flex items-center gap-2">
+                    <link.icon className="h-5 w-5 text-primary" />
+                    {link.label}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  {link.subLinks.map((subLink) => (
+                    <DropdownMenuItem key={subLink.href} asChild>
+                      <Link href={subLink.href}>{subLink.label}</Link>
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
+                <Link
+                  href={link.href}
+                  className="flex items-center gap-2"
+                >
+                  <link.icon className="h-5 w-5 text-primary" />
+                  {link.label}
+                </Link>
+              </Button>
+            )
           ))}
           <Button asChild size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg bg-primary text-primary-foreground hover:bg-primary/90">
             <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
