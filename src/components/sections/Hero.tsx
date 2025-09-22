@@ -4,7 +4,9 @@ import Link from "next/link";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { Cart } from "@/components/Cart";
-import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List, ShoppingBag } from "lucide-react";
+import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, Briefcase, Gift, Phone, List, ShoppingBag, HeartPulse, Droplets } from "lucide-react";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const navLinks = [
   { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
@@ -16,6 +18,17 @@ const navLinks = [
 const productLinks = [
   { href: "/parfums", label: "Parfums", icon: List },
   { href: "/produits-minceur", label: "Minceur", icon: Weight },
+  {
+    label: "Complément Alimentaire",
+    icon: HeartPulse,
+    subLinks: [
+      { href: "/catalogue?category=senteur-maison", label: "Senteur Maison" },
+      { href: "/catalogue?category=produit-pour-la-peau", label: "Produit pour la peau" },
+      { href: "/catalogue?category=lunettes", label: "Lunettes" },
+      { href: "/catalogue?category=autre", label: "Autre" },
+    ],
+  },
+  { href: "/catalogue?category=produit-entretien", label: "Produit Entretien", icon: Droplets },
   { href: "/catalogue", label: "Catalogue", icon: BookOpen },
 ];
 
@@ -58,15 +71,42 @@ const Hero = () => {
                     </Link>
                     <nav className="flex flex-col gap-4 text-lg font-medium">
                       {[...productLinks, ...navLinks].map((link) => (
-                        <SheetClose asChild key={link.href}>
-                          <Link
-                            href={link.href}
-                            className="transition-colors hover:text-primary flex items-center gap-2"
-                          >
-                            <link.icon className="h-5 w-5" />
-                            {link.label}
-                          </Link>
-                        </SheetClose>
+                        link.subLinks ? (
+                          <Accordion type="single" collapsible className="w-full" key={link.label}>
+                            <AccordionItem value="item-1" className="border-b-0">
+                              <AccordionTrigger className="hover:no-underline">
+                                <span className="transition-colors hover:text-primary flex items-center gap-2">
+                                  <link.icon className="h-5 w-5" />
+                                  {link.label}
+                                </span>
+                              </AccordionTrigger>
+                              <AccordionContent>
+                                <div className="flex flex-col gap-4 pl-8 pt-2">
+                                  {link.subLinks.map((subLink) => (
+                                    <SheetClose asChild key={subLink.href}>
+                                      <Link
+                                        href={subLink.href}
+                                        className="transition-colors hover:text-primary flex items-center gap-2"
+                                      >
+                                        {subLink.label}
+                                      </Link>
+                                    </SheetClose>
+                                  ))}
+                                </div>
+                              </AccordionContent>
+                            </AccordionItem>
+                          </Accordion>
+                        ) : (
+                          <SheetClose asChild key={link.href}>
+                            <Link
+                              href={link.href}
+                              className="transition-colors hover:text-primary flex items-center gap-2"
+                            >
+                              <link.icon className="h-5 w-5" />
+                              {link.label}
+                            </Link>
+                          </SheetClose>
+                        )
                       ))}
                     </nav>
                   </div>
@@ -114,15 +154,33 @@ const Hero = () => {
 
         <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-400">
           {[...productLinks, ...navLinks].map((link) => (
-            <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
-              <Link
-                href={link.href}
-                className="flex items-center gap-2"
-              >
-                <link.icon className="h-5 w-5 text-primary" />
-                {link.label}
-              </Link>
-            </Button>
+            link.subLinks ? (
+              <DropdownMenu key={link.label}>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary flex items-center gap-2">
+                    <link.icon className="h-5 w-5 text-primary" />
+                    {link.label}
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                  {link.subLinks.map((subLink) => (
+                    <DropdownMenuItem key={subLink.href} asChild>
+                      <Link href={subLink.href}>{subLink.label}</Link>
+                    </DropdownMenuItem>
+                  ))}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            ) : (
+              <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
+                <Link
+                  href={link.href}
+                  className="flex items-center gap-2"
+                >
+                  <link.icon className="h-5 w-5 text-primary" />
+                  {link.label}
+                </Link>
+              </Button>
+            )
           ))}
           <Button asChild size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg bg-primary text-primary-foreground hover:bg-primary/90">
             <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
