@@ -18,18 +18,17 @@ const navLinks = [
 const productLinks = [
   { href: "/parfums", label: "Parfums", icon: List },
   { href: "/produits-minceur", label: "Minceur", icon: Weight },
+  { href: "/catalogue?category=complement-alimentaire", label: "Complément Alimentaire", icon: HeartPulse },
   {
-    label: "Complément Alimentaire",
-    icon: HeartPulse,
+    label: "Catalogue",
+    icon: BookOpen,
     subLinks: [
       { href: "/catalogue?category=senteur-maison", label: "Senteur Maison" },
-      { href: "/catalogue?category=produit-pour-la-peau", label: "Produit pour la peau" },
       { href: "/catalogue?category=lunettes", label: "Lunettes" },
       { href: "/catalogue?category=autre", label: "Autre" },
     ],
   },
   { href: "/catalogue?category=produit-entretien", label: "Produit Entretien", icon: Droplets },
-  { href: "/catalogue", label: "Catalogue", icon: BookOpen },
 ];
 
 const socialLinks = [
