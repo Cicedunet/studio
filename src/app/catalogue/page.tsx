@@ -47,7 +47,7 @@ export default function CataloguePage() {
     }
   };
 
-  const subCategories = ['all', 'creme-de-visage', 'deodorant'];
+  const subCategories = [];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
