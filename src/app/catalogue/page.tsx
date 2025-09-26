@@ -10,6 +10,13 @@ import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { useCurrency } from "@/context/CurrencyContext";
 import { convertPrice } from "@/lib/currency";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 interface Product {
   id: number;
@@ -47,7 +54,7 @@ export default function CataloguePage() {
     }
   };
 
-  const subCategories = [];
+  const subCategories = ['all', 'produit-pour-la-peau', 'produit-entretien', 'senteur-maison', 'deodorant', 'lunettes'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -74,17 +81,19 @@ export default function CataloguePage() {
                     </p>
                 </div>
 
-                <div className="my-8 flex justify-center gap-4">
-                    {subCategories.map(filter => (
-                        <Button
-                            key={filter}
-                            variant={activeFilter === filter ? 'default' : 'outline'}
-                            onClick={() => handleFilter(filter)}
-                            className="capitalize"
-                        >
-                            {filter === 'all' ? 'Tous' : filter.replace('-', ' ')}
-                        </Button>
-                    ))}
+                <div className="my-8 flex justify-center">
+                    <Select onValueChange={(value) => handleFilter(value)} defaultValue={activeFilter}>
+                        <SelectTrigger className="w-[280px] text-lg py-6">
+                            <SelectValue placeholder="Filtrer par catégorie" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            {subCategories.map(filter => (
+                                <SelectItem key={filter} value={filter} className="capitalize text-lg">
+                                    {filter === 'all' ? 'Toutes les catégories' : filter.replace('-', ' ')}
+                                </SelectItem>
+                            ))}
+                        </SelectContent>
+                    </Select>
                 </div>
 
                 <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
