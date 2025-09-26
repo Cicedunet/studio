@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'orianacosmetic.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'parfum-inspiration.com',
+      },
     ],
   },
 };

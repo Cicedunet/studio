@@ -1,31 +1,75 @@
 {
-    "products": [
-        {
+    "products": [{
             "id": 1,
             "name": "Crème Visage à la Bave d'Escargot",
-            "image": "/images/catalogue/creme-visage.jpg",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-25154812_dc06f008-00c8-4e4f-a2f9-e7b11680c943_480x.png?v=1717669401",
             "hint": "face cream",
-            "price": 38,
+            "price": 39.90,
             "category": "produit-pour-la-peau",
-            "description": "Un soin régénérant et hydratant d'exception pour une peau visiblement plus jeune et éclatante."
+            "description": "CRÈME VISAGE ANTI-ÂGE À LA BAVE D’ESCARGOT - 50 ML CHOGAN"
         },
         {
             "id": 60,
             "name": "Lait Corporel Nourrissant",
-            "image": "/images/catalogue/lait-corporel.jpg",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-30094722_3e7db49c-a42d-4d4f-8a76-bfef6de31f15_480x.png?v=1717667621",
             "hint": "body lotion",
-            "price": 22,
+            "price": 16.90,
             "category": "produit-pour-la-peau",
-            "description": "Hydrate et adoucit la peau en profondeur, laissant un délicat parfum de karité."
+            "description": "DENTIFRICE BLACK POWER AU CHARBON ACTIF CHOGAN"
         },
         {
             "id": 61,
             "name": "Gommage Exfoliant Doux",
-            "image": "/images/catalogue/gommage-visage.jpg",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-25154516_e2c3ad98-205d-4995-9542-d794aefeefb0_480x.png?v=1717669409",
             "hint": "face scrub",
-            "price": 19,
+            "price": 26.90,
             "category": "produit-pour-la-peau",
-            "description": "Élimine les impuretés et les cellules mortes pour un teint frais et lumineux."
+            "description": "CRÈME VISAGE AU COLLAGÈNE ET À L’ACIDE HYALURONIQUE - 50 ML CHOGAN."
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/www.chogangroupspa.com_aurodhea_productDetail_7783_5aaa3394-6549-485c-b16a-85d97d5ee6b0_480x.png?v=1717669330",
+            "hint": "face scrub",
+            "price": 24.90,
+            "category": "produit-pour-la-peau",
+            "description": "GEL NETTOYANT VISAGE À LA BAVE D'ESCARGOT - 260 ML CHOGAN"
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/download_34e7cd58-b9e0-4363-9a3a-10fa5eceb40e_480x.webp?v=1728578908",
+            "hint": "face scrub",
+            "price": 29.90,
+            "category": "produit-pour-la-peau",
+            "description": "MASQUE CHEVEUX DÉMÊLANT À L’HUILE D’ARGAN - 500 ML CHOGAN"
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-25103832_ef361336-d4f7-492b-b6d3-3f2b22174273_480x.png?v=1717669602",
+            "hint": "face scrub",
+            "price": 9.90,
+            "category": "produit-pour-la-peau",
+            "description": "NETTOYANT INTIME AU LAIT D'ÂNESSE - 260 ML CHOGAN"
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17212119430guida-render-LA05B_480x.jpg?v=1722514414",
+            "hint": "face scrub",
+            "price": 59.90,
+            "category": "produit-pour-la-peau",
+            "description": "CRÈME DE NUIT POUR LE VISAGE AU LAIT D’ÂNESSE 50 ML CHOGAN"
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17273457500guida-render-LUX007_480x.webp?v=1740568713",
+            "hint": "face scrub",
+            "price": 83.00,
+            "category": "produit-pour-la-peau",
+            "description": "Peptilux Men – Crème visage jour effet « soft focus » avec TQ-10™ - 50 ml"
         },
         {
             "id": 2,
@@ -66,38 +110,318 @@
         {
             "id": 6,
             "name": "Détartrant pour Machine à Café",
-            "image": "/images/catalogue/detartrant.jpg",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-27101519_5fcaa5c5-7803-4654-864a-f34235dd9ad7_480x.png?v=1717669113",
             "hint": "cleaning product",
-            "price": 12,
+            "price": 11.90,
             "category": "produit-entretien",
-            "description": "Prolongez la durée de vie de votre machine à café et retrouvez le goût authentique de vos expressos."
+            "description": "HUILE NOURRISSANTE POUR CUTICULES ET ONGLES - 8 ML CHOGAN"
         },
         {
             "id": 7,
             "name": "Nettoyant Four et Plaque de Cuisson",
-            "image": "/images/catalogue/nettoyant-four.jpg",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29141046_ce8c131c-f4a9-48bd-97a6-8386a776864c_480x.png?v=1717668030",
             "hint": "oven cleaner",
-            "price": 15,
+            "price": 15.00,
             "category": "produit-entretien",
-            "description": "Éliminez les graisses les plus tenaces sans effort pour un four et des plaques de cuisson impeccables."
+            "description": "HUILE ESSENTIELLE DE MENTHE DES CHAMPS CHOGAN"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/revizent-multifunktionale-oelmischung-50ml_480x.webp?v=1745964668",
+            "hint": "oven cleaner",
+            "price": 34.90,
+            "category": "produit-entretien",
+            "description": "REVIZENT™ - Mélange d'huiles essentielles multifonctionnel - 50 ml"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29143418_7aa03462-6684-440b-9077-794542725add_480x.png?v=1717667981",
+            "hint": "oven cleaner",
+            "price": 9.0,
+            "category": "produit-entretien",
+            "description": "HUILE ESSENTIELLE D’ORANGE DOUCE 10 ML"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/munozent-immunstaerkende-oelmischung-10ml_480x.webp?v=1745964653",
+            "hint": "oven cleaner",
+            "price": 29.90,
+            "category": "produit-entretien",
+            "description": "MUNOZENT™ Mélange d'huiles essentielles stimulant l'immunité - 10 ml"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29132149_8824a3b5-ef78-4439-9c2c-7e98403ae195_480x.png?v=1717668123",
+            "hint": "oven cleaner",
+            "price": 22.50,
+            "category": "produit-entretien",
+            "description": "HUILE PURE EXTRA DE LIN BIOLOGIQUE CERTIFIÉ CHOGAN"
+        },
+        {
+            "id": 7,
+            "name": "Nettoyant Four et Plaque de Cuisson",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29143057_c8f900ef-a9c1-46da-b4c0-c058bf46a4c9_480x.png?v=1717667989",
+            "hint": "oven cleaner",
+            "price": 20.90,
+            "category": "produit-entretien",
+            "description": "HUILE ESSENTIELLE DE BERGAMOTE CHOGAN"
         },
         {
             "id": 8,
-            "name": "Parfum d'Ambiance Bois d'Orient",
-            "image": "/images/catalogue/parfum-ambiance.jpg",
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078108170_250x.webp?v=1719437930",
             "hint": "home fragrance",
-            "price": 20,
+            "price": 19,
             "category": "senteur-maison",
-            "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
+            "description": "BRILGROUT - NETTOYANT CONCENTRÉ POUR JOINT CHOGAN"
         },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR16939942300_480x.webp?v=1720475053",
+            "hint": "home fragrance",
+            "price": 11.90,
+            "category": "senteur-maison",
+            "description": "BAGNOLUX- NETTOYANT ANTICALCAIRE POLISSANT - 750 ML CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078105200_1_480x.webp?v=1721832111",
+            "hint": "home fragrance",
+            "price": 15.90,
+            "category": "senteur-maison",
+            "description": "BRILGREASE - DÉGRAISSANT ET ASSAINISSANT SUPER-CONCENTRÉ"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17107487790_480x.webp?v=1721830180",
+            "hint": "home fragrance",
+            "price": 22.90,
+            "category": "senteur-maison",
+            "description": "TURBODRAIN – DÉBOUCHEUR EN GRANULES SUPER CONCENTRÉ"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078104220_480x.webp?v=1721832266",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "BRIL WC - DÉTERGENT DÉTARTRANT CONCENTRÉ À ACTION BLANCHISSANTE"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29121231_fea86184-f13d-43b5-9277-7840a41f6d11_480x.png?v=1717668196",
+            "hint": "home fragrance",
+            "price": 11.90,
+            "category": "senteur-maison",
+            "description": "BRILBATH - SPRAY NETTOYANT ANTI-CALCAIRE CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR1740747221025-02-28_BH0206-IMG-PRODOTTO_480x.webp?v=1747050519",
+            "hint": "home fragrance",
+            "price": 13.90,
+            "category": "senteur-maison",
+            "description": "BRILGLASS - NETTOYANT POUR VITRES ET MIROIRS"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17099131950_480x.webp?v=1721832215",
+            "hint": "home fragrance",
+            "price": 16.90,
+            "category": "senteur-maison",
+            "description": "FIRE CLEANSE – DÉTERGENT CONCENTRÉ DÉGRAISSANT ET DÉCARBONISANT"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17161935841_480x.webp?v=1728496140",
+            "hint": "home fragrance",
+            "price": 6.90,
+            "category": "senteur-maison",
+            "description": "SAVON LIQUIDE À L'HUILE DE NEEM 1L CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078152190_480x.webp?v=1721831311",
+            "hint": "home fragrance",
+            "price": 17.90,
+            "category": "senteur-maison",
+            "description": "Brilparquet - Détergent désinfectant pour sols et revêtements en parquet CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17107594950_480x.webp?v=1721830660",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "SAVERDISH - NETTOYANT POUR L'ENTRETIEN DES LAVE-VAISSELLE"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17097118790_480x.webp?v=1721831994",
+            "hint": "home fragrance",
+            "price": 15.90,
+            "category": "senteur-maison",
+            "description": "FLOOR CLEANER – DÉTERGENT POUR SOLS ET SURFACES LAVABLES"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29110355_549c6ef7-e019-4a99-9a93-a674c383cabc_480x.png?v=1717668249",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "TOTALBRILL - DÉTÉRGENT ASSAINISSANT MULTI-SURFACES (750 ML) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17412670060BH0212_480x.jpg?v=1756632202",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "BRILTOTAL - DÉTERGENT POUR L'HYGIÈNE ANTI-POUSSIÈRE CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28225039_d5f1d7d1-43d9-4fcf-a7c8-bce8b89f4cb2_480x.png?v=1717668335",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "WILMA - CHIFFON EN MICROFIBRE POUR UNE BRILLANCE EXTRAORDINAIRE CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29112516_64bbc6af-a3a1-43c4-a0e5-1bc7567c8cac_480x.png?v=1717668245",
+            "hint": "home fragrance",
+            "price": 7.90,
+            "category": "senteur-maison",
+            "description": "SPLENDIVETRO - NETTOYANT POUR LES VITRES, LES CRISTAUX ET LES MIROIRS - 750 ML CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29115335_9184ecbb-03fe-4c16-b9ba-2527d3682e80_480x.png?v=1717668212",
+            "hint": "home fragrance",
+            "price": 3.99,
+            "category": "senteur-maison",
+            "description": "MAGIC SPONGE CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28230534_0e6a08b5-60e4-4de2-878d-dccb9c459ece_480x.png?v=1717668320",
+            "hint": "home fragrance",
+            "price": 6.49,
+            "category": "senteur-maison",
+            "description": "CATHY-CHIFFON EN MICROFIBRE POUR LE NETTOYAGE DE LA CUISINE CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/PR17107594950_480x.webp?v=1721830660",
+            "hint": "home fragrance",
+            "price": 12.90,
+            "category": "senteur-maison",
+            "description": "SAVERDISH - NETTOYANT POUR L'ENTRETIEN DES LAVE-VAISSELLE"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29231133_82bf37a2-2154-4f6b-925c-51a801def656_480x.png?v=1717667758",
+            "hint": "home fragrance",
+            "price": 3.50,
+            "category": "senteur-maison",
+            "description": "BROSSE À DENTS -SOIES MOYENNES (BLANC-VERT) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29125845_b177d72d-2650-441c-90be-98d21bf0b761_480x.png?v=1717668153",
+            "hint": "home fragrance",
+            "price": 8.98,
+            "category": "senteur-maison",
+            "description": "POWERDISH 'ALOE AND BAMBOU' (AVEC BAVE D’ESCARGOT) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/dt17_ccfb7ee8-af7e-435d-b6d2-4eff91b5adb2_480x.png?v=1717669997",
+            "hint": "home fragrance",
+            "price": 9.99,
+            "category": "senteur-maison",
+            "description": "FLOOR WASHER LAVAGE SOL SANS RINÇAGE (750 ML) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29105743_793becde-7b38-42dc-9248-779aaac330a0_480x.png?v=1717668260",
+            "hint": "home fragrance",
+            "price": 16.50,
+            "category": "senteur-maison",
+            "description": "DEFROST - DÉGIVRANT POUR FREEZER/CONGÉLATEUR (600 ML) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28153226_7db31357-70b2-4749-9478-d121e4aa9f83_480x.png?v=1717668592",
+            "hint": "home fragrance",
+            "price": 39.90,
+            "category": "senteur-maison",
+            "description": "IGIENPLUS NETTOYANT LIQUIDE POUR L'HYGIÈNE DES MAINS - 5000 ML CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28155431_99fa1a6b-14df-4d64-9b17-9a656e75e7db_480x.png?v=1717668563",
+            "hint": "home fragrance",
+            "price": 4.90,
+            "category": "senteur-maison",
+            "description": "GEL CRÈME POUR L'HYGIÈNE DES MAINS - 90 ML CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29231700_e19dc4b9-aba7-41f5-ab65-3627344450b7_480x.png?v=1717667747",
+            "hint": "home fragrance",
+            "price": 3.50,
+            "category": "senteur-maison",
+            "description": "BROSSE À DENTS EXTRA CLEAN - SOIES MOYENNES (BLACK EDITION) CHOGAN"
+        },
+        {
+            "id": 8,
+            "name": "",
+            "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29232142_3503a0bf-491c-4ebb-92d7-eaefa97b902c_480x.png?v=1717667740",
+            "hint": "home fragrance",
+            "price": 3.50,
+            "category": "senteur-maison",
+            "description": "BROSSE À DENTS EXTRA CLEAN - SOIES MOYENNES (ROUGE-BLANC) CHOGAN"
+        },
+
         {
             "id": 50,
             "name": "Lunettes de Soleil Aviateur",
             "image": "/images/catalogue/lunettes-aviateur.jpg",
             "hint": "aviator sunglasses",
-            "price": 55,
+            "price": 15.90,
             "category": "lunettes",
-            "description": "Un style classique et intemporel pour une protection solaire optimale."
+            "description": "FLOOR CLEANER – DÉTERGENT POUR SOLS ET SURFACES LAVABLES"
         },
         {
             "id": 51,
