@@ -8,6 +8,7 @@ import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { ProductCard } from '@/components/ProductCard';
 import { Cart } from '@/components/Cart';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 interface Product {
   id: number;
@@ -21,13 +22,15 @@ interface Product {
 
 export default function ProduitsMinceurPage() {
   const [produitsMinceur, setProduitsMinceur] = useState<Product[]>([]);
+  const [complementsAlimentaires, setComplementsAlimentaires] = useState<Product[]>([]);
 
   useEffect(() => {
     fetch('/produits.json')
       .then(response => response.json())
       .then(data => {
-        const allSlimmingProducts = data.products.filter((p: Product) => p.category === 'minceur' && p.subCategory === 'produit-minceur');
-        setProduitsMinceur(allSlimmingProducts);
+        const allSlimmingProducts = data.products.filter((p: Product) => p.category === 'minceur');
+        setProduitsMinceur(allSlimmingProducts.filter((p: Product) => p.subCategory === 'produit-minceur'));
+        setComplementsAlimentaires(allSlimmingProducts.filter((p: Product) => p.subCategory === 'complement-alimentaire'));
       });
   }, []);
 
@@ -52,18 +55,35 @@ export default function ProduitsMinceurPage() {
                 <div className="mx-auto max-w-3xl text-center">
                     <Weight className="mx-auto h-12 w-12 text-primary animate-bounce" />
                     <h1 className="mt-4 font-headline text-4xl font-bold tracking-tight md:text-5xl">
-                        Nos Produits Minceur
+                        Nos Produits Minceur et Compléments Alimentaires
                     </h1>
                     <p className="mt-4 text-lg text-muted-foreground">
                        Une sélection de produits de haute qualité pour vous accompagner dans votre parcours bien-être et atteindre vos objectifs.
                     </p>
                 </div>
 
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
-                    {produitsMinceur.map((product) => (
-                        <ProductCard key={product.id} product={product} />
-                    ))}
-                </div>
+                <Tabs defaultValue="produits-minceur" className="mt-12">
+                  <TabsList className="grid w-full grid-cols-2">
+                    <TabsTrigger value="produits-minceur">Produits Minceur</TabsTrigger>
+                    <TabsTrigger value="complements-alimentaires">Compléments Alimentaires</TabsTrigger>
+                  </TabsList>
+                  <TabsContent value="produits-minceur">
+
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                        {produitsMinceur.map((product) => (
+                            <ProductCard key={product.id} product={product} />
+                        ))}
+                    </div>
+                  </TabsContent>
+                  <TabsContent value="complements-alimentaires">
+
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                        {complementsAlimentaires.map((product) => (
+                            <ProductCard key={product.id} product={product} />
+                        ))}
+                    </div>
+                  </TabsContent>
+                </Tabs>
 
                  <div className="mt-16 text-center">
                     <h3 className="font-headline text-2xl font-bold">Intéressé(e) par un produit ?</h3>

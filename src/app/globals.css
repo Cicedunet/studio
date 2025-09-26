@@ -22,12 +22,11 @@
     --muted-foreground: 330 20% 45%;
     --accent: 330 80% 65%; /* Soft Pink */
     --accent-foreground: 0 0% 100%;
-    --gold: 45 90% 55%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 340 20% 85%;
     --input: 340 20% 85%;
-    --ring: 330 80% 65%;
+    --ring: 45 90% 70%;
     --radius: 0.5rem;
   }
 
@@ -46,12 +45,11 @@
     --muted-foreground: 340 10% 65%;
     --accent: 330 70% 60%; /* Brighter Pink */
     --accent-foreground: 0 0% 100%;
-    --gold: 45 80% 60%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 330 10% 25%;
     --input: 330 10% 25%;
-    --ring: 330 70% 60%;
+    --ring: 45 80% 65%;
   }
 }
 

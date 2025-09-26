@@ -1,12 +1,22 @@
 {
     "products": [
         {
+            "id": 1,
+            "name": "Crème Visage à la Bave d'Escargot",
+            "image": "/images/catalogue/creme-visage.jpg",
+            "hint": "face cream",
+            "price": 38,
+            "category": "catalogue",
+            "subCategory": "creme-de-visage",
+            "description": "Un soin régénérant et hydratant d'exception pour une peau visiblement plus jeune et éclatante."
+        },
+        {
             "id": 2,
             "name": "Masque Cheveux à la Kératine",
             "image": "/images/catalogue/masque-cheveux.jpg",
             "hint": "hair mask",
             "price": 24,
-            "category": "autres",
+            "category": "catalogue",
             "description": "Réparez et nourrissez vos cheveux en profondeur pour une chevelure douce, brillante et pleine de vitalité."
         },
         {
@@ -15,7 +25,7 @@
             "image": "/images/catalogue/fond-de-teint.jpg",
             "hint": "foundation makeup",
             "price": 29,
-            "category": "autres",
+            "category": "catalogue",
             "description": "Un teint parfait et unifié du matin au soir avec notre fond de teint couvrant et confortable."
         },
         {
@@ -24,7 +34,7 @@
             "image": "/images/catalogue/rouge-a-levres.jpg",
             "hint": "lipstick",
             "price": 18,
-            "category": "autres",
+            "category": "catalogue",
             "description": "Des lèvres sublimées d'une couleur intense et d'un fini mat velouté pour un sourire inoubliable."
         },
         {
@@ -33,7 +43,7 @@
             "image": "/images/catalogue/huile-seche.jpg",
             "hint": "shimmer body oil",
             "price": 26,
-            "category": "autres",
+            "category": "catalogue",
             "description": "Illuminez votre peau et vos cheveux d'un voile pailleté et parfumé pour un effet glamour assuré."
         },
         {
@@ -42,7 +52,7 @@
             "image": "/images/catalogue/detartrant.jpg",
             "hint": "cleaning product",
             "price": 12,
-            "category": "produit-entretien",
+            "category": "catalogue",
             "description": "Prolongez la durée de vie de votre machine à café et retrouvez le goût authentique de vos expressos."
         },
         {
@@ -51,7 +61,7 @@
             "image": "/images/catalogue/nettoyant-four.jpg",
             "hint": "oven cleaner",
             "price": 15,
-            "category": "produit-entretien",
+            "category": "catalogue",
             "description": "Éliminez les graisses les plus tenaces sans effort pour un four et des plaques de cuisson impeccables."
         },
         {
@@ -60,44 +70,18 @@
             "image": "/images/catalogue/parfum-ambiance.jpg",
             "hint": "home fragrance",
             "price": 20,
-            "category": "senteur-maison",
+            "category": "catalogue",
             "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
         },
         {
-            "id": 52,
-            "name": "Bougie Parfumée Fleur de Coton",
-            "image": "/images/catalogue/bougie-coton.jpg",
-            "hint": "scented candle",
-            "price": 22,
-            "category": "senteur-maison",
-            "description": "Une bougie à la cire végétale qui diffuse une douce odeur de linge frais."
-        },
-        {
-            "id": 53,
-            "name": "Diffuseur de Parfum Verveine",
-            "image": "/images/catalogue/diffuseur-verveine.jpg",
-            "hint": "fragrance diffuser",
-            "price": 28,
-            "category": "senteur-maison",
-            "description": "Embaumez votre intérieur d'une senteur fraîche et citronnée pour une ambiance relaxante."
-        },
-        {
-            "id": 50,
-            "name": "Lunettes de Soleil Aviateur",
-            "image": "/images/catalogue/lunettes-aviateur.jpg",
-            "hint": "aviator sunglasses",
-            "price": 55,
-            "category": "lunettes",
-            "description": "Un style classique et intemporel pour une protection solaire optimale."
-        },
-        {
-            "id": 51,
-            "name": "Lunettes de Vue Rétro",
-            "image": "/images/catalogue/lunettes-retro.jpg",
-            "hint": "retro eyeglasses",
-            "price": 75,
-            "category": "lunettes",
-            "description": "Adoptez un look vintage avec ces montures élégantes et confortables."
+            "id": 40,
+            "name": "Déodorant Fraîcheur 24h",
+            "image": "/images/catalogue/deodorant.jpg",
+            "hint": "deodorant",
+            "price": 15,
+            "category": "catalogue",
+            "subCategory": "deodorant",
+            "description": "Restez frais et confiant toute la journée avec notre déodorant efficacité 24h, sans sels d'aluminium."
         },
         {
             "id": 9,
@@ -256,8 +240,8 @@
             "hint": "detox tea",
             "price": 54.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Keto + est un complément alimentaire cétogène au goût cola, à base de pulpe d’aloe vera et de vitamine C, enrichi en caféine, en édulcorants naturels et en extraits végétaux puissants. Grâce au complexe breveté ALO-COMPLEX™, il exerce une action purifiante et antioxydante sur l’organisme. Sa formule unique est conçue pour soutenir le métabolisme, réduire la fatigue, tonifier le corps et aider à stabiliser le poids. Riche en vitamines B6, B12 et C, en guarana, en L-carnitine, en taurine et en Uncaria Tomentosa, il constitue un allié précieux pour les personnes actives ou suivant un régime cétogène."
+            "description": "MYVERA CRUSH Keto + est un complément alimentaire cétogène au goût cola, à base de pulpe d’aloe vera et de vitamine C, enrichi en caféine, en édulcorants naturels et en extraits végétaux puissants. Grâce au complexe breveté ALO-COMPLEX™, il exerce une action purifiante et antioxydante sur l’organisme. Sa formule unique est conçue pour soutenir le métabolisme, réduire la fatigue, tonifier le corps et aider à stabiliser le poids. Riche en vitamines B6, B12 et C, en guarana, en L-carnitine, en taurine et en Uncaria Tomentosa, il constitue un allié précieux pour les personnes actives ou suivant un régime cétogène.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 30,
@@ -266,8 +250,8 @@
             "hint": "fat burner supplement",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Mind + est un complément alimentaire nootropique conçu pour soutenir les fonctions cognitives, la mémoire et la concentration. Sa formule associe des ingrédients reconnus pour leurs effets sur la vigilance et les performances mentales, comme la citicoline, la guarana, la centella et la carnitine. Enrichi en aloe vera et en vitamine C, réunis dans le complexe exclusif ALO-COMPLEX™, il exerce également une action purifiante et antioxydante sur l’organisme. Avec son goût agréable de pomme, ce complément est idéal pour renforcer naturellement les capacités mentales au quotidien."
+            "description": "MYVERA CRUSH Mind + est un complément alimentaire nootropique conçu pour soutenir les fonctions cognitives, la mémoire et la concentration. Sa formule associe des ingrédients reconnus pour leurs effets sur la vigilance et les performances mentales, comme la citicoline, la guarana, la centella et la carnitine. Enrichi en aloe vera et en vitamine C, réunis dans le complexe exclusif ALO-COMPLEX™, il exerce également une action purifiante et antioxydante sur l’organisme. Avec son goût agréable de pomme, ce complément est idéal pour renforcer naturellement les capacités mentales au quotidien.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 31,
@@ -276,8 +260,8 @@
             "hint": "protein shake",
             "price": 81.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Skinail Plus est un complément alimentaire prêt à l'emploi, aromatisé à la vanille, sous forme de gel. Il est conçu pour le bien-être et la beauté de la peau, des cheveux et des ongles. Sa formule à base de collagène, de vitamines B, de vitamine C et d'acide hyaluronique aide à maintenir la peau hydratée, souple et tonique, tout en prévenant la formation de taches cutanées et de rides."
+            "description": "Skinail Plus est un complément alimentaire prêt à l'emploi, aromatisé à la vanille, sous forme de gel. Il est conçu pour le bien-être et la beauté de la peau, des cheveux et des ongles. Sa formule à base de collagène, de vitamines B, de vitamine C et d'acide hyaluronique aide à maintenir la peau hydratée, souple et tonique, tout en prévenant la formation de taches cutanées et de rides.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 32,
@@ -286,8 +270,8 @@
             "hint": "anti-cellulite cream",
             "price": 74.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Virilgel est un complément alimentaire prêt à l'emploi, aromatisé à la banane, sous forme de gel, formulé pour exercer une forte activité tonico-adaptogène. Il contient le mélange innovant breveté VIRILPIU™, composé d'extraits végétaux de Cacao, Schizandra, Maté et Maca Andina, qui soutiennent la lutte contre la fatigue physique et mentale. De plus, l'Arginine et la Citrulline agissent en synergie pour améliorer le bien-être masculin. Les "
+            "description": "Virilgel est un complément alimentaire prêt à l'emploi, aromatisé à la banane, sous forme de gel, formulé pour exercer une forte activité tonico-adaptogène. Il contient le mélange innovant breveté VIRILPIU™, composé d'extraits végétaux de Cacao, Schizandra, Maté et Maca Andina, qui soutiennent la lutte contre la fatigue physique et mentale. De plus, l'Arginine et la Citrulline agissent en synergie pour améliorer le bien-être masculin. Les ",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 33,
@@ -296,8 +280,8 @@
             "hint": "natural appetite suppressant",
             "price": 57.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYBRAIN est un complément alimentaire prêt à l'emploi, sous forme de gel aromatisé à la réglisse. Il est formulé avec le complexe breveté MEMORY FOCUS™, un mélange d'extraits végétaux aux bienfaits ciblés sur les fonctions cognitives. Les extraits d'Éleuthérocoque, de Ginkgo Biloba et de Bacopa favorisent la mémoire et la concentration. L'extrait de Griffonia apporte un soutien au bien-être mental, tandis que la phosphosérine et les vitamines B5 et B12 contribuent aux performances mentales et à la réduction de la fatigue.."
+            "description": "MYBRAIN est un complément alimentaire prêt à l'emploi, sous forme de gel aromatisé à la réglisse. Il est formulé avec le complexe breveté MEMORY FOCUS™, un mélange d'extraits végétaux aux bienfaits ciblés sur les fonctions cognitives. Les extraits d'Éleuthérocoque, de Ginkgo Biloba et de Bacopa favorisent la mémoire et la concentration. L'extrait de Griffonia apporte un soutien au bien-être mental, tandis que la phosphosérine et les vitamines B5 et B12 contribuent aux performances mentales et à la réduction de la fatigue..",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 34,
@@ -306,8 +290,8 @@
             "hint": "detox drink",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "DREN FAST est un complément alimentaire drainant et antioxydant formulé avec Equitullas™, un complexe exclusif d’extraits de plantes, enrichi en caféine (20 mg par portion), conçu pour améliorer la microcirculation, réduire la rétention d’eau, lutter contre les imperfections de la cellulite, et renforcer la sensation de légèreté."
+            "description": "DREN FAST est un complément alimentaire drainant et antioxydant formulé avec Equitullas™, un complexe exclusif d’extraits de plantes, enrichi en caféine (20 mg par portion), conçu pour améliorer la microcirculation, réduire la rétention d’eau, lutter contre les imperfections de la cellulite, et renforcer la sensation de légèreté.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "name": "SPEEDSLEEP - Complément alimentaire en gel à base de Mélatonine",
@@ -316,8 +300,8 @@
             "price": 27.9,
             "category": "minceur",
             "id": 3597,
-            "subCategory": "complement-alimentaire",
-            "description": "SPEEDSLEEP est un complément alimentaire innovant sous forme de gel, conçu pour favoriser un sommeil réparateur et de qualité. Sa formule exclusive brevetée SOMNIWELL™ associe la mélatonine, reconnue pour réduire le temps d’endormissement, à des extraits de pavot de Californie, pavot rouge, passiflore, tilleul et griffonia, qui agissent ensemble pour apaiser le système nerveux, limiter les réveils nocturnes et soutenir la régularité du cycle veille-sommeil. Grâce à sa texture en gel et son goût agréable de figue, SPEEDSLEEP offre une absorption rapide et une efficacité optimale dès la prise."
+            "description": "SPEEDSLEEP est un complément alimentaire innovant sous forme de gel, conçu pour favoriser un sommeil réparateur et de qualité. Sa formule exclusive brevetée SOMNIWELL™ associe la mélatonine, reconnue pour réduire le temps d’endormissement, à des extraits de pavot de Californie, pavot rouge, passiflore, tilleul et griffonia, qui agissent ensemble pour apaiser le système nerveux, limiter les réveils nocturnes et soutenir la régularité du cycle veille-sommeil. Grâce à sa texture en gel et son goût agréable de figue, SPEEDSLEEP offre une absorption rapide et une efficacité optimale dès la prise.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "name": "DREN FAST - Pour l'équilibre du poids corporel",
@@ -326,8 +310,8 @@
             "price": 44.9,
             "category": "minceur",
             "id": 3676,
-            "subCategory": "produit-minceur",
-            "description": "DREN FAST est un complément alimentaire à action drainante, conçu pour accompagner efficacement les régimes destinés à rééquilibrer le poids corporel. Grâce à son complexe exclusif Equitullas™, un mélange synergique d'extraits de plantes, ce produit stimule le métabolisme, favorise la digestion et aide à éliminer les excès d'eau et les toxines. Les extraits de bouleau, orthosiphon, thé vert, ananas, artichaut ou encore raisin agissent ensemble pour purifier l'organisme, améliorer la circulation, réduire les ballonnements et atténuer la sensation de jambes lourdes. Avec DREN FAST, adoptez un rituel naturel pour vous sentir plus léger(e) et plein(e) d'énergie au quotidien.."
+            "description": "DREN FAST est un complément alimentaire à action drainante, conçu pour accompagner efficacement les régimes destinés à rééquilibrer le poids corporel. Grâce à son complexe exclusif Equitullas™, un mélange synergique d'extraits de plantes, ce produit stimule le métabolisme, favorise la digestion et aide à éliminer les excès d'eau et les toxines. Les extraits de bouleau, orthosiphon, thé vert, ananas, artichaut ou encore raisin agissent ensemble pour purifier l'organisme, améliorer la circulation, réduire les ballonnements et atténuer la sensation de jambes lourdes. Avec DREN FAST, adoptez un rituel naturel pour vous sentir plus léger(e) et plein(e) d'énergie au quotidien..",
+            "subCategory": "produit-minceur"
         },
         {
             "name": "MULTIGELVIT - Complément alimentaire multivitaminé en gel",
@@ -336,8 +320,8 @@
             "price": 24.9,
             "category": "minceur",
             "id": 3700,
-            "subCategory": "complement-alimentaire",
-            "description": "MULTIGELVIT est un complément alimentaire multivitaminé prêt à l’emploi, sous forme de gel aromatisé à la mandarine, conçu pour soutenir le bien-être général et les performances mentales. Grâce à sa formule brevetée IPERVITAMY™, il fournit un apport équilibré en vitamines B, C, H (Biotine), acide folique, et L-carnitine, contribuant à réduire la fatigue, renforcer le système immunitaire et soutenir le métabolisme énergétique."
+            "description": "MULTIGELVIT est un complément alimentaire multivitaminé prêt à l’emploi, sous forme de gel aromatisé à la mandarine, conçu pour soutenir le bien-être général et les performances mentales. Grâce à sa formule brevetée IPERVITAMY™, il fournit un apport équilibré en vitamines B, C, H (Biotine), acide folique, et L-carnitine, contribuant à réduire la fatigue, renforcer le système immunitaire et soutenir le métabolisme énergétique.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "name": "DREN FAST Complément alimentaire pour le drainage des fluides corporels",
@@ -346,8 +330,8 @@
             "price": 39,
             "category": "minceur",
             "id": 8638,
-            "subCategory": "complement-alimentaire",
-            "description": "Dren Fast est un complément alimentaire spécialement conçu pour favoriser le drainage des fluides corporels. Enrichi avec Equitullas™, un mélange innovant d'extraits de plantes, il aide à détoxifier le corps, rétablir un métabolisme cellulaire optimal, et améliorer la circulation des fluides corporels. Ce produit contribue à une peau éclatante et à une élimination efficace des toxines et des déchets."
+            "description": "Dren Fast est un complément alimentaire spécialement conçu pour favoriser le drainage des fluides corporels. Enrichi avec Equitullas™, un mélange innovant d'extraits de plantes, il aide à détoxifier le corps, rétablir un métabolisme cellulaire optimal, et améliorer la circulation des fluides corporels. Ce produit contribue à une peau éclatante et à une élimination efficace des toxines et des déchets.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "name": "Collagène - Complément alimentaire Pour la peau, les cheveux, et les ongles",
@@ -356,8 +340,8 @@
             "price": 139,
             "category": "minceur",
             "id": 1139,
-            "subCategory": "complement-alimentaire",
-            "description": "SKINAIL COLLAGEN est un complément alimentaire formulé pour sublimer la peau, les cheveux et les ongles grâce au complexe breveté CBH-TOTAL™. Il associe collagène, vitamines B, zinc et extraits de plantes reconnues pour leurs bienfaits"
+            "description": "SKINAIL COLLAGEN est un complément alimentaire formulé pour sublimer la peau, les cheveux et les ongles grâce au complexe breveté CBH-TOTAL™. Il associe collagène, vitamines B, zinc et extraits de plantes reconnues pour leurs bienfaits",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 999,
@@ -366,8 +350,8 @@
             "hint": "detox tea",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Collagen + est un complément alimentaire innovant conçu pour soutenir la beauté de la peau, des cheveux et des ongles. Formulé à base de jus et pulpe d’aloe vera, de vitamine C, de collagène hydrolysé, d’acide hyaluronique, de myrtille et de zinc, il constitue une synergie puissante réunie dans le complexe breveté ALO-COMPLEX™. Ce complexe agit en profondeur pour purifier l’organisme, favoriser l’hydratation de la peau, renforcer la microcirculation et prévenir les signes du vieillissement cutané. Grâce à son goût agréable de myrtille et sa formule liquide prête à consommer, MYVERA CRUSH Collagen + est un rituel quotidien idéal pour retrouver éclat, tonicité et vitalité."
+            "description": "MYVERA CRUSH Collagen + est un complément alimentaire innovant conçu pour soutenir la beauté de la peau, des cheveux et des ongles. Formulé à base de jus et pulpe d’aloe vera, de vitamine C, de collagène hydrolysé, d’acide hyaluronique, de myrtille et de zinc, il constitue une synergie puissante réunie dans le complexe breveté ALO-COMPLEX™. Ce complexe agit en profondeur pour purifier l’organisme, favoriser l’hydratation de la peau, renforcer la microcirculation et prévenir les signes du vieillissement cutané. Grâce à son goût agréable de myrtille et sa formule liquide prête à consommer, MYVERA CRUSH Collagen + est un rituel quotidien idéal pour retrouver éclat, tonicité et vitalité.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 900,
@@ -376,8 +360,8 @@
             "hint": "detox tea",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Woman + est un complément alimentaire tonique-adaptogène conçu pour soutenir la santé féminine. À base de jus et de pulpe d'Aloe Vera enrichis en vitamine C, ce produit se distingue par son mélange breveté ALO-COMPLEX™, offrant une action purifiante et antioxydante pour l'organisme. Il est formulé pour favoriser l'équilibre des hormones féminines, soutenir la fonction vasculaire et stimuler la production d'oxyde nitrique, un puissant vasodilatateur. Ce complément est également enrichi en extraits de Goji, d'Arginine, de Betterave et d'Éleuthérocoque, contribuant ainsi à renforcer l'énergie, à combattre la fatigue et à maintenir une vitalité optimale. Avec son goût agréable de fruits rouges, MYVERA CRUSH Woman + est idéal pour accompagner un mode de vie sain et dynamique. Disponible en flacons unidose de 285 ml, ce complément est conçu pour une consommation quotidienne, réfrigéré, afin de garantir une efficacité maximale."
+            "description": "MYVERA CRUSH Woman + est un complément alimentaire tonique-adaptogène conçu pour soutenir la santé féminine. À base de jus et de pulpe d'Aloe Vera enrichis en vitamine C, ce produit se distingue par son mélange breveté ALO-COMPLEX™, offrant une action purifiante et antioxydante pour l'organisme. Il est formulé pour favoriser l'équilibre des hormones féminines, soutenir la fonction vasculaire et stimuler la production d'oxyde nitrique, un puissant vasodilatateur. Ce complément est également enrichi en extraits de Goji, d'Arginine, de Betterave et d'Éleuthérocoque, contribuant ainsi à renforcer l'énergie, à combattre la fatigue et à maintenir une vitalité optimale. Avec son goût agréable de fruits rouges, MYVERA CRUSH Woman + est idéal pour accompagner un mode de vie sain et dynamique. Disponible en flacons unidose de 285 ml, ce complément est conçu pour une consommation quotidienne, réfrigéré, afin de garantir une efficacité maximale.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 893,
@@ -386,8 +370,8 @@
             "hint": "detox tea",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Man + est un complément alimentaire tonique-adaptogène, formulé pour soutenir naturellement les niveaux de testostérone et favoriser le bien-être masculin. Composé de jus et de pulpe d'Aloe Vera, de vitamine C et d'extraits végétaux tels que le Goji, l'Arginine, la betterave et l'Éleuthérocoque, ce produit est conçu pour améliorer la vitalité, l'énergie et les performances physiques. Il aide également à lutter contre la fatigue et à maintenir une production active d'oxyde nitrique, un puissant vasodilatateur, pour optimiser la circulation sanguine et soutenir les fonctions cognitives. Ce complément est enrichi du breveté ALO-COMPLEX™, offrant une action purifiante et antioxydante. MYVERA CRUSH Man + est idéal pour ceux recherchant un soutien énergétique et cognitif optimal dans un format pratique en flacons unidose de 285 ml."
+            "description": "MYVERA CRUSH Man + est un complément alimentaire tonique-adaptogène, formulé pour soutenir naturellement les niveaux de testostérone et favoriser le bien-être masculin. Composé de jus et de pulpe d'Aloe Vera, de vitamine C et d'extraits végétaux tels que le Goji, l'Arginine, la betterave et l'Éleuthérocoque, ce produit est conçu pour améliorer la vitalité, l'énergie et les performances physiques. Il aide également à lutter contre la fatigue et à maintenir une production active d'oxyde nitrique, un puissant vasodilatateur, pour optimiser la circulation sanguine et soutenir les fonctions cognitives. Ce complément est enrichi du breveté ALO-COMPLEX™, offrant une action purifiante et antioxydante. MYVERA CRUSH Man + est idéal pour ceux recherchant un soutien énergétique et cognitif optimal dans un format pratique en flacons unidose de 285 ml.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 765,
@@ -396,8 +380,8 @@
             "hint": "detox tea",
             "price": 45.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "MYVERA CRUSH Collagen + est un complément alimentaire au goût délicieux de myrtille, à base de jus et de pulpe d’aloe vera et de vitamine C, réunis dans le complexe exclusif breveté ALO-COMPLEX™. Cette formule innovante est conçue pour favoriser la beauté de la peau, des cheveux et des ongles"
+            "description": "MYVERA CRUSH Collagen + est un complément alimentaire au goût délicieux de myrtille, à base de jus et de pulpe d’aloe vera et de vitamine C, réunis dans le complexe exclusif breveté ALO-COMPLEX™. Cette formule innovante est conçue pour favoriser la beauté de la peau, des cheveux et des ongles",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 567,
@@ -406,8 +390,8 @@
             "hint": "detox tea",
             "price": 44.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "SuppleFit Iso-Whey est un complément alimentaire à base de protéines natives isolées du lactosérum, conçu pour aider à renforcer et construire le tissu musculaire. Sa formule est enrichie en magnésium, pour réduire la fatigue et favoriser la synthèse des protéines, ainsi qu’en prébiotiques pour soutenir l’équilibre de la flore intestinale. Le produit est facilement soluble dans de l’eau, du lait ou des boissons végétales, et se distingue par son agréable goût de noix de coco. Il est recommandé pour les sportifs ou pour toute personne souhaitant augmenter son apport en protéines de manière pratique et savoureuse."
+            "description": "SuppleFit Iso-Whey est un complément alimentaire à base de protéines natives isolées du lactosérum, conçu pour aider à renforcer et construire le tissu musculaire. Sa formule est enrichie en magnésium, pour réduire la fatigue et favoriser la synthèse des protéines, ainsi qu’en prébiotiques pour soutenir l’équilibre de la flore intestinale. Le produit est facilement soluble dans de l’eau, du lait ou des boissons végétales, et se distingue par son agréable goût de noix de coco. Il est recommandé pour les sportifs ou pour toute personne souhaitant augmenter son apport en protéines de manière pratique et savoureuse.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 1000,
@@ -416,8 +400,8 @@
             "hint": "detox tea",
             "price": 26.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Goji est un complément alimentaire qui combine les bienfaits naturels de l'Aloe Vera et du Goji pour favoriser le bien-être général. Ce produit est formulé pour soutenir la digestion, apporter une action antioxydante et purifier l’organisme. Il est particulièrement bénéfique pour la santé du transit intestinal et pour un effet apaisant sur le système digestif"
+            "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Goji est un complément alimentaire qui combine les bienfaits naturels de l'Aloe Vera et du Goji pour favoriser le bien-être général. Ce produit est formulé pour soutenir la digestion, apporter une action antioxydante et purifier l’organisme. Il est particulièrement bénéfique pour la santé du transit intestinal et pour un effet apaisant sur le système digestif",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 349,
@@ -426,8 +410,8 @@
             "hint": "detox tea",
             "price": 24.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Le Jus et Pulpe d’Aloe Vera est un complément alimentaire pur à 99,5%, conçu pour apporter les bienfaits de l'Aloe Vera de manière naturelle. Il aide à maintenir une bonne digestion et peut être utilisé pour ses propriétés apaisantes et hydratantes. Le produit est certifié pour sa pureté et contient des conservateurs naturels pour une meilleure conservation."
+            "description": "Le Jus et Pulpe d’Aloe Vera est un complément alimentaire pur à 99,5%, conçu pour apporter les bienfaits de l'Aloe Vera de manière naturelle. Il aide à maintenir une bonne digestion et peut être utilisé pour ses propriétés apaisantes et hydratantes. Le produit est certifié pour sa pureté et contient des conservateurs naturels pour une meilleure conservation.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 456,
@@ -436,8 +420,8 @@
             "hint": "detox tea",
             "price": 25.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Myrtille est un complément alimentaire alliant les propriétés de l'Aloe Vera et de la Myrtille, offrant une expérience saine et bénéfique pour l'organisme. Il est spécialement conçu pour soutenir la digestion, favoriser l'hydratation et posséder des effets antioxydants naturels. Ce produit est idéal pour purifier le corps et améliorer le bien-être général."
+            "description": "Le Jus et Pulpe d'Aloe Vera avec du Jus de Myrtille est un complément alimentaire alliant les propriétés de l'Aloe Vera et de la Myrtille, offrant une expérience saine et bénéfique pour l'organisme. Il est spécialement conçu pour soutenir la digestion, favoriser l'hydratation et posséder des effets antioxydants naturels. Ce produit est idéal pour purifier le corps et améliorer le bien-être général.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 297,
@@ -446,8 +430,8 @@
             "hint": "detox tea",
             "price": 25.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "Le Jus et Pulpe d'Aloe Vera avec Infusion de Thé Vert est un complément alimentaire unique qui associe les bienfaits de l'Aloe Vera et du thé vert. Il soutient le métabolisme, favorise la digestion et offre des propriétés antioxydantes grâce à l'infusion de thé vert. Ce produit est une excellente solution pour purifier l'organisme et améliorer le bien-être général tout en offrant une sensation de fraîcheur."
+            "description": "Le Jus et Pulpe d'Aloe Vera avec Infusion de Thé Vert est un complément alimentaire unique qui associe les bienfaits de l'Aloe Vera et du thé vert. Il soutient le métabolisme, favorise la digestion et offre des propriétés antioxydantes grâce à l'infusion de thé vert. Ce produit est une excellente solution pour purifier l'organisme et améliorer le bien-être général tout en offrant une sensation de fraîcheur.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 239,
@@ -456,8 +440,8 @@
             "hint": "detox tea",
             "price": 24.9,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "ELIX FLUID avec extrait d'escargot est un complément alimentaire sous forme de sirop, formulé pour favoriser la fonctionnalité des muqueuses du système respiratoire. Il contient de l'extrait d'escargot (Helix aspersa) ainsi que des extraits de plantes soigneusement sélectionnées, telles que l'Althaea (Althaea officinalis), l'Eucalyptus (Eucalyptus globulus), et le Sureau (Sambucus nigra). Ce sirop, aromatisé au citron, est conçu pour apaiser et soutenir le bien-être respiratoire."
+            "description": "ELIX FLUID avec extrait d'escargot est un complément alimentaire sous forme de sirop, formulé pour favoriser la fonctionnalité des muqueuses du système respiratoire. Il contient de l'extrait d'escargot (Helix aspersa) ainsi que des extraits de plantes soigneusement sélectionnées, telles que l'Althaea (Althaea officinalis), l'Eucalyptus (Eucalyptus globulus), et le Sureau (Sambucus nigra). Ce sirop, aromatisé au citron, est conçu pour apaiser et soutenir le bien-être respiratoire.",
+            "subCategory": "complement-alimentaire"
         },
         {
             "id": 339,
@@ -466,8 +450,8 @@
             "hint": "detox tea",
             "price": 29,
             "category": "minceur",
-            "subCategory": "complement-alimentaire",
-            "description": "ELIX ACTIVE est un complément alimentaire sous forme de sirop à base d'extrait d'escargot (Helix aspersa), enrichi d'extraits naturels d'Aloe Vera, de Fenouil et de Mauve. Sa formule douce et naturelle aide à réguler le transit intestinal tout en apportant un confort digestif optimal. Agréablement aromatisé à l’orange, ce produit s’intègre facilement dans la routine quotidienne."
+            "description": "ELIX ACTIVE est un complément alimentaire sous forme de sirop à base d'extrait d'escargot (Helix aspersa), enrichi d'extraits naturels d'Aloe Vera, de Fenouil et de Mauve. Sa formule douce et naturelle aide à réguler le transit intestinal tout en apportant un confort digestif optimal. Agréablement aromatisé à l’orange, ce produit s’intègre facilement dans la routine quotidienne.",
+            "subCategory": "complement-alimentaire"
         }
     ]
 }
