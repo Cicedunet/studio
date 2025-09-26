@@ -69,7 +69,7 @@ export default function ProduitsMinceurPage() {
                   </TabsList>
                   <TabsContent value="produits-minceur">
 
-                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 mt-8">
                         {produitsMinceur.map((product) => (
                             <ProductCard key={product.id} product={product} />
                         ))}
@@ -77,7 +77,7 @@ export default function ProduitsMinceurPage() {
                   </TabsContent>
                   <TabsContent value="complements-alimentaires">
 
-                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-8">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 mt-8">
                         {complementsAlimentaires.map((product) => (
                             <ProductCard key={product.id} product={product} />
                         ))}
