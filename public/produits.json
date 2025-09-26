@@ -6,8 +6,7 @@
             "image": "/images/catalogue/creme-visage.jpg",
             "hint": "face cream",
             "price": 38,
-            "category": "catalogue",
-            "subCategory": "produit-pour-la-peau",
+            "category": "produit-pour-la-peau",
             "description": "Un soin régénérant et hydratant d'exception pour une peau visiblement plus jeune et éclatante."
         },
         {
@@ -16,8 +15,7 @@
             "image": "/images/catalogue/lait-corporel.jpg",
             "hint": "body lotion",
             "price": 22,
-            "category": "catalogue",
-            "subCategory": "produit-pour-la-peau",
+            "category": "produit-pour-la-peau",
             "description": "Hydrate et adoucit la peau en profondeur, laissant un délicat parfum de karité."
         },
         {
@@ -26,8 +24,7 @@
             "image": "/images/catalogue/gommage-visage.jpg",
             "hint": "face scrub",
             "price": 19,
-            "category": "catalogue",
-            "subCategory": "produit-pour-la-peau",
+            "category": "produit-pour-la-peau",
             "description": "Élimine les impuretés et les cellules mortes pour un teint frais et lumineux."
         },
         {
@@ -36,7 +33,7 @@
             "image": "/images/catalogue/masque-cheveux.jpg",
             "hint": "hair mask",
             "price": 24,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Réparez et nourrissez vos cheveux en profondeur pour une chevelure douce, brillante et pleine de vitalité."
         },
         {
@@ -45,7 +42,7 @@
             "image": "/images/catalogue/fond-de-teint.jpg",
             "hint": "foundation makeup",
             "price": 29,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Un teint parfait et unifié du matin au soir avec notre fond de teint couvrant et confortable."
         },
         {
@@ -54,7 +51,7 @@
             "image": "/images/catalogue/rouge-a-levres.jpg",
             "hint": "lipstick",
             "price": 18,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Des lèvres sublimées d'une couleur intense et d'un fini mat velouté pour un sourire inoubliable."
         },
         {
@@ -63,7 +60,7 @@
             "image": "/images/catalogue/huile-seche.jpg",
             "hint": "shimmer body oil",
             "price": 26,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Illuminez votre peau et vos cheveux d'un voile pailleté et parfumé pour un effet glamour assuré."
         },
         {
@@ -72,8 +69,7 @@
             "image": "/images/catalogue/detartrant.jpg",
             "hint": "cleaning product",
             "price": 12,
-            "category": "catalogue",
-            "subCategory": "produit-entretien",
+            "category": "produit-entretien",
             "description": "Prolongez la durée de vie de votre machine à café et retrouvez le goût authentique de vos expressos."
         },
         {
@@ -82,8 +78,7 @@
             "image": "/images/catalogue/nettoyant-four.jpg",
             "hint": "oven cleaner",
             "price": 15,
-            "category": "catalogue",
-            "subCategory": "produit-entretien",
+            "category": "produit-entretien",
             "description": "Éliminez les graisses les plus tenaces sans effort pour un four et des plaques de cuisson impeccables."
         },
         {
@@ -92,8 +87,7 @@
             "image": "/images/catalogue/parfum-ambiance.jpg",
             "hint": "home fragrance",
             "price": 20,
-            "category": "catalogue",
-            "subCategory": "senteur-maison",
+            "category": "senteur-maison",
             "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
         },
         {
@@ -102,8 +96,7 @@
             "image": "/images/catalogue/bougie-coton.jpg",
             "hint": "scented candle",
             "price": 22,
-            "category": "catalogue",
-            "subCategory": "senteur-maison",
+            "category": "senteur-maison",
             "description": "Une bougie à la cire végétale qui diffuse une douce odeur de linge frais."
         },
         {
@@ -112,8 +105,7 @@
             "image": "/images/catalogue/diffuseur-verveine.jpg",
             "hint": "fragrance diffuser",
             "price": 28,
-            "category": "catalogue",
-            "subCategory": "senteur-maison",
+            "category": "senteur-maison",
             "description": "Embaumez votre intérieur d'une senteur fraîche et citronnée pour une ambiance relaxante."
         },
         {
@@ -122,8 +114,7 @@
             "image": "/images/catalogue/lunettes-aviateur.jpg",
             "hint": "aviator sunglasses",
             "price": 55,
-            "category": "catalogue",
-            "subCategory": "lunettes",
+            "category": "lunettes",
             "description": "Un style classique et intemporel pour une protection solaire optimale."
         },
         {
@@ -132,8 +123,7 @@
             "image": "/images/catalogue/lunettes-retro.jpg",
             "hint": "retro eyeglasses",
             "price": 75,
-            "category": "catalogue",
-            "subCategory": "lunettes",
+            "category": "lunettes",
             "description": "Adoptez un look vintage avec ces montures élégantes et confortables."
         },
         {
@@ -142,8 +132,7 @@
             "image": "/images/catalogue/deodorant.jpg",
             "hint": "deodorant",
             "price": 15,
-            "category": "catalogue",
-            "subCategory": "deodorant",
+            "category": "deodorant",
             "description": "Restez frais et confiant toute la journée avec notre déodorant efficacité 24h, sans sels d'aluminium."
         },
         {
