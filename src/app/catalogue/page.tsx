@@ -34,21 +34,23 @@ export default function CataloguePage() {
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [activeFilter, setActiveFilter] = useState<string>('all');
-  const [subCategories, setSubCategories] = useState<string[]>(['all']);
+  const [categories, setCategories] = useState<string[]>(['all']);
 
   useEffect(() => {
     fetch('/produits.json')
       .then(response => response.json())
       .then(data => {
-        const catalogueProducts = data.products.filter((p: Product) => p.category === 'catalogue');
+        const excludedCategories = ['parfums', 'minceur'];
+        const catalogueProducts = data.products.filter((p: Product) => !excludedCategories.includes(p.category));
+
         setAllProducts(catalogueProducts);
         setFilteredProducts(catalogueProducts);
 
-        const dynamicSubCategories = [...new Set(catalogueProducts
-          .map(p => p.subCategory)
-          .filter((sub): sub is string => !!sub)
+        const dynamicCategories = [...new Set(catalogueProducts
+          .map(p => p.category)
+          .filter((cat): cat is string => !!cat)
         )];
-        setSubCategories(['all', ...dynamicSubCategories.sort()]);
+        setCategories(['all', ...dynamicCategories.sort()]);
       });
   }, []);
 
@@ -57,7 +59,7 @@ export default function CataloguePage() {
     if (filter === 'all') {
       setFilteredProducts(allProducts);
     } else {
-      setFilteredProducts(allProducts.filter(p => p.subCategory === filter));
+      setFilteredProducts(allProducts.filter(p => p.category === filter));
     }
   };
 
@@ -92,7 +94,7 @@ export default function CataloguePage() {
                             <SelectValue placeholder="Filtrer par catégorie" />
                         </SelectTrigger>
                         <SelectContent>
-                            {subCategories.map(filter => (
+                            {categories.map(filter => (
                                 <SelectItem key={filter} value={filter} className="capitalize text-lg">
                                     {filter === 'all' ? 'Toutes les catégories' : filter.replace('-', ' ')}
                                 </SelectItem>
