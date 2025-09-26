@@ -34,6 +34,7 @@ export default function CataloguePage() {
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [activeFilter, setActiveFilter] = useState<string>('all');
+  const [subCategories, setSubCategories] = useState<string[]>(['all']);
 
   useEffect(() => {
     fetch('/produits.json')
@@ -42,6 +43,12 @@ export default function CataloguePage() {
         const catalogueProducts = data.products.filter((p: Product) => p.category === 'catalogue');
         setAllProducts(catalogueProducts);
         setFilteredProducts(catalogueProducts);
+
+        const dynamicSubCategories = [...new Set(catalogueProducts
+          .map(p => p.subCategory)
+          .filter((sub): sub is string => !!sub)
+        )];
+        setSubCategories(['all', ...dynamicSubCategories.sort()]);
       });
   }, []);
 
@@ -53,8 +60,6 @@ export default function CataloguePage() {
       setFilteredProducts(allProducts.filter(p => p.subCategory === filter));
     }
   };
-
-  const subCategories = ['all', 'produit-pour-la-peau', 'produit-entretien', 'senteur-maison', 'deodorant', 'lunettes'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
@@ -82,7 +87,7 @@ export default function CataloguePage() {
                 </div>
 
                 <div className="my-8 flex justify-center">
-                    <Select onValueChange={(value) => handleFilter(value)} defaultValue={activeFilter}>
+                    <Select onValueChange={(value) => handleFilter(value)} value={activeFilter}>
                         <SelectTrigger className="w-[280px] text-lg py-6">
                             <SelectValue placeholder="Filtrer par catégorie" />
                         </SelectTrigger>
