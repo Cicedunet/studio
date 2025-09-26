@@ -43,7 +43,48 @@
             "hint": "home fragrance",
             "price": 20,
             "category": "catalogue",
+            "subCategory": "senteur-maison",
             "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
+        },
+        {
+            "id": 52,
+            "name": "Bougie Parfumée Fleur de Coton",
+            "image": "/images/catalogue/bougie-coton.jpg",
+            "hint": "scented candle",
+            "price": 22,
+            "category": "catalogue",
+            "subCategory": "senteur-maison",
+            "description": "Une bougie à la cire végétale qui diffuse une douce odeur de linge frais."
+        },
+        {
+            "id": 53,
+            "name": "Diffuseur de Parfum Verveine",
+            "image": "/images/catalogue/diffuseur-verveine.jpg",
+            "hint": "fragrance diffuser",
+            "price": 28,
+            "category": "catalogue",
+            "subCategory": "senteur-maison",
+            "description": "Embaumez votre intérieur d'une senteur fraîche et citronnée pour une ambiance relaxante."
+        },
+        {
+            "id": 50,
+            "name": "Lunettes de Soleil Aviateur",
+            "image": "/images/catalogue/lunettes-aviateur.jpg",
+            "hint": "aviator sunglasses",
+            "price": 55,
+            "category": "catalogue",
+            "subCategory": "lunettes",
+            "description": "Un style classique et intemporel pour une protection solaire optimale."
+        },
+        {
+            "id": 51,
+            "name": "Lunettes de Vue Rétro",
+            "image": "/images/catalogue/lunettes-retro.jpg",
+            "hint": "retro eyeglasses",
+            "price": 75,
+            "category": "catalogue",
+            "subCategory": "lunettes",
+            "description": "Adoptez un look vintage avec ces montures élégantes et confortables."
         },
         {
             "id": 9,

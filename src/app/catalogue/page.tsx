@@ -47,7 +47,7 @@ export default function CataloguePage() {
     }
   };
 
-  const subCategories = [];
+  const subCategories = ['all', 'lunettes', 'senteur-maison'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
