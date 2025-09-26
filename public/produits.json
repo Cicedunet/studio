@@ -1,12 +1,39 @@
 {
     "products": [
         {
+            "id": 1,
+            "name": "Crème Visage à la Bave d'Escargot",
+            "image": "/images/catalogue/creme-visage.jpg",
+            "hint": "face cream",
+            "price": 38,
+            "category": "produit-pour-la-peau",
+            "description": "Un soin régénérant et hydratant d'exception pour une peau visiblement plus jeune et éclatante."
+        },
+        {
+            "id": 60,
+            "name": "Lait Corporel Nourrissant",
+            "image": "/images/catalogue/lait-corporel.jpg",
+            "hint": "body lotion",
+            "price": 22,
+            "category": "produit-pour-la-peau",
+            "description": "Hydrate et adoucit la peau en profondeur, laissant un délicat parfum de karité."
+        },
+        {
+            "id": 61,
+            "name": "Gommage Exfoliant Doux",
+            "image": "/images/catalogue/gommage-visage.jpg",
+            "hint": "face scrub",
+            "price": 19,
+            "category": "produit-pour-la-peau",
+            "description": "Élimine les impuretés et les cellules mortes pour un teint frais et lumineux."
+        },
+        {
             "id": 2,
             "name": "Masque Cheveux à la Kératine",
             "image": "/images/catalogue/masque-cheveux.jpg",
             "hint": "hair mask",
             "price": 24,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Réparez et nourrissez vos cheveux en profondeur pour une chevelure douce, brillante et pleine de vitalité."
         },
         {
@@ -15,7 +42,7 @@
             "image": "/images/catalogue/fond-de-teint.jpg",
             "hint": "foundation makeup",
             "price": 29,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Un teint parfait et unifié du matin au soir avec notre fond de teint couvrant et confortable."
         },
         {
@@ -24,7 +51,7 @@
             "image": "/images/catalogue/rouge-a-levres.jpg",
             "hint": "lipstick",
             "price": 18,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Des lèvres sublimées d'une couleur intense et d'un fini mat velouté pour un sourire inoubliable."
         },
         {
@@ -33,7 +60,7 @@
             "image": "/images/catalogue/huile-seche.jpg",
             "hint": "shimmer body oil",
             "price": 26,
-            "category": "catalogue",
+            "category": "autres",
             "description": "Illuminez votre peau et vos cheveux d'un voile pailleté et parfumé pour un effet glamour assuré."
         },
         {
@@ -42,7 +69,7 @@
             "image": "/images/catalogue/detartrant.jpg",
             "hint": "cleaning product",
             "price": 12,
-            "category": "catalogue",
+            "category": "produit-entretien",
             "description": "Prolongez la durée de vie de votre machine à café et retrouvez le goût authentique de vos expressos."
         },
         {
@@ -51,7 +78,7 @@
             "image": "/images/catalogue/nettoyant-four.jpg",
             "hint": "oven cleaner",
             "price": 15,
-            "category": "catalogue",
+            "category": "produit-entretien",
             "description": "Éliminez les graisses les plus tenaces sans effort pour un four et des plaques de cuisson impeccables."
         },
         {
@@ -60,8 +87,26 @@
             "image": "/images/catalogue/parfum-ambiance.jpg",
             "hint": "home fragrance",
             "price": 20,
-            "category": "catalogue",
+            "category": "senteur-maison",
             "description": "Créez une atmosphère chaleureuse et envoûtante dans votre intérieur avec ce parfum d'ambiance aux notes boisées."
+        },
+        {
+            "id": 50,
+            "name": "Lunettes de Soleil Aviateur",
+            "image": "/images/catalogue/lunettes-aviateur.jpg",
+            "hint": "aviator sunglasses",
+            "price": 55,
+            "category": "lunettes",
+            "description": "Un style classique et intemporel pour une protection solaire optimale."
+        },
+        {
+            "id": 51,
+            "name": "Lunettes de Vue Rétro",
+            "image": "/images/catalogue/lunettes-retro.jpg",
+            "hint": "retro eyeglasses",
+            "price": 75,
+            "category": "lunettes",
+            "description": "Adoptez un look vintage avec ces montures élégantes et confortables."
         },
         {
             "id": 9,
@@ -220,8 +265,8 @@
             "hint": "detox tea",
             "price": 54.9,
             "category": "minceur",
-            "description": "MYVERA CRUSH Keto + est un complément alimentaire cétogène au goût cola, à base de pulpe d’aloe vera et de vitamine C, enrichi en caféine, en édulcorants naturels et en extraits végétaux puissants. Grâce au complexe breveté ALO-COMPLEX™, il exerce une action purifiante et antioxydante sur l’organisme. Sa formule unique est conçue pour soutenir le métabolisme, réduire la fatigue, tonifier le corps et aider à stabiliser le poids. Riche en vitamines B6, B12 et C, en guarana, en L-carnitine, en taurine et en Uncaria Tomentosa, il constitue un allié précieux pour les personnes actives ou suivant un régime cétogène.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "MYVERA CRUSH Keto + est un complément alimentaire cétogène au goût cola, à base de pulpe d’aloe vera et de vitamine C, enrichi en caféine, en édulcorants naturels et en extraits végétaux puissants. Grâce au complexe breveté ALO-COMPLEX™, il exerce une action purifiante et antioxydante sur l’organisme. Sa formule unique est conçue pour soutenir le métabolisme, réduire la fatigue, tonifier le corps et aider à stabiliser le poids. Riche en vitamines B6, B12 et C, en guarana, en L-carnitine, en taurine et en Uncaria Tomentosa, il constitue un allié précieux pour les personnes actives ou suivant un régime cétogène."
         },
         {
             "id": 30,
@@ -230,8 +275,8 @@
             "hint": "fat burner supplement",
             "price": 44.9,
             "category": "minceur",
-            "description": "MYVERA CRUSH Mind + est un complément alimentaire nootropique conçu pour soutenir les fonctions cognitives, la mémoire et la concentration. Sa formule associe des ingrédients reconnus pour leurs effets sur la vigilance et les performances mentales, comme la citicoline, la guarana, la centella et la carnitine. Enrichi en aloe vera et en vitamine C, réunis dans le complexe exclusif ALO-COMPLEX™, il exerce également une action purifiante et antioxydante sur l’organisme. Avec son goût agréable de pomme, ce complément est idéal pour renforcer naturellement les capacités mentales au quotidien.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "MYVERA CRUSH Mind + est un complément alimentaire nootropique conçu pour soutenir les fonctions cognitives, la mémoire et la concentration. Sa formule associe des ingrédients reconnus pour leurs effets sur la vigilance et les performances mentales, comme la citicoline, la guarana, la centella et la carnitine. Enrichi en aloe vera et en vitamine C, réunis dans le complexe exclusif ALO-COMPLEX™, il exerce également une action purifiante et antioxydante sur l’organisme. Avec son goût agréable de pomme, ce complément est idéal pour renforcer naturellement les capacités mentales au quotidien."
         },
         {
             "id": 31,
@@ -240,8 +285,8 @@
             "hint": "protein shake",
             "price": 81.9,
             "category": "minceur",
-            "description": "Skinail Plus est un complément alimentaire prêt à l'emploi, aromatisé à la vanille, sous forme de gel. Il est conçu pour le bien-être et la beauté de la peau, des cheveux et des ongles. Sa formule à base de collagène, de vitamines B, de vitamine C et d'acide hyaluronique aide à maintenir la peau hydratée, souple et tonique, tout en prévenant la formation de taches cutanées et de rides.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "Skinail Plus est un complément alimentaire prêt à l'emploi, aromatisé à la vanille, sous forme de gel. Il est conçu pour le bien-être et la beauté de la peau, des cheveux et des ongles. Sa formule à base de collagène, de vitamines B, de vitamine C et d'acide hyaluronique aide à maintenir la peau hydratée, souple et tonique, tout en prévenant la formation de taches cutanées et de rides."
         },
         {
             "id": 32,
@@ -250,8 +295,8 @@
             "hint": "anti-cellulite cream",
             "price": 74.9,
             "category": "minceur",
-            "description": "Virilgel est un complément alimentaire prêt à l'emploi, aromatisé à la banane, sous forme de gel, formulé pour exercer une forte activité tonico-adaptogène. Il contient le mélange innovant breveté VIRILPIU™, composé d'extraits végétaux de Cacao, Schizandra, Maté et Maca Andina, qui soutiennent la lutte contre la fatigue physique et mentale. De plus, l'Arginine et la Citrulline agissent en synergie pour améliorer le bien-être masculin. Les ",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "Virilgel est un complément alimentaire prêt à l'emploi, aromatisé à la banane, sous forme de gel, formulé pour exercer une forte activité tonico-adaptogène. Il contient le mélange innovant breveté VIRILPIU™, composé d'extraits végétaux de Cacao, Schizandra, Maté et Maca Andina, qui soutiennent la lutte contre la fatigue physique et mentale. De plus, l'Arginine et la Citrulline agissent en synergie pour améliorer le bien-être masculin. Les "
         },
         {
             "id": 33,
@@ -260,8 +305,8 @@
             "hint": "natural appetite suppressant",
             "price": 57.9,
             "category": "minceur",
-            "description": "MYBRAIN est un complément alimentaire prêt à l'emploi, sous forme de gel aromatisé à la réglisse. Il est formulé avec le complexe breveté MEMORY FOCUS™, un mélange d'extraits végétaux aux bienfaits ciblés sur les fonctions cognitives. Les extraits d'Éleuthérocoque, de Ginkgo Biloba et de Bacopa favorisent la mémoire et la concentration. L'extrait de Griffonia apporte un soutien au bien-être mental, tandis que la phosphosérine et les vitamines B5 et B12 contribuent aux performances mentales et à la réduction de la fatigue..",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "MYBRAIN est un complément alimentaire prêt à l'emploi, sous forme de gel aromatisé à la réglisse. Il est formulé avec le complexe breveté MEMORY FOCUS™, un mélange d'extraits végétaux aux bienfaits ciblés sur les fonctions cognitives. Les extraits d'Éleuthérocoque, de Ginkgo Biloba et de Bacopa favorisent la mémoire et la concentration. L'extrait de Griffonia apporte un soutien au bien-être mental, tandis que la phosphosérine et les vitamines B5 et B12 contribuent aux performances mentales et à la réduction de la fatigue.."
         },
         {
             "id": 34,
@@ -270,8 +315,8 @@
             "hint": "detox drink",
             "price": 44.9,
             "category": "minceur",
-            "description": "DREN FAST est un complément alimentaire drainant et antioxydant formulé avec Equitullas™, un complexe exclusif d’extraits de plantes, enrichi en caféine (20 mg par portion), conçu pour améliorer la microcirculation, réduire la rétention d’eau, lutter contre les imperfections de la cellulite, et renforcer la sensation de légèreté.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "DREN FAST est un complément alimentaire drainant et antioxydant formulé avec Equitullas™, un complexe exclusif d’extraits de plantes, enrichi en caféine (20 mg par portion), conçu pour améliorer la microcirculation, réduire la rétention d’eau, lutter contre les imperfections de la cellulite, et renforcer la sensation de légèreté."
         },
         {
             "name": "SPEEDSLEEP - Complément alimentaire en gel à base de Mélatonine",
@@ -280,8 +325,8 @@
             "price": 27.9,
             "category": "minceur",
             "id": 3597,
-            "description": "SPEEDSLEEP est un complément alimentaire innovant sous forme de gel, conçu pour favoriser un sommeil réparateur et de qualité. Sa formule exclusive brevetée SOMNIWELL™ associe la mélatonine, reconnue pour réduire le temps d’endormissement, à des extraits de pavot de Californie, pavot rouge, passiflore, tilleul et griffonia, qui agissent ensemble pour apaiser le système nerveux, limiter les réveils nocturnes et soutenir la régularité du cycle veille-sommeil. Grâce à sa texture en gel et son goût agréable de figue, SPEEDSLEEP offre une absorption rapide et une efficacité optimale dès la prise.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "SPEEDSLEEP est un complément alimentaire innovant sous forme de gel, conçu pour favoriser un sommeil réparateur et de qualité. Sa formule exclusive brevetée SOMNIWELL™ associe la mélatonine, reconnue pour réduire le temps d’endormissement, à des extraits de pavot de Californie, pavot rouge, passiflore, tilleul et griffonia, qui agissent ensemble pour apaiser le système nerveux, limiter les réveils nocturnes et soutenir la régularité du cycle veille-sommeil. Grâce à sa texture en gel et son goût agréable de figue, SPEEDSLEEP offre une absorption rapide et une efficacité optimale dès la prise."
         },
         {
             "name": "DREN FAST - Pour l'équilibre du poids corporel",
@@ -290,8 +335,8 @@
             "price": 44.9,
             "category": "minceur",
             "id": 3676,
-            "description": "DREN FAST est un complément alimentaire à action drainante, conçu pour accompagner efficacement les régimes destinés à rééquilibrer le poids corporel. Grâce à son complexe exclusif Equitullas™, un mélange synergique d'extraits de plantes, ce produit stimule le métabolisme, favorise la digestion et aide à éliminer les excès d'eau et les toxines. Les extraits de bouleau, orthosiphon, thé vert, ananas, artichaut ou encore raisin agissent ensemble pour purifier l'organisme, améliorer la circulation, réduire les ballonnements et atténuer la sensation de jambes lourdes. Avec DREN FAST, adoptez un rituel naturel pour vous sentir plus léger(e) et plein(e) d'énergie au quotidien..",
-            "subCategory": "produit-minceur"
+            "subCategory": "produit-minceur",
+            "description": "DREN FAST est un complément alimentaire à action drainante, conçu pour accompagner efficacement les régimes destinés à rééquilibrer le poids corporel. Grâce à son complexe exclusif Equitullas™, un mélange synergique d'extraits de plantes, ce produit stimule le métabolisme, favorise la digestion et aide à éliminer les excès d'eau et les toxines. Les extraits de bouleau, orthosiphon, thé vert, ananas, artichaut ou encore raisin agissent ensemble pour purifier l'organisme, améliorer la circulation, réduire les ballonnements et atténuer la sensation de jambes lourdes. Avec DREN FAST, adoptez un rituel naturel pour vous sentir plus léger(e) et plein(e) d'énergie au quotidien.."
         },
         {
             "name": "MULTIGELVIT - Complément alimentaire multivitaminé en gel",
@@ -300,8 +345,8 @@
             "price": 24.9,
             "category": "minceur",
             "id": 3700,
-            "description": "MULTIGELVIT est un complément alimentaire multivitaminé prêt à l’emploi, sous forme de gel aromatisé à la mandarine, conçu pour soutenir le bien-être général et les performances mentales. Grâce à sa formule brevetée IPERVITAMY™, il fournit un apport équilibré en vitamines B, C, H (Biotine), acide folique, et L-carnitine, contribuant à réduire la fatigue, renforcer le système immunitaire et soutenir le métabolisme énergétique.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "MULTIGELVIT est un complément alimentaire multivitaminé prêt à l’emploi, sous forme de gel aromatisé à la mandarine, conçu pour soutenir le bien-être général et les performances mentales. Grâce à sa formule brevetée IPERVITAMY™, il fournit un apport équilibré en vitamines B, C, H (Biotine), acide folique, et L-carnitine, contribuant à réduire la fatigue, renforcer le système immunitaire et soutenir le métabolisme énergétique."
         },
         {
             "name": "DREN FAST Complément alimentaire pour le drainage des fluides corporels",
@@ -310,8 +355,8 @@
             "price": 39,
             "category": "minceur",
             "id": 8638,
-            "description": "Dren Fast est un complément alimentaire spécialement conçu pour favoriser le drainage des fluides corporels. Enrichi avec Equitullas™, un mélange innovant d'extraits de plantes, il aide à détoxifier le corps, rétablir un métabolisme cellulaire optimal, et améliorer la circulation des fluides corporels. Ce produit contribue à une peau éclatante et à une élimination efficace des toxines et des déchets.",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "Dren Fast est un complément alimentaire spécialement conçu pour favoriser le drainage des fluides corporels. Enrichi avec Equitullas™, un mélange innovant d'extraits de plantes, il aide à détoxifier le corps, rétablir un métabolisme cellulaire optimal, et améliorer la circulation des fluides corporels. Ce produit contribue à une peau éclatante et à une élimination efficace des toxines et des déchets."
         },
         {
             "name": "Collagène - Complément alimentaire Pour la peau, les cheveux, et les ongles",
@@ -320,8 +365,8 @@
             "price": 139,
             "category": "minceur",
             "id": 1139,
-            "description": "SKINAIL COLLAGEN est un complément alimentaire formulé pour sublimer la peau, les cheveux et les ongles grâce au complexe breveté CBH-TOTAL™. Il associe collagène, vitamines B, zinc et extraits de plantes reconnues pour leurs bienfaits",
-            "subCategory": "complement-alimentaire"
+            "subCategory": "complement-alimentaire",
+            "description": "SKINAIL COLLAGEN est un complément alimentaire formulé pour sublimer la peau, les cheveux et les ongles grâce au complexe breveté CBH-TOTAL™. Il associe collagène, vitamines B, zinc et extraits de plantes reconnues pour leurs bienfaits"
         },
         {
             "id": 999,

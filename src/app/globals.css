@@ -14,19 +14,19 @@
     --card-foreground: 330 40% 10%;
     --popover: 40 50% 98%;
     --popover-foreground: 330 40% 10%;
-    --primary: 45 90% 70%; /* Soft Gold */
-    --primary-foreground: 330 40% 10%; /* Dark Plum for contrast */
+    --primary: 330 80% 65%; /* Soft Pink */
+    --primary-foreground: 0 0% 100%;
     --secondary: 340 60% 95%; /* Lighter Pink/Cream */
     --secondary-foreground: 330 40% 20%;
     --muted: 340 30% 93%;
     --muted-foreground: 330 20% 45%;
-    --accent: 330 80% 65%; /* Soft Pink */
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 90% 70%; /* Soft Gold */
+    --accent-foreground: 330 40% 15%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 340 20% 85%;
     --input: 340 20% 85%;
-    --ring: 45 90% 70%;
+    --ring: 330 80% 65%;
     --radius: 0.5rem;
   }
 
@@ -37,19 +37,19 @@
     --card-foreground: 340 10% 98%;
     --popover: 330 15% 10%;
     --popover-foreground: 340 10% 98%;
-    --primary: 45 80% 65%; /* Gold */
-    --primary-foreground: 330 40% 10%; /* Dark Plum for contrast */
+    --primary: 330 70% 60%; /* Brighter Pink */
+    --primary-foreground: 0 0% 100%;
     --secondary: 330 15% 18%;
     --secondary-foreground: 340 10% 98%;
     --muted: 330 10% 25%;
     --muted-foreground: 340 10% 65%;
-    --accent: 330 70% 60%; /* Brighter Pink */
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 80% 65%; /* Gold */
+    --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 330 10% 25%;
     --input: 330 10% 25%;
-    --ring: 45 80% 65%;
+    --ring: 330 70% 60%;
   }
 }
 

@@ -45,10 +45,9 @@ function CatalogueContent() {
     fetch('/produits.json')
       .then(response => response.json())
       .then(data => {
-        // Exclude 'parfums' and 'minceur' categories as they have dedicated pages
         const excludedFromCatalogue = ['parfums', 'minceur'];
         const catalogueProducts = data.products.filter((p: Product) =>
-          p.category && !excludedFromCatalogue.includes(p.category)
+          p.category && !excludedFromCatalogue.includes(p.category) && p.category !== 'catalogue'
         );
 
         setAllProducts(catalogueProducts);
