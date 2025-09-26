@@ -47,7 +47,7 @@ export default function CataloguePage() {
     }
   };
 
-  const subCategories = ['all', 'lunettes', 'senteur-maison'];
+  const subCategories = ['all', 'produit-pour-la-peau', 'produit-entretien', 'senteur-maison', 'deodorant', 'lunettes'];
 
   return (
     <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
