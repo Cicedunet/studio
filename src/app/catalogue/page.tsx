@@ -77,7 +77,7 @@ export default function CataloguePage() {
                         Notre Catalogue
                     </h1>
                     <p className="mt-4 text-lg text-muted-foreground">
-                        Découvrez une sélection de nos meilleurs produits cosmétiques, maquillage et pour la maison.
+
                     </p>
                 </div>
 
