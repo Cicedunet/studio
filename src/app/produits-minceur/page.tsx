@@ -9,6 +9,8 @@ import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { ProductCard } from '@/components/ProductCard';
 import { Cart } from '@/components/Cart';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 interface Product {
   id: number;
@@ -20,7 +22,10 @@ interface Product {
   subCategory?: string;
 }
 
-export default function ProduitsMinceurPage() {
+function MinceurContent() {
+  const searchParams = useSearchParams();
+  const defaultTab = searchParams.get('tab') || 'produits-minceur';
+
   const [produitsMinceur, setProduitsMinceur] = useState<Product[]>([]);
   const [complementsAlimentaires, setComplementsAlimentaires] = useState<Product[]>([]);
 
@@ -35,22 +40,7 @@ export default function ProduitsMinceurPage() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
-        <header className="py-6 bg-secondary/50">
-             <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
-                <Button asChild variant="outline">
-                    <Link href="/">
-                        <ArrowLeft className="mr-2 h-4 w-4" />
-                        Retour à l'accueil
-                    </Link>
-                </Button>
-                <div className="flex items-center gap-4">
-                  <CurrencySwitcher />
-                  <Cart />
-                </div>
-            </div>
-        </header>
-        <main className="flex-grow py-12 md:py-20">
+    <main className="flex-grow py-12 md:py-20">
             <div className="container mx-auto px-4 md:px-6">
                 <div className="mx-auto max-w-3xl text-center">
                     <Weight className="mx-auto h-12 w-12 text-primary animate-bounce" />
@@ -62,7 +52,7 @@ export default function ProduitsMinceurPage() {
                     </p>
                 </div>
 
-                <Tabs defaultValue="produits-minceur" className="mt-12">
+                <Tabs defaultValue={defaultTab} className="mt-12">
                   <TabsList className="grid w-full grid-cols-2">
                     <TabsTrigger value="produits-minceur">Produits Minceur</TabsTrigger>
                     <TabsTrigger value="complements-alimentaires">Compléments Alimentaires</TabsTrigger>
@@ -96,6 +86,29 @@ export default function ProduitsMinceurPage() {
                 </div>
             </div>
         </main>
+  );
+}
+
+export default function ProduitsMinceurPage() {
+  return (
+    <div className="flex flex-col min-h-dvh bg-background text-foreground font-body">
+        <header className="py-6 bg-secondary/50">
+             <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
+                <Button asChild variant="outline">
+                    <Link href="/">
+                        <ArrowLeft className="mr-2 h-4 w-4" />
+                        Retour à l'accueil
+                    </Link>
+                </Button>
+                <div className="flex items-center gap-4">
+                  <CurrencySwitcher />
+                  <Cart />
+                </div>
+            </div>
+        </header>
+        <Suspense fallback={<div>Chargement...</div>}>
+          <MinceurContent />
+        </Suspense>
       <Footer />
     </div>
   );

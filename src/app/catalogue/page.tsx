@@ -54,16 +54,16 @@ function CatalogueContent() {
 
         setAllProducts(catalogueProducts);
 
-        const dynamicCategories = [...new Set(catalogueProducts
-          .map(p => p.category)
-          .filter((cat): cat is string => !!cat)
-        )];
+        const dynamicCategories = Array.from(new Set(catalogueProducts
+          .map((p: Product) => p.category)
+          .filter((cat: string | undefined): cat is string => !!cat)
+        )) as string[];
         setCategories(['all', ...dynamicCategories.sort()]);
 
         const categoryFromUrl = searchParams.get('category');
         if (categoryFromUrl && dynamicCategories.includes(categoryFromUrl)) {
           setActiveFilter(categoryFromUrl);
-          setFilteredProducts(catalogueProducts.filter(p => p.category === categoryFromUrl));
+          setFilteredProducts(catalogueProducts.filter((p: Product) => p.category === categoryFromUrl));
         } else {
           setActiveFilter('all');
           setFilteredProducts(catalogueProducts);
