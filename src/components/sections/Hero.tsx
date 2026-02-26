@@ -8,14 +8,21 @@ import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, B
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-const navLinks = [
+interface NavLink {
+  href?: string;
+  label: string;
+  icon: any;
+  subLinks?: { href: string; label: string }[];
+}
+
+const navLinks: NavLink[] = [
   { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
   { href: "#business", label: "Business", icon: Briefcase },
   { href: "#offres", label: "Offres", icon: Gift },
   { href: "#contact", label: "Contact", icon: Phone },
 ];
 
-const productLinks = [
+const productLinks: NavLink[] = [
   { href: "/parfums", label: "Parfums", icon: List },
   { href: "/produits-minceur?tab=produits-minceur", label: "Minceur", icon: Weight },
   { href: "/produits-minceur?tab=complements-alimentaires", label: "Compléments", icon: HeartPulse },
@@ -97,9 +104,9 @@ const Hero = () => {
                             </AccordionItem>
                           </Accordion>
                         ) : (
-                          <SheetClose asChild key={link.href}>
+                          <SheetClose asChild key={link.label}>
                             <Link
-                              href={link.href}
+                              href={link.href || "#"}
                               className="transition-colors hover:text-primary flex items-center gap-2"
                             >
                               <link.icon className="h-5 w-5" />
@@ -171,9 +178,9 @@ const Hero = () => {
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
-              <Button asChild key={link.href} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
+              <Button asChild key={link.label} variant="outline" size="lg" className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/10 hover:border-primary">
                 <Link
-                  href={link.href}
+                  href={link.href || "#"}
                   className="flex items-center gap-2"
                 >
                   <link.icon className="h-5 w-5 text-primary" />
