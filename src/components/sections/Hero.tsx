@@ -24,8 +24,8 @@ const navLinks: NavLink[] = [
 
 const productLinks: NavLink[] = [
   { href: "/parfums", label: "Parfums", icon: List },
-  { href: "/produits-minceur", label: "Minceur", icon: Weight },
-  { href: "/catalogue?category=complement-alimentaire", label: "Complément Alimentaire", icon: HeartPulse },
+  { href: "/produits-minceur?tab=produits-minceur", label: "Minceur", icon: Weight },
+  { href: "/produits-minceur?tab=complements-alimentaires", label: "Compléments", icon: HeartPulse },
   {
     label: "Catalogue",
     icon: BookOpen,
@@ -36,7 +36,7 @@ const productLinks: NavLink[] = [
       { href: "/catalogue?category=autre", label: "Autre" },
     ],
   },
-  { href: "/catalogue?category=produit-entretien", label: "Produit Entretien", icon: Droplets },
+  { href: "/catalogue?category=produit-entretien", label: "Entretien Maison", icon: Droplets },
 ];
 
 const socialLinks = [
@@ -77,7 +77,7 @@ const Hero = () => {
                       <span>Élégance & Bien-Être</span>
                     </Link>
                     <nav className="flex flex-col gap-4 text-lg font-medium">
-                      {[...productLinks, ...navLinks].map((link) => (
+                      {[...productLinks, ...navLinks].map((link: any) => (
                         link.subLinks ? (
                           <Accordion type="single" collapsible className="w-full" key={link.label}>
                             <AccordionItem value="item-1" className="border-b-0">
@@ -89,7 +89,7 @@ const Hero = () => {
                               </AccordionTrigger>
                               <AccordionContent>
                                 <div className="flex flex-col gap-4 pl-8 pt-2">
-                                  {link.subLinks.map((subLink) => (
+                                  {link.subLinks.map((subLink: any) => (
                                     <SheetClose asChild key={subLink.href}>
                                       <Link
                                         href={subLink.href}
@@ -160,7 +160,7 @@ const Hero = () => {
         </div>
 
         <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-400">
-          {[...productLinks, ...navLinks].map((link) => (
+          {[...productLinks, ...navLinks].map((link: any) => (
             link.subLinks ? (
               <DropdownMenu key={link.label}>
                 <DropdownMenuTrigger asChild>
@@ -170,7 +170,7 @@ const Hero = () => {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
-                  {link.subLinks.map((subLink) => (
+                  {link.subLinks.map((subLink: any) => (
                     <DropdownMenuItem key={subLink.href} asChild>
                       <Link href={subLink.href}>{subLink.label}</Link>
                     </DropdownMenuItem>
