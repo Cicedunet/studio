@@ -249,7 +249,7 @@ export default function ScentProfiler() {
             </div>
              <div className="mt-8 text-center">
                 <Button asChild size="lg">
-                    <a href="https://www.chogangroupspa.com/referral/LIZA948BE/FR" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.chogangroupspa.com/referral/JOSCAAD53/FR" target="_blank" rel="noopener noreferrer">
                         Explorer la boutique
                     </a>
                 </Button>

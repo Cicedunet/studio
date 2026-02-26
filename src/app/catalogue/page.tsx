@@ -6,9 +6,11 @@ import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/componen
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { BookOpen, ArrowLeft, MessageCircle } from "lucide-react";
+import { BookOpen, ArrowLeft, MessageCircle, ShoppingBag } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
+import { ProductCard } from '@/components/ProductCard';
+import { Cart } from '@/components/Cart';
 import { useCurrency } from "@/context/CurrencyContext";
 import { convertPrice } from "@/lib/currency";
 import {
@@ -100,40 +102,9 @@ function CatalogueContent() {
       </div>
 
       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
-        {filteredProducts.map((product, index) => {
-            const price = convertPrice(product.price, currency);
-            const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
-            const whatsappUrl = `https://wa.me/+32466423584?text=${whatsappMessage}`;
-
-            return (
-            <Card key={index} className="flex flex-col overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                <CardHeader className="p-0">
-                    <div className="aspect-square relative w-full overflow-hidden">
-                    <Image
-                        src={product.image}
-                        alt={product.name}
-                        width={400}
-                        height={400}
-                        data-ai-hint={product.hint}
-                        className="object-cover"
-                    />
-                    </div>
-                </CardHeader>
-                <CardContent className="p-4 flex-grow">
-                    <CardTitle className="text-lg text-center h-12 flex items-center justify-center">{product.name}</CardTitle>
-                    <p className="text-sm text-muted-foreground text-center mt-2 h-20 overflow-hidden">{product.description}</p>
-                    <p className="text-center text-primary font-bold text-lg mt-2">{price} {currency.symbol}</p>
-                </CardContent>
-                <CardFooter className="p-4 pt-0">
-                    <Button asChild className="w-full">
-                        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                            <MessageCircle className="mr-2 h-4 w-4" />
-                            Commander
-                        </a>
-                    </Button>
-                </CardFooter>
-            </Card>
-        )})}
+        {filteredProducts.map((product) => (
+            <ProductCard key={product.id} product={product} />
+        ))}
       </div>
     </>
   );
@@ -150,7 +121,10 @@ export default function CataloguePage() {
                             Retour à l'accueil
                         </Link>
                     </Button>
-                    <CurrencySwitcher />
+                    <div className="flex items-center gap-4">
+                      <CurrencySwitcher />
+                      <Cart />
+                    </div>
                 </div>
             </header>
             <main className="flex-grow py-12 md:py-20">
@@ -167,11 +141,20 @@ export default function CataloguePage() {
                     <div className="mt-16 text-center">
                         <h3 className="font-headline text-2xl font-bold">Un produit vous intéresse ?</h3>
                         <p className="mt-2 text-lg text-muted-foreground">Contactez-moi pour passer commande ou pour obtenir plus d'informations.</p>
-                        <Button asChild size="lg" className="mt-6 text-lg">
-                            <a href="https://wa.me/+33652915596" target="_blank" rel="noopener noreferrer">
-                                Commander sur WhatsApp
-                            </a>
-                        </Button>
+                        <div className="flex flex-col md:flex-row justify-center gap-4 mt-8">
+                            <Button asChild size="lg" className="text-lg gap-2 shadow-lg hover:shadow-primary/20">
+                                <a href="https://wa.me/+32466423584" target="_blank" rel="noopener noreferrer">
+                                    <MessageCircle className="h-5 w-5" />
+                                    Discuter sur WhatsApp
+                                </a>
+                            </Button>
+                            <Button asChild variant="outline" size="lg" className="text-lg gap-2 shadow-md">
+                                <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer">
+                                    <ShoppingBag className="h-5 w-5" />
+                                    Boutique Chogan
+                                </a>
+                            </Button>
+                        </div>
                     </div>
                 </div>
             </main>

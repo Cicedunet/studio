@@ -90,7 +90,7 @@ export default function ParfumsPage() {
                     <h3 className="font-headline text-2xl font-bold">Une senteur vous intéresse ?</h3>
                     <p className="mt-2 text-lg text-muted-foreground">Contactez-moi pour passer commande ou pour obtenir un échantillon.</p>
                     <Button asChild size="lg" className="mt-6 text-lg">
-                        <a href="https://wa.me/+33652915596" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/+32466423584" target="_blank" rel="noopener noreferrer">
                             Commander sur WhatsApp
                         </a>
                     </Button>

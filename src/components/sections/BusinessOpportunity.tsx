@@ -55,7 +55,7 @@ export default function BusinessOpportunity() {
           <h3 className="font-headline text-2xl font-bold">Prêt(e) à vous lancer ?</h3>
           <p className="mt-2 text-lg text-muted-foreground">Devenez votre propre patron dès aujourd'hui.</p>
           <Button asChild size="lg" className="mt-6 text-lg">
-            <a href="https://www.chogangroupspa.com/registration_consultant/LIZA948BE" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.chogangroupspa.com/registration_consultant/JOSCAAD53" target="_blank" rel="noopener noreferrer">
               Démarrer Mon Activité
             </a>
           </Button>
