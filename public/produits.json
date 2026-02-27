@@ -981,6 +981,2321 @@
             "price": 8.0,
             "category": "produit-entretien",
             "description": "Chiffon microfibre ultra-absorbant pour le nettoyage de la cuisine."
+        },
+        {
+            "id": 10000,
+            "name": "PACK DE 3 PARFUMS LUXE AU PRIX DE 2",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/B.jpg?v=1732207818",
+            "hint": "pack de 3 parfums luxe au prix de 2",
+            "price": 104.0,
+            "category": "parfums",
+            "description": "A l'occasion du black friday, nous vous offrons 03 parfums Luxe de votre choix au prix de 02\nPrix unitaire du parfum: 52€\nFormat: 100mL\nPrix du Pack de 3 : 156€ au lieu de 104€",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10001,
+            "name": "TRIO MINCEUR: PERTE DE POIDS ET VENTRE PLAT, EFFET BRULE GRAISSE RAPIDE EN 7 JOURS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/duo_minceur.jpg?v=1743713882",
+            "hint": "trio minceur: perte de poids et ventre plat, effet brule graisse rapide en 7 jours",
+            "price": 70.0,
+            "category": "produit-pour-la-peau",
+            "description": "Obtenez une silhouette plus sculptée avec notre Trio Minceur, constitué de:\n1. La Crème minceur ventre plat, spécialement formulée pour cibler et réduire les graisses tenaces. Grâce à une combinaison puissante d'ingrédients naturels, cette crème offre une solution efficace pour diminuer l'excès d..."
+        },
+        {
+            "id": 10002,
+            "name": "1 DUO DENTS BLANCHES = UNE BROSSE A DENT DOTÉE DE LA NANOTECHNOLOGIE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/DENT.png?v=1718359402",
+            "hint": "1 duo dents blanches = une brosse a dent dotée de la nanotechnologie",
+            "price": 35.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Duo Dents Blanches est constitué de: \n\nDENTIFRICE BLANCHISSANT \nBAIN DE BOUCHE ANTI-TARTRE\n\nLe dentifrice Black contient du charbon actif, qui élimine les bactéries, éclaircit les taches dentaires et a une action blanchissante grâce à sa formule à base de Charbon actif. Il contient du Pyrophos..."
+        },
+        {
+            "id": 10003,
+            "name": "VIRILGEL : Booster de Virilité et d'Énergie Masculine",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/VIRIL.jpg?v=1721872483",
+            "hint": "virilgel : booster de virilité et d'énergie masculine",
+            "price": 75.0,
+            "category": "minceur",
+            "description": "Découvrez VIRILGEL, un complément alimentaire prêt à l'emploi, aromatisé à la banane et présenté sous forme de gel, spécialement conçu pour renforcer la virilité masculine. Enrichi du mélange breveté VIRILPIU™, VIRILGEL aide à tonifier le pénis, augmenter la résistance de l'homme au lit, et à réd...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10004,
+            "name": "DUO DENTS BLANCHES EN 7 JOURS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/Pink_Brown_Modern_New_Product_Skincare_Insgram_Post.png?v=1732274600",
+            "hint": "duo dents blanches en 7 jours",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Duo Dents Blanches est constitué de: \n\nDENTIFRICE BLANCHISSANT \nBAIN DE BOUCHE ANTI-TARTRE\n\nLe dentifrice Black contient du charbon actif, qui élimine les bactéries, éclaircit les taches dentaires et a une action blanchissante grâce à sa formule à base de Charbon actif. Il contient du Pyrophos..."
+        },
+        {
+            "id": 10005,
+            "name": "Bain de bouche ANTI TARTRE Black au charbon actif",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_15704274901.jpg?v=1701831902",
+            "hint": "bain de bouche anti tartre black au charbon actif",
+            "price": 18.5,
+            "category": "produit-pour-la-peau",
+            "description": "Le bain de bouche Black au charbon actif offre une triple action contre les bactéries, la mauvaise haleine et l'inflammation des gencives. Grâce à la présence de charbon actif, il aide à éliminer les taches superficielles des dents, causées par le café, le thé et le tabac, favorisant ainsi le bla..."
+        },
+        {
+            "id": 10006,
+            "name": "Parfum N°121",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°121",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Pour les femmes les plus courageuses, qui aiment le jour mais n'ont pas peur de la nuit, qui aiment enfreindre les règles et aller à contre-courant, qui s'épanouissent dans le frisson de l'interdit.\nPyramide olfactive:\n\n\nNotes de tête: Aldéhydes, Bergamote, Fraise des bois, Mandarine, Notes Épice...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10007,
+            "name": "Déocrème Longue durée N°042 inspiré de LA VIE EST BELLE - LANCOME",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_12_87445d0e-ac27-4e95-b44b-f45c3bdf0afa.png?v=1693872100",
+            "hint": "déocrème longue durée n°042 inspiré de la vie est belle - lancome",
+            "price": 13.0,
+            "category": "parfums",
+            "description": "Une essence qui évoque la grâce, la lumière et la liberté. Dédié à une femme intelligente, cultivée et charmante. Un déodorant qui représente la \"quintessence du sourire\". Elle brille comme une \"étincelle de vie\", créée pour les femmes sophistiquées qui croient au bien vivre.\nLe déo-crème longue ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10008,
+            "name": "SPRAY SOLAIRE SPF 50",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL02B.jpg?v=1714847975",
+            "hint": "spray solaire spf 50",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Le Spray Solaire SPF50 Aurodhea offre une protection Haute à large spectre, filtrant à la fois les rayons UVA et UVB. Il contient de l'extrait d'hamamélis, un ingrédient utile contre les coups de soleil. Enrichi en vitamine E, ce produit a une action antioxydante et protège contre les dommages du...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10009,
+            "name": "THE BEAUTY DRINK COLLAGEN : SOLUTION REVOLUTIONNAIRE Pour une  Peau sans imperfection, Radieuse et Uniforme, des Cheveux Brillants et des Ongles Forts (630g)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COLAGEN.png?v=1746478049",
+            "hint": "the beauty drink collagen : solution revolutionnaire pour une  peau sans imperfection, radieuse et uniforme, des cheveux brillants et des ongles forts (630g)",
+            "price": 139.0,
+            "category": "minceur",
+            "description": "THE BEAUTY DRINK COLLAGEN est un complément alimentaire REVOLUTIONNAIRE, comme jamais vu auparavant, pour le bien-être et la beauté de la peau, des cheveux et des ongles, caractérisé par un agréable goût de pêche. Une solution innovante pour une Peau Parfaite. Enrichi en vitamines B et en Zinc, l...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10010,
+            "name": "Crème de Corps N°121",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_20817b8f-e254-4f53-aeb7-5020643ad5f9.jpg?v=1732208831",
+            "hint": "crème de corps n°121",
+            "price": 13.5,
+            "category": "produit-pour-la-peau",
+            "description": "Pour les femmes les plus courageuses, qui aiment le jour mais n'ont pas peur de la nuit, qui aiment enfreindre les règles et aller à contre-courant, qui s'épanouissent dans le frisson de l'interdit.\nLa crème corporelle parfumée Chogan laisse la peau hydratée, douce et parfumée. Elle libère des no..."
+        },
+        {
+            "id": 10011,
+            "name": "Parfum N°001M : Prestige For Men",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°001m : prestige for men",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "L'humour, la sensualité et l'esprit gentleman donnent vie à un parfum unique, capable de mélanger des notes fraîches, des senteurs aromatiques et épicées, des notes de fruits juteux, mais aussi des notes florales et des bois chauds. La note finale est un cuir doux.\nPyramide olfactive:\n\n\nNotes de ...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10012,
+            "name": "Parfum N°094M : Revenant Intense",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°094m : revenant intense",
+            "price": 48.0,
+            "category": "parfums",
+            "description": "Ce parfum renferme l'essence d'un homme au-delà des modes, au-delà du temps. Fidèle à sa propre identité, sauvage mais conscient.\nPyramide olfactive:\n\n\nNotes de tête: Bergamote, Poivre\n\nNotes de cœur: Géranium, Lavande, Patchouli, Poivre du Sichuan, Poivre rose\n\nNotes de fond: AAmbroxan, Cèdre, C...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10013,
+            "name": "CRÈME DE CORPS RAFFERMISSANTE TONIFIANTE (idéale même pour les massages)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17240641230CR06B_IMG-PRODOTTO.jpg?v=1731012267",
+            "hint": "crème de corps raffermissante tonifiante (idéale même pour les massages)",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "La Crème raffermissante est une crème corporelle douce et extrêmement onctueuse, ce qui la rend parfaite pour les massages également. Grâce aux ingrédients utilisés et à sa formulation, elle convient particulièrement pour raffermir la peau du corps dans la zone des hanches, des fesses, l'intérieu..."
+        },
+        {
+            "id": 10014,
+            "name": "Parfum N°048M : Sublime For Him",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°048m : sublime for him",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum au charme affirmé, à la fois audacieux et frais. Il révèle le caractère unique de celui qui le porte, mettant en lumière un charisme naturel et une personnalité inégalable. Ce parfum insaisissable et élégant incarne un homme authentique, qui reste fidèle à lui-même tout en se distinguan...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10015,
+            "name": "Parfum N°038M : Abyss",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°038m : abyss",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum incarne un homme audacieux, libre de toute convention et fidèle à lui-même. Sa composition traduit un caractère affirmé et indépendant, un esprit qui trace son propre chemin avec détermination et originalité. Une fragrance pour ceux qui osent l'inattendu.\nPyramide Olfactive\n\n\nNotes de t...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10016,
+            "name": "Parfum N°096W : The Muse",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°096w : the muse",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum exprime une personnalité audacieuse et singulière, célébrant l'esprit libre et indomptable qui réside en chaque femme. Il incarne une force intérieure, une lumière unique, et invite à embrasser ses rêves avec détermination et passion, sans jamais abandonner.\nPyramide Olfactive\n\n\nNotes d...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10017,
+            "name": "Parfum N°085W : Serendipity",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°085w : serendipity",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum captivant et audacieux , conçu pour surprendre et sublimer. Ce parfum met en lumière des accords floraux et vanillés, parfaitement adapté aux femmes exigeantes et passionnées, qui aspirent à un parfum unique et raffiné, leur permettant de se sentir toujours à leur apogée.\n\n\nPyramide Olf...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10018,
+            "name": "Parfum N°071W : Sublime For Her",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°071w : sublime for her",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un bouquet éclatant de fleurs et de fruits, pensé pour les femmes charismatiques, élégantes et captivantes. Ses accords ensorcelants révèlent une féminité magnétique et irrésistible.\nPyramide olfactive:\n\n\n\n\nEn tête : L'éclat vif de la bergamote et du citron, mêlé à la douceur exotique du fruit de...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10019,
+            "name": "Parfum N°051W : Miss Bijou",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°051w : miss bijou",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum à la fois léger et frais comme un pétale, évoquant la sensualité intense d'une femme lumineuse et audacieuse, qui sait ce qu'elle veut. Avec une prédominance de notes florales et orientales, il diffuse une fraîcheur éclatante et une joie de vivre irrésistible.\nPyramide olfactive:\n\n\nNote...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10020,
+            "name": "Parfum N°24W : The Essence",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°24w : the essence",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un accessoire de mode essentiel, inoubliable et discret. Celui qui marque votre arrivée et laisse une trace de votre passage.\nPyramide olfactive:\n\n\nNotes de tête: Aldéhydes, Bergamote, Citron, Néroli, Ylang-ylang\n\nNotes de cœur: Fleur d'oranger, Gardénia, Noix de Coco, Pivoine\n\nNotes de fond: Boi...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10021,
+            "name": "Parfum N°138U : Woodland",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_accd9d01-8caf-417e-a9c2-bf0e3e435229.png?v=1692049587",
+            "hint": "parfum n°138u : woodland",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum mixte enveloppant et sensuel, caractérisé par des notes douces et magnétiques du bois de Santal. Ses accords boisés, ambrés et floraux donnent vie à une fragrance séduisante, capable d'apporter charme et mystère à chaque vaporisation.\nFragance: Une interprétation moderne de l'accord amb...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10022,
+            "name": "DUO MINCEUR VENTRE PLAT: EFFET BRULE GRAISSE RAPIDE EN 7 JOURS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/DE8EEA5F-B152-4DAE-BFF5-4FA43D68FFD4.jpg?v=1726833614",
+            "hint": "duo minceur ventre plat: effet brule graisse rapide en 7 jours",
+            "price": 50.0,
+            "category": "produit-pour-la-peau",
+            "description": "Obtenez une silhouette plus sculptée avec notre Duo Minceur, constitué de:\n1. La Crème minceur ventre plat, spécialement formulée pour cibler et réduire les graisses tenaces. Grâce à une combinaison puissante d'ingrédients naturels, cette crème offre une solution efficace pour diminuer l'excès de..."
+        },
+        {
+            "id": 10023,
+            "name": "Parfum N°142U : Dark Eclipse",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°142u : dark eclipse",
+            "price": 57.0,
+            "category": "parfums",
+            "description": "Un parfum mixte intense et évocateur qui capture l'âme sauvage de la frontière américaine et l'esprit libre des cow-boys solitaires avec ses notes de cuir. Puissant et persistant, il est conçu pour les hommes et les femmes forts qui explorent la vie et leurs limites avec courage.\nPyramide olfacti...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10024,
+            "name": "BELLE PEAU : Pour une  Peau Radieuse et Uniforme, des Cheveux Brillants et des Ongles Forts",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SKIN_44f1c7d5-9ce1-40ce-a93f-da400ca25e54.jpg?v=1721875480",
+            "hint": "belle peau : pour une  peau radieuse et uniforme, des cheveux brillants et des ongles forts",
+            "price": 82.0,
+            "category": "minceur",
+            "description": "Découvrez SKINAIL PLUS, notre complément alimentaire prêt à l'emploi, aromatisé à la vanille et présenté sous forme de gel. Conçu spécifiquement pour le bien-être et la beauté de votre peau, de vos cheveux et de vos ongles, SKINAIL PLUS est formulé avec des ingrédients puissants qui agissent en s...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10025,
+            "name": "MULTIGELVIT : Votre Allié Vitaminé pour une Énergie débordante et une Immunité Optimale",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/ENERGIE_10bc689f-6297-4362-a2d0-17d4e57bfb16.jpg?v=1721874833",
+            "hint": "multigelvit : votre allié vitaminé pour une énergie débordante et une immunité optimale",
+            "price": 25.0,
+            "category": "minceur",
+            "description": "Découvrez MULTIGELVIT, notre complément alimentaire prêt à l'emploi, aromatisé à la mandarine et présenté sous forme de gel pratique et délicieux. Grâce à sa formule brevetée IPERVITAMY™, MULTIGELVIT combine un équilibre parfait de vitamines B, de vitamine H (Biotine), d'acide folique et de vitam...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10026,
+            "name": "MYBRAIN : Boostez Votre Mémoire et Votre Concentration",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BRAIN_c01c9a42-3539-471f-bbe0-1924423ffa36.jpg?v=1721874328",
+            "hint": "mybrain : boostez votre mémoire et votre concentration",
+            "price": 58.0,
+            "category": "minceur",
+            "description": "Découvrez MYBRAIN, notre complément alimentaire innovant prêt à l'emploi, aromatisé à la réglisse et présenté sous forme de gel pratique et savoureux. Grâce à sa formule brevetée MEMORY FOCUS™, MYBRAIN combine des extraits végétaux d'éleuthérocoque, de ginkgo biloba, de bacopa et de phosphosérine...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10027,
+            "name": "SPEED SLEEP: Solution au problème d'insomnie",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SLEEP.jpg?v=1721872484",
+            "hint": "speed sleep: solution au problème d'insomnie",
+            "price": 28.0,
+            "category": "minceur",
+            "description": "Découvrez SPEEDSLEEP, notre complément alimentaire integrateur innovant et prêt à l'emploi, spécialement conçu pour vous aider à retrouver un sommeil de qualité. Très efficace pour combattre l'insomnie;  Aromatisé à la figue, il se présente sous forme de gel pratique et savoureux. Grâce à son mél...",
+            "subCategory": "complement-alimentaire"
+        },
+        {
+            "id": 10028,
+            "name": "GAMME POUR PEAU  MATURE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/peau_mature.png?v=1721058086",
+            "hint": "gamme pour peau  mature",
+            "price": 135.0,
+            "category": "produit-pour-la-peau",
+            "description": "Découvrez notre Gamme Routine Peau Mature - L'Essentiel pour une Peau Hydratée, Clarifiée et Rajeunie\nOffrez à votre peau mature le soin qu'elle mérite avec notre gamme exclusive de produits de haute qualité. Conçue pour hydrater en profondeur, estomper les rides et clarifier le teint, cette rout..."
+        },
+        {
+            "id": 10029,
+            "name": "ROUTINE MINIMALISTE GRASSE ET MIXTE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/peau_grass.png?v=1721057572",
+            "hint": "routine minimaliste grasse et mixte",
+            "price": 85.0,
+            "category": "produit-pour-la-peau",
+            "description": "Kit Routine Minimaliste pour Peau grasse ou mixte \nDécouvrez notre Kit Routine Minimaliste pour Peau grasse ou mixte, conçu pour réguler l'excès de sébum et clarifier le teint, cette routine se compose de 3 produits essentiels pour une peau nette, équilibrée et visiblement plus saine en seulement..."
+        },
+        {
+            "id": 10030,
+            "name": "GAMME POUR PEAU GRASSE ET MIXTE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/PEAU_GRASSE.png?v=1720143888",
+            "hint": "gamme pour peau grasse et mixte",
+            "price": 125.0,
+            "category": "produit-pour-la-peau",
+            "description": "Découvrez notre Gamme Routine Peau Grasse et Mixte - L'Essentiel pour une Peau Purifiée, Équilibrée et Clarifiée\nOffrez à votre peau grasse ou mixte le soin qu'elle mérite avec notre gamme exclusive de produits de haute qualité. Conçue pour réguler l'excès de sébum et clarifier le teint, cette ro..."
+        },
+        {
+            "id": 10031,
+            "name": "GAMME POUR PEAU SECHE ET NORMALE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/HH.png?v=1719227411",
+            "hint": "gamme pour peau seche et normale",
+            "price": 135.0,
+            "category": "produit-pour-la-peau",
+            "description": "Découvrez notre Gamme Routine Peau Sèche - L'Essentiel pour une Belle peau Saine Hydratée et Nourrie.\nOffrez à votre peau sèche le soin qu'elle mérite avec notre gamme exclusive de produits de haute qualité. Conçue pour apporter une hydratation profonde et durable, cette routine se compose de cin..."
+        },
+        {
+            "id": 10032,
+            "name": "ROUTINE MINIMALISTE PEAU SECHE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/Pink_Brown_Modern_New_Product_SkincarePost.png?v=1719226191",
+            "hint": "routine minimaliste peau seche",
+            "price": 80.0,
+            "category": "produit-pour-la-peau",
+            "description": "Kit Routine Minimaliste pour Peau Sèche - L'Essentiel de l'Hydratation\nDécouvrez notre Kit Routine Minimaliste pour Peau Sèche, conçu pour offrir une hydratation optimale et une protection complète en seulement trois étapes simples. Ce kit comprend un gel nettoyant doux, une crème hydratante nour..."
+        },
+        {
+            "id": 10033,
+            "name": "DUO BELLE PEAU SATINÉE: GLOW BODY OIL +  GLITTER BODY SPRAY",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/glox.png?v=1718357537",
+            "hint": "duo belle peau satinée: glow body oil +  glitter body spray",
+            "price": 70.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Duo Belle Peau Satinée est un indispensable quee toute femme devrait avoir. Il est constitué de: \n\nGLOW BODY OIL: HUILE SOYEUSE , ILLUMINATRICE ET PAILLETÉE \nGLITTER BODY SPRAY: Spray Brume Corporelle Scintillante Dorée \"GLITTER\"\n\nLe GLOW BODY OIL est une huile nourrissante, soyeuse et illumin..."
+        },
+        {
+            "id": 10034,
+            "name": "DUO SOLAIRE PROTECTION MAXIMALE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/DUOOO.png?v=1718356864",
+            "hint": "duo solaire protection maximale",
+            "price": 50.0,
+            "category": "parfums",
+            "description": "Le Duo Solaire vous offre une protection maximale et est contitué de:\n\nHUILE SOLAIRE ANTI-UV\n\nCREME-SPRAY SOLAIRE SPF 50\n\n\nL'Hhuile Solaire au brou de Noix et Millepertuis est un agent bronzant puissant qui stimule la formation du bronzage sans endommager la peau. Enrichie en huile d'amande douce...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10035,
+            "name": "GLOW BODY OIL - HUILE SOYEUSE, ILLUMINATRICE ET PAILLETÉE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/U20_aed37497-0860-4324-b345-f129919b3ab3.jpg?v=1718356188",
+            "hint": "glow body oil - huile soyeuse, illuminatrice et pailletée",
+            "price": 50.0,
+            "category": "produit-pour-la-peau",
+            "description": "GLOW BODY OIL est une huile nourrissante, soyeuse et illuminatrice et pailletée qui donne une apparence dorée et éclatante pour les personnes qui aiment briller et ne veulent pas passer inaperçues.Sa formule à base d'huiles végétales hydrate et nourrit la peau, la protège du photovieillissement c..."
+        },
+        {
+            "id": 10036,
+            "name": "GEL APAISANT POUR LES COUPS DE SOLEIL",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/MD03.jpg?v=1716624382",
+            "hint": "gel apaisant pour les coups de soleil",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel apaisant pour les coups de soleil Aurodhea est utile en cas d'exposition excessive au soleil ou de contact avec des sources de chaleur, car il crée une barrière protectrice sur la peau, aide à l'équilibrer et facilite la cicatrisation. Il contient des extraits de Calendula et de Mimosa, de..."
+        },
+        {
+            "id": 10037,
+            "name": "SPRAY DE PREMIERS SECOURS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR23.jpg?v=1716624056",
+            "hint": "spray de premiers secours",
+            "price": 17.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le spray de premiers soins avec 98% d'Aloe Vera est un produit apaisant et calmant qui protège la peau et fournit une première défense contre les infections, les inflammations cutanées et les irritations causées par l'épilation. Il est indiqué pour traiter les coupures mineures, les éraflures, le..."
+        },
+        {
+            "id": 10038,
+            "name": "GEL POUR ENGELURES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/MD06.jpg?v=1716623928",
+            "hint": "gel pour engelures",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Protégez votre peau contre les rigueurs de l'hiver avec notre Baume Protecteur Anti-Engelures, spécialement formulé pour prévenir et traiter les engelures causées par le froid et l'humidité. Ce baume riche et nourrissant crée une barrière protectrice tout en apaisant et réparant les zones affecté..."
+        },
+        {
+            "id": 10039,
+            "name": "GEL APAISANT ANTI-DÉMANGEAISON",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/MD04.jpg?v=1716623407",
+            "hint": "gel apaisant anti-démangeaison",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel apaisant anti-démangeaisons  soulage l'inconfort des démangeaisons et irritations causées par les allergies, les piqûres d'insectes ou les dermatites de contact (nickel, plantes, méduses, etc.).L'Aloe vera et l'huile essentielle de Tea Tree, antibiotique naturel aux propriétés antibactérie..."
+        },
+        {
+            "id": 10040,
+            "name": "SPRAY RÉPULSIF CONTRE LES MOUSTIQUES, PUNAISES, INSECTES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/AZ.jpg?v=1716623091",
+            "hint": "spray répulsif contre les moustiques, punaises, insectes",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le spray est le traitement idéal pour lutter contre les insectes gênants et leurs piqûres. Parfait à emporter avec soi à tout moment, il a un effet immédiat grâce à sa composition d'ingrédients 100% naturels. Il a un parfum frais donné par les huiles essentielles de citronnelle, de géranium, de m..."
+        },
+        {
+            "id": 10041,
+            "name": "BAUME CONTRE LES DOULEURS MUSCULAIRES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/AD02.jpg?v=1716476185",
+            "hint": "baume contre les douleurs musculaires",
+            "price": 24.0,
+            "category": "produit-pour-la-peau",
+            "description": "Libérez-vous des douleurs musculaires et redécouvrez le confort et la souplesse avec notre Baume Revitalisant pour Douleurs Musculaires. Formulé pour apaiser et revitaliser vos muscles après l'effort, ce baume est votre allié idéal pour une récupération rapide et efficace.\nIndications thérapeutiq..."
+        },
+        {
+            "id": 10042,
+            "name": "BAUME INTENSE CONTRE LES DOULEURS ARTICULAIRES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/AD01COPIE.jpg?v=1716474676",
+            "hint": "baume intense contre les douleurs articulaires",
+            "price": 45.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le baume  est utile dans les situations qui provoquent des douleurs et des inflammations telles que l'arthrose, les douleurs dorsales, l'arthrite cervicale, les entorses, les contusions, la sciatique, l'arthrite, les rhumatismes, la rigidité musculaire et les affections cutanées (y compris les ul..."
+        },
+        {
+            "id": 10043,
+            "name": "MAGNOLIA BOUQUET: «SALLE DE BAIN»",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0026.jpg?v=1716474138",
+            "hint": "magnolia bouquet: «salle de bain»",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10044,
+            "name": "RED FRUIT HEART: « ENTRÉE »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0021_3e12f340-9f55-4521-a84f-e91eada2edc7.jpg?v=1716473733",
+            "hint": "red fruit heart: « entrée »",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10045,
+            "name": "BACCHUS SYMPHONIES: « BUREAU »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0016.jpg?v=1716466354",
+            "hint": "bacchus symphonies: « bureau »",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10046,
+            "name": "MEDITERRANEAN POMEGRANATE: « CHAMBRE »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0011_59c6e44b-c7ab-4cb9-974b-5123556e346f.jpg?v=1716473843",
+            "hint": "mediterranean pomegranate: « chambre »",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10047,
+            "name": "FRUITY BLEND: « SALON »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0006.jpg?v=1716464812",
+            "hint": "fruity blend: « salon »",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10048,
+            "name": "FLOWER GARDEN: « CUISINE »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COP0001.jpg?v=1716462385",
+            "hint": "flower garden: « cuisine »",
+            "price": 24.0,
+            "category": "parfums",
+            "description": "De la sensibilité et de la créativité de nos maîtres parfumeurs naissent des parfums d'ambiance à bâtonnets en bois qui enchantent l'esprit et séduisent les sens. Les parfumeurs sont des maîtres dans la création de parfums, un art ancien venant de l'Orient.Nos parfums d'ambaince se répandent dans...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10049,
+            "name": "CRÈME MIRACLE ANTI-CELLULITE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR20.jpg?v=1716416325",
+            "hint": "crème miracle anti-cellulite",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème corporelle miracle anticellulite permet de lutter contre la cellulite existante et de prévenir son apparition. Sa formulation spécifique s'oppose en effet à la formation d'amas graisseux et à la rétention d'eau. Dès les premières applications de la crème anti-cellulite, la peau apparaît ..."
+        },
+        {
+            "id": 10050,
+            "name": "CRÈME VENTRE PLAT THERMOGÈNE EFFET BRULE GRAISSE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR01B.jpg?v=1743711251",
+            "hint": "crème ventre plat thermogène effet brule graisse",
+            "price": 30.0,
+            "category": "produit-pour-la-peau",
+            "description": "Obtenez une silhouette plus sculptée avec notre Crème minceur ventre plat, spécialement formulée pour cibler et réduire les graisses tenaces. Grâce à une combinaison puissante d'ingrédients naturels, cette crème offre une solution efficace pour diminuer l'excès de graisse et améliorer l'apparence..."
+        },
+        {
+            "id": 10051,
+            "name": "MASQUE EN SPRAY DÉMELLLANT ET  FORTIFIANT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BV13.jpg?v=1716414309",
+            "hint": "masque en spray démelllant et  fortifiant",
+            "price": 30.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque capillaire en spray à la bave d'escargot a une action restructurante sur les cheveux, réparant efficacement la fibre capillaire. Idéal pour les cheveux fins, cassants secs et ternes, sa formule est enrichie en huile d'Argan et en Panthénol, des composants qui aident à démêler les cheveu..."
+        },
+        {
+            "id": 10052,
+            "name": "SÉRUM FORTIFIANT pour les cheveux secs, cassants et fragiles",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16838920760_1_f2b8619d-ce39-4434-a461-342bdee3c924.jpg?v=1716393684",
+            "hint": "sérum fortifiant pour les cheveux secs, cassants et fragiles",
+            "price": 30.0,
+            "category": "produit-pour-la-peau",
+            "description": "Light Drops - Sérum de Finition Parfumé, est  sérum de finition idéal pour fortifier et solidifier les cheveux cassants, fragiles et secs. Il permet également de redonner éclat et vitalité aux cheveux secs, abîmés et traités. Ce sérum à la formule riche et délicatement parfumée nourrit intensémen..."
+        },
+        {
+            "id": 10053,
+            "name": "GEL CHEVEUX EXTRA FORT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CAP17.jpg?v=1716391849",
+            "hint": "gel cheveux extra fort",
+            "price": 11.5,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel extra fort permet une fixation et une modélisation forte des cheveux sans laisser des résidus tout en donnant du corps aux cheveux. Il protège également les cheveux des effets néfastes de la pollution. Définition et brillance longuetenue à votre coiffure\nTesté sous contrôle dermatologique...."
+        },
+        {
+            "id": 10054,
+            "name": "CRÈME ANTI-TACHES DE COLORATION",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CAP26B.jpg?v=1716390957",
+            "hint": "crème anti-taches de coloration",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "La Crème anti-taches de coloration prévient la formation de taches inesthétiques sur la peau, en la protégeant des dommages causés par les traitements chimiques. Sa formule, enrichie des propriétés nourrissantes et anti-inflammatoires de l'huile de Lin, protège l'épiderme de l'action stressante d..."
+        },
+        {
+            "id": 10055,
+            "name": "LOTION CAPILLAIRE NOURRISSANTE  ET RAFRAÎCHISSANTE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/FA03.jpg?v=1716390665",
+            "hint": "lotion capillaire nourrissante  et rafraîchissante",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "Revitalisez et tonifiez votre cuir chevelu avec notre Lotion Capillaire Nourrissante Rafraîchissante au Menthol. Conçue pour offrir une sensation de fraîcheur intense et des bienfaits revitalisants, cette lotion est l'alliée parfaite pour des cheveux forts et volumineux.\nIngrédients Clés et Bienf..."
+        },
+        {
+            "id": 10056,
+            "name": "SÉRUM BOOSTER DE VOLUME CAPILLAIRE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CAP25.jpg?v=1716390320",
+            "hint": "sérum booster de volume capillaire",
+            "price": 30.0,
+            "category": "produit-pour-la-peau",
+            "description": "Notre Sérum Booster de Volume Capillaire est une formule innovante spécialement conçue pour transformer les cheveux fins et plats en une chevelure luxueuse et volumineuse. Enrichi d'ingrédients naturels et puissants, ce sérum léger donne du corps et de la densité à chaque mèche, tout en nourrissa..."
+        },
+        {
+            "id": 10057,
+            "name": "AMPOULES CONTRE LA CASSE ET LA CHUTE DE CHEVEUX – SOIN INTENSIF",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/FA01B.jpg?v=1716389119",
+            "hint": "ampoules contre la casse et la chute de cheveux – soin intensif",
+            "price": 48.0,
+            "category": "produit-pour-la-peau",
+            "description": "Les ampoules anti-casse, anti-chute représentent un soin intensif contre les principaux facteurs responsables de la chute t la casse anormale des cheveux. Leur formule spéciale est basée sur la synergie de 7 plantes : Serenoa serrulata, Kigelia africana, Salvia officinalis, Cannelle, Ginkgo bilob..."
+        },
+        {
+            "id": 10058,
+            "name": "LOTION ACCÉLÉRATRICE DE POUSSE CHEVEUX",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/FA02B.jpg?v=1716388315",
+            "hint": "lotion accélératrice de pousse cheveux",
+            "price": 50.0,
+            "category": "produit-pour-la-peau",
+            "description": "Lotion Accélératrice de Pousse de Cheveux\nNotre lotion Accélératrie de Pousse de Cheveux, une formule luxueuse et puissante conçue pour stimuler la croissance des cheveux et réduire leur casse. Fabriqué à partir de 8 huiles essentielles soigneusement sélectionnées, cette lotion est la solution id..."
+        },
+        {
+            "id": 10059,
+            "name": "SHAMPOING PURIFIANT POUR LE CUIR CHEVELU",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BLK03.jpg?v=1716349255",
+            "hint": "shampoing purifiant pour le cuir chevelu",
+            "price": 11.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampooing noir au charbon actif est un produit qui nettoie en douceur et purifie en profondeur le cuir chevelu. Grâce au charbon de bois, il élimine le smog et les impuretés qui se déposent quotidiennement, s'oppose à la formation d'odeurs désagréables et rééquilibre le cuir chevelu, notammen..."
+        },
+        {
+            "id": 10060,
+            "name": "SHAMPOING RÉPARATEUR POUR CHEVEUX ABIMÉS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17097136701.jpg?v=1716348750",
+            "hint": "shampoing réparateur pour cheveux abimés",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Shampoing Réparateur et Restructurant à l'Huile d'Argan apporte de la lumière aux cheveux secs, cassants et abîmés. Il élimine les frisottis, répare les cheveux de la racine à la pointe, optimise leur structure et les rend ultra brillants. Sa formule naturelle, composée d'huile d'argan, d'aloe..."
+        },
+        {
+            "id": 10061,
+            "name": "MASQUE ANTI-ÂGE RAJEUNISSANT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17019556240.png?v=1716341047",
+            "hint": "masque anti-âge rajeunissant",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque rajeunissant anti-âge pour le visage est formulé pour redonner du tonus et de la fermeté à la peau, contrecarrer le relâchement cutané et donner au visage une apparence plus jeune et plus fraîche. Sa formule hydrate en profondeur et possède une action anti-âge grâce à son mélange spécia..."
+        },
+        {
+            "id": 10062,
+            "name": "CRÈME CONTOUR DES YEUX ÉCLAIRCISSANT CONTRE LES CERNES NOIRES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BV04B.jpg?v=1716339949",
+            "hint": "crème contour des yeux éclaircissant contre les cernes noires",
+            "price": 35.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème contour des yeux anti cernes, réduit l’apparence des cernes, atténue l’hyperpigmentation au niveau des cernes et unifie unifiant le teint sur cette zone très fine. Elle exerce une action anti-âge ciblée sur la zone délicate du contour des yeux. La synergie créée par les extraits d'Acide ..."
+        },
+        {
+            "id": 10063,
+            "name": "CRÈME RÉPARATRICE INTENSE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/AR10B.jpg?v=1716338142",
+            "hint": "crème réparatrice intense",
+            "price": 40.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème visage faite à base de Panthénol (Vitamine B5) et à l'huile d'argan exerce une action réparatrice intensive, tout en favorisant l'oxygénation et la régénération des cellules. La sécheresse, le froid, l’utilisation de produits décapants ou agressifs et bien d’autres facteurs peuvent affec..."
+        },
+        {
+            "id": 10064,
+            "name": "CRÈME ANTI-AGE, ANTI-RIDES, EFFET LIFTING",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR02B.jpg?v=1716337372",
+            "hint": "crème anti-age, anti-rides, effet lifting",
+            "price": 40.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème visage anti-age, anti-rides, régénérante des cellules contient de l'acide hyaluronique, la bave d'escargot pure d'origine naturelle et de la niacinamide, pour agir sur la cause du vieillissement. Raffermit et lisse les rides, des plus fines aux plus prononcées. La peau est repulpée, liss..."
+        },
+        {
+            "id": 10065,
+            "name": "CRÈME NOURRISSANTE INTENSE RICHE EN VITAMINE E ET ALOE VERA",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR03B.jpg?v=1716336553",
+            "hint": "crème nourrissante intense riche en vitamine e et aloe vera",
+            "price": 35.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème nourrissante riche en Vitamine E et Aloe Vera est un traitement hydratant, Révitalisant qui apporte à la peau resistance, Confort et Douceur. \n Elle prévient également et combat les signes du vieillissement. Grâce à sa polyvalence, cette crème peut être utilisée seule, pour une hydratati..."
+        },
+        {
+            "id": 10066,
+            "name": "CRÈME HYDRATANTE À L’ACIDE HYALURONIQUE ET AU COLLAGÈNE (Peaux sèches, normales, deshydratées, sensibles)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR05B.jpg?v=1716335364",
+            "hint": "crème hydratante à l’acide hyaluronique et au collagène (peaux sèches, normales, deshydratées, sensibles)",
+            "price": 27.0,
+            "category": "produit-pour-la-peau",
+            "description": "La Crème visage à l'Acide Hyaluronique et au Collagène hydrate et repulpe la peau en profondeur. Convenant également aux peaux jeunes, ce produit aide lutter la peau sèche, terne et deshydratée. Elle contribuer à ralentir la formation des rides et des lignes d'expression. Application après applic..."
+        },
+        {
+            "id": 10067,
+            "name": "SÉRUM CONCENTRÉ A L'ACIDE HYALURONIQUE (Hydratant et Repulpant)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR08B.png?v=1716334794",
+            "hint": "sérum concentré a l'acide hyaluronique (hydratant et repulpant)",
+            "price": 40.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le sérum gel tenseur à l'acide hyaluronique apporte un boost d'hydratation au visage, le rendant instantanément plus lumineux. Sa formule, facilement et efficacement absorbée par la peau, exerce une action anti-âge : l'Acide Hyaluronique constitue un puissant hydratant cutané ; l'Acmella Oleracea..."
+        },
+        {
+            "id": 10068,
+            "name": "CRÈME DE JOUR SUPER HYDRATANTE, CLARIFIANTE,  EFFET VELOUR (idéale pour tout type de peau)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17013574720_f0d7db19-ef33-479e-b335-01487ef7e296.jpg?v=1716334203",
+            "hint": "crème de jour super hydratante, clarifiante,  effet velour (idéale pour tout type de peau)",
+            "price": 50.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème de jour pour le visage au lait d'ânesse est un concentré de beauté, un produit qui augmente l'élasticité et l'éclat de la peau dès les premières applications. Son utilisation permet de préserver l'équilibre hydrolipidique de la peau et de contrer l'action des radicaux libres, grâce aux p..."
+        },
+        {
+            "id": 10069,
+            "name": "CRÈME DE NUIT CLARFIANTE, RAFFERMISSANTE, EFFET VELOUR LIFTANT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17098080780.jpg?v=1716334038",
+            "hint": "crème de nuit clarfiante, raffermissante, effet velour liftant",
+            "price": 60.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème de nuit pour le visage au lait d'ânesse  se distingue par son effet liftant qui renouvelle la structure dermique et remodèle les contours du visage.Enrichie en niacinamide, retinol et plus de 300 peptides, elle stimule la synthèse et booste la procdution du collagène, ce qui contribue à ..."
+        },
+        {
+            "id": 10070,
+            "name": "HUILE DÉMAQUILLANTE BIPHASÉE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SB01B.jpg?v=1716331463",
+            "hint": "huile démaquillante biphasée",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'huile démaquillante biphasée élimine toutes les  traces d'impuretés telles que la crème solaire, le maquillage des yeux et des lèvres en douceur, en respectant le pH des peaux les plus sensibles. Elle est un indispensable pour un double nettoyage profond de la peau chaque soir. Sa formule perme..."
+        },
+        {
+            "id": 10071,
+            "name": "GEL NETTOYANT VÉGAN POUR PEAU SENSIBLE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16880253650.jpg?v=1716330955",
+            "hint": "gel nettoyant végan pour peau sensible",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Gel nettoyant Végan pour le visage à l'huile de Baobab biologique nettoie en douceur tous les types de peau, même les plus sensibles.Sa formule à l'huile de Baobab biologique, riche en Acide oléique, en Acide linoléique et en Vitamines, a une action antioxydante, hydrate et minimise les rougeu..."
+        },
+        {
+            "id": 10072,
+            "name": "GAMME COMPLÈTE (5 Produits)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BEEB_a4944484-79fa-43ab-9490-297f9aa0223c.png?v=1715869567",
+            "hint": "gamme complète (5 produits)",
+            "price": 120.0,
+            "category": "parfums",
+            "description": "Elle contient: \n\n\n\nNETTOYANT BÉBÉ EXTRA-DOUX - 260 ML\n\n\nLe nettoyant extra-doux pour bébés est formulé pour assurer un nettoyage en douceur de la peau sensible des enfants. À base d'ingrédients d'origine végétale, le nettoyant contient des extraits de Mauve, de Calendula et de Camomille, aux prop...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10073,
+            "name": "GEL MOUSSANT BABY",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BB01B_aea7c747-03e7-465f-afb2-67a547754f9e.jpg?v=1715869382",
+            "hint": "gel moussant baby",
+            "price": 20.0,
+            "category": "parfums",
+            "description": "Le Gel moussant Baby Care nettoie en douceur la peau sensible des bébés et leur assure un bain relaxant et agréable. Grâce à sa mousse douce, légère et parfumée, il est en mesure d'éveiller les sens de bébé et de lui procurer des moments de bien-être. Enrichi en Aloe Vera et en extrait d'Alchémil...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10074,
+            "name": "SHAMPOING BÉBÉ",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BB02B_96435e54-cc50-4ec7-b7bb-7eb0f4e58628.jpg?v=1715869268",
+            "hint": "shampoing bébé",
+            "price": 19.0,
+            "category": "parfums",
+            "description": "Le shampooing Baby Care est formulé pour nettoyer en douceur, en respectant le pH physiologique de la peau. Hydratant, protecteur et doté d'un parfum sans allergène, il est idéal pour la peau sensible des enfants. Il contient de l'Aloe Vera, qui nourrit les cheveux et a une action apaisante sur l...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10075,
+            "name": "LAIT CORPOREL BABY",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BB03B_a9fc075c-1b86-4475-bc1d-471decb3cf01.jpg?v=1715869106",
+            "hint": "lait corporel baby",
+            "price": 23.0,
+            "category": "parfums",
+            "description": "Le lait corporel Baby est spécialement conçu pour la peau sensible des bébés. Sa formule douce hydrate délicatement la peau, la laissant lisse, douce et intensément nourrie. L'extrait d'avoine est idéal pour traiter les peaux extrêmement sèches sujettes à l'atopie et aux démangeaisons. L'utilisat...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10076,
+            "name": "NETTOYANT BÉBÉ EXTRA-DOUX",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SP06B_62544eb7-cbf8-42f2-a1cc-c39fb39c7f28.jpg?v=1715850869",
+            "hint": "nettoyant bébé extra-doux",
+            "price": 22.0,
+            "category": "parfums",
+            "description": "Le nettoyant extra-doux pour bébés est formulé pour assurer un nettoyage en douceur de la peau sensible des enfants. À base d'ingrédients d'origine végétale, le nettoyant contient des extraits de Mauve, de Calendula et de Camomille, aux propriétés adoucissantes, émollientes et apaisantes. Enrichi...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10077,
+            "name": "PARFUM ENFANT: FILLE ( de 2 à 10 ans )",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BEBEE.jpg?v=1715850123",
+            "hint": "parfum enfant: fille ( de 2 à 10 ans )",
+            "price": 29.0,
+            "category": "parfums",
+            "description": "Un parfum léger et frais qui enveloppera votre enfant (fils) d'une étreinte douce et délicate. Un bouquet floral, agréablement citronné, spécialement conçu pour évoquer le calme et la tranquillité des bébés, mais qui convient également aux mères.\nIl est hypoallergénique, doux et durable. Son desi...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10078,
+            "name": "PARFUM BÉBÉ ( de 0 à 2 ans )",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/059.jpg?v=1714848636",
+            "hint": "parfum bébé ( de 0 à 2 ans )",
+            "price": 29.0,
+            "category": "parfums",
+            "description": "Un parfum léger et frais qui enveloppera votre bébé d'une douce étreinte.Un bouquet floral, agréablement hespéridé, spécialement conçu pour évoquer le calme et la sérénité des nourrissons, mais qui convient également aux mamans.Hypoallergénique, sans paraben et sans colorants artificiels, sa form...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10079,
+            "name": "SPRAY SOLAIRE SPF 30",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL01B.jpg?v=1714848130",
+            "hint": "spray solaire spf 30",
+            "price": 30.0,
+            "category": "parfums",
+            "description": "Le Spray Solaire SPF50 Aurodhea offre une protection Moyenne-Haute à large spectre, filtrant à la fois les rayons UVA et UVB. Il contient de l'extrait d'hamamélis, un ingrédient utile contre les coups de soleil. Enrichi en vitamine E, ce produit a une action antioxydante et protège contre les dom...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10080,
+            "name": "HUILE SOLAIRE ANTI UV",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL04B.jpg?v=1714847533",
+            "hint": "huile solaire anti uv",
+            "price": 16.0,
+            "category": "parfums",
+            "description": "L'Hhuile Solaire au brou de Noix et Millepertuis est un agent bronzant puissant qui stimule la formation du bronzage sans endommager la peau. Enrichie en huile d'amande douce, huile d'Argan, millepertuis et vitamine E, sa formule contient également de l'extrait de brou de noix. Cette dernière sub...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10081,
+            "name": "SPRAY PROTECTEUR POUR CHEVEUX",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL06.jpg?v=1714847428",
+            "hint": "spray protecteur pour cheveux",
+            "price": 17.0,
+            "category": "parfums",
+            "description": "Le Spray de Protection Solaire pour les cheveux est basé sur des ingrédients végétaux nourrissants et émollients, tels que l'huile de lin, l'huile d'argan, l'huile de noix de coco, l'aloe vera et le beurre de karité, qui revigorent les cheveux de la racine à la pointe et les protègent des rayons ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10082,
+            "name": "GEL APAISANT APRÈS-SOLEIL",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL11.jpg?v=1714846902",
+            "hint": "gel apaisant après-soleil",
+            "price": 14.0,
+            "category": "parfums",
+            "description": "Le Gel l Apaisant après-soleil est un indispensable pour toutes les personnes qui sont très souvent exposées au soleil ou qui vivent dans des pays où il fait très chaud. Il contient 10% d'Aloe Vera, aux propriétés apaisantes et rafraîchissantes. Il s'agit d'un gel transparent, facile à étaler et ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10083,
+            "name": "EAU THERMALE RAFFRAICHISSANTE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL16.jpg?v=1714846505",
+            "hint": "eau thermale raffraichissante",
+            "price": 14.0,
+            "category": "parfums",
+            "description": "L'eau therrmale rafraîchissante  est un produit idéal pour une agréable sensation de bien-être après ou pendant l'exposition au soleil, sans oublier sa senteur agréable au goût de pommes vertes. Le panthénol (prov. B5), en synergie avec l'Aloe Vera, exerce une action apaisante efficace qui rééqui...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10084,
+            "name": "MASQUE ÉCLAIRCISSANT ILLUMINATEUR À LA VITAMINE C ET A LA BAVE D’ESCARGOT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17054908720.jpg?v=1714600598",
+            "hint": "masque éclaircissant illuminateur à la vitamine c et a la bave d’escargot",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque visage éclaircissant et illuminateur Chogan grâce à l'action synergique de ses principes actifs naturels, estompe les tâche, prévient la formation de nouvelles tâches brunes et protège la peau des agressions extérieures et des radicaux libres, principale cause de l'hyperpigmentation. Il..."
+        },
+        {
+            "id": 10085,
+            "name": "Spray Brume Corporelle Scintillante Dorée \"GLITTER\"",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16904470160.png?v=1714595361",
+            "hint": "spray brume corporelle scintillante dorée \"glitter\"",
+            "price": 25.0,
+            "category": "parfums",
+            "description": "le GLITTER Spray hydrate, satine, illumine la visage, le corps et les cheveux.\nCette brume enrichie en nacres dorées d'origine naturelle, offre un éclat irisé captivant, adapté à tous les types de peau et à toutes les carnations. Elle sublime la peau, lui conférant un fini brillant or irrésistibl...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10086,
+            "name": "SPRAY RÉPARATEUR APAISANT APRÈS-SOLEIL",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_16868334430.jpg?v=1714594718",
+            "hint": "spray réparateur apaisant après-soleil",
+            "price": 16.0,
+            "category": "parfums",
+            "description": "Le Apray Apaisant Après-Soleil Chogan, à l'action rafraîchissante,  est un traitement apaisant et hydratant à appliquer après une exposition au soleil. Grâce à sa texture ultralégère et à son absorption rapide, le spray après-soleil procure un soulagement immédiat, en apaisant les irritations et ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10087,
+            "name": "Déocrème Désodorisant et Anti-transpiration",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17000667470.png?v=1714593809",
+            "hint": "déocrème désodorisant et anti-transpiration",
+            "price": 17.0,
+            "category": "parfums",
+            "description": "La Déo-crème naturelle Aurodhea est un déodorant crémeux qui convient aux peaux particulièrement sensibles. Sa formule ne contient ni alcool ni sels d'aluminium. Son action adaptée et très efficace permet limiter la transpiration, et de soulager les sensations de sécheresse, les démangeaisons et ...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10088,
+            "name": "Déocrème Longue durée N°068",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_4.png?v=1693869813",
+            "hint": "déocrème longue durée n°068",
+            "price": 13.0,
+            "category": "parfums",
+            "description": "Un déodorant décisif, magnétique et audacieux. Il dégage dans ses sillages olfactifs la force d'une personne extrêmement sûre d'elle et qui n'a pas peur d'affirmer sa singularité.\nLe Déocrème naturel Chogan est un déodorant crémeux et efficace qui aide à soulager la sensation de sécheresse, les d...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10089,
+            "name": "Gel douche N°130",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NOQKXND_64eeb9ee-9e36-4f8d-ba04-e6ee31ed1e27.jpg?v=1714591783",
+            "hint": "gel douche n°130",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche parfumée Olfazeta Luxury a une texture douce. Son odeur est identique à celle de son parfum MEGAMARE - ORTO PARISI.  Sa formule, enrichie en notes aromatiques,nettoie en douceur même les peaux les plus sensibles. Il nourrit, hydrate et protège, laissant la peau lissechaque jour. Le ..."
+        },
+        {
+            "id": 10090,
+            "name": "Gel douche N°134",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NOQKXND_1d7dbec2-3952-4120-92f2-ab308dfcbc76.jpg?v=1714591718",
+            "hint": "gel douche n°134",
+            "price": 19.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche parfumée Olfazeta Luxury a une texture douce. Son odeur est identique à celle de son parfum BITTER BEACH - TOM FORD. Sa formule, enrichie en notes aromatiques,nettoie en douceur même les peaux les plus sensibles. Il nourrit, hydrate et protège, laissant la peau lissechaque jour. Le ..."
+        },
+        {
+            "id": 10091,
+            "name": "Gel douche N°129",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NOQKXND_5ed952df-ee32-4f8e-a6e4-f1b54d233693.jpg?v=1714591533",
+            "hint": "gel douche n°129",
+            "price": 19.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche parfumée Olfazeta Luxury a une texture douce. Son odeur est identique à celle de son parfum ERBA PURA - XERJOFF.  Sa formule, enrichie en notes aromatiques,nettoie en douceur même les peaux les plus sensibles. Il nourrit, hydrate et protège, laissant la peau lissechaque jour. Le par..."
+        },
+        {
+            "id": 10092,
+            "name": "Gel douche N°118",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NOQKXND_257ac268-af62-4aaa-b887-2d23a97de207.jpg?v=1714591149",
+            "hint": "gel douche n°118",
+            "price": 19.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche parfumée Olfazeta Luxury a une texture douce. Son odeur est identique à celle de son parfum  BACCARAT ROUGE - F. KURKDJIAN. Sa formule, enrichie en notes aromatiques,nettoie en douceur même les peaux les plus sensibles. Il nourrit, hydrate et protège, laissant la peau lissechaque jo..."
+        },
+        {
+            "id": 10093,
+            "name": "Gel douche N°111",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NOQKXND.jpg?v=1714590766",
+            "hint": "gel douche n°111",
+            "price": 19.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche parfumée Olfazeta Luxury a une texture douce. Son odeur est identique à celle de son parfum LOST CHERRY - TOM FORD. Sa formule, enrichie en notes aromatiques,nettoie en douceur même les peaux les plus sensibles. Il nourrit, hydrate et protège, laissant la peau lissechaque jour. Le p..."
+        },
+        {
+            "id": 10094,
+            "name": "Gel douche ICE EFFECT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17127535770.jpg?v=1714395730",
+            "hint": "gel douche ice effect",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel douche « Ice Effect » Aurodhea exerce un fort pouvoir dégraissant sur l'ensemble du corps. Son action vivifie et tonifie la peau, stimulant une agréable sensation de fraîcheur, de légèreté et d'apaisement. Enrichi en Menthol, le gel douche « Ice effect » aide à dégonfler les membres, à amé..."
+        },
+        {
+            "id": 10095,
+            "name": "Crème de Corps N°119",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_4319bb74-770e-4c89-bccb-5e2edc4c7220.jpg?v=1711756973",
+            "hint": "crème de corps n°119",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Une crème dédiée aux femmes les plus extraverties et les plus originales, qui font du mystère leur arme gagnante. Une crème qui laisse un sillage irrésistible, capable de rendre intrigante celle qui le porte.\nLa crème corporelle parfumée Chogan laisse la peau hydratée, douce et parfumée. Elle lib..."
+        },
+        {
+            "id": 10096,
+            "name": "Crème de Corps N°080",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_d68f9d71-9c1f-47fe-808e-0a57c4329fc2.jpg?v=1711756938",
+            "hint": "crème de corps n°080",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un hommage à la féminité moderne : une combinaison irrésistible de force et d'esprit d'indépendance. Cette crème exprime à la fois la féminité, la grâce et le mystère : c'est un chypre moderne, élégant, voluptueux, intense et doux. Une combinaison de trois accords : nectar de cassis, chypre, bois..."
+        },
+        {
+            "id": 10097,
+            "name": "Crème de Corps N°055",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_6866c561-bbd5-4d5d-bf8a-4d95bce52dab.jpg?v=1711756903",
+            "hint": "crème de corps n°055",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Une crème inspirée par une femme unique et déterminée, sûre d'elle, libre, glamour, constamment à la recherche de nouvelles émotions. Une crème adrénaline, noire comme le café, capable de créer une dépendance avec l'exquise féminité des fleurs blanches et de la vanille.\nLa crème corporelle parfum..."
+        },
+        {
+            "id": 10098,
+            "name": "Crème de Corps N°042",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_1368034a-eef3-4e8e-883f-c262b3a5b625.jpg?v=1711756818",
+            "hint": "crème de corps n°042",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Une essence qui évoque la grâce, la lumière et la liberté. Dédié à une femme intelligente, cultivée et charmante. Une crème qui représente la \"quintessence du sourire\". Elle brille comme une \"étincelle de vie\", créée pour les femmes sophistiquées qui croient au bien vivre.\nLa crème corporelle par..."
+        },
+        {
+            "id": 10099,
+            "name": "Crème de Corps N°023",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_db892804-b6fe-4bd4-9533-018925a487e3.jpg?v=1711756783",
+            "hint": "crème de corps n°023",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Cette crème à la senteur enveloppante se veut une véritable potion qui envoûte les sens de tous ceux qui s'en imprègnent. Conçue pour la femme séductrice qui aime s'entourer de regards.\nLa crème corporelle parfumée Chogan laisse la peau hydratée, douce et parfumée. Elle libère des notes olfactive..."
+        },
+        {
+            "id": 10100,
+            "name": "Crème de Corps N°019",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_b20a4951-7d46-4a1a-9c98-0b6d65332e17.jpg?v=1711756748",
+            "hint": "crème de corps n°019",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Une crème exubérante et sensuelle, qui commence par la fraîcheur du Néroli et se mêle à l'intensité du Citron d'Amalfi, animé par une touche pétillante de Framboise. Les notes de cœur sont un triomphe floral de fleur d'oranger, de jasmin et de gardénia. En fond, les notes de patchouli se diluent ..."
+        },
+        {
+            "id": 10101,
+            "name": "Crème de Corps N°010",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME_6f10d8c1-09ef-4ab6-8a78-849402eea926.jpg?v=1711756717",
+            "hint": "crème de corps n°010",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un parfum à l'aura mystérieuse, un élixir magique, une fragrance qui libère énergie et sensualité. \nLa crème corporelle parfumée Chogan laisse la peau hydratée, douce et parfumée. Elle libère des notes olfactives permettant, d'un seul geste, d'envelopper la peau et de libérer un parfum persistant..."
+        },
+        {
+            "id": 10102,
+            "name": "Crème de Corps N°007",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CREME.jpg?v=1711756658",
+            "hint": "crème de corps n°007",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'essence du luxe et de la féminité absolue, qui est devenue une légende. Il est difficile de décrire la sensation que l'on ressent en portant cette crème : c'est comme une promenade dans une prairie fleurie à l'odeur intense, comme une plongée dans un \"bouquet fleuri\".\nLa crème corporelle parfum..."
+        },
+        {
+            "id": 10103,
+            "name": "Gel douche N°094",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_10344c1e-2c77-4bf6-a253-6579aa73db14.jpg?v=1711756070",
+            "hint": "gel douche n°094",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Ce gel douche parfumé renferme l'essence d'un homme au-delà des modes, au-delà du temps. Fidèle à sa propre identité, sauvage mais conscient.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes aromatiques. Il nettoie en douceur les peaux les plus se..."
+        },
+        {
+            "id": 10104,
+            "name": "Gel douche N°068",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_97c7df0e-d2a7-4b92-9868-6e349cbd4eba.jpg?v=1711755922",
+            "hint": "gel douche n°068",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel décisif, magnétique et audacieux. Il dégage dans ses sillages olfactifs la force d'une personne extrêmement sûre d'elle et qui n'a pas peur d'affirmer sa singularité.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes aromatiques. Il nettoie ..."
+        },
+        {
+            "id": 10105,
+            "name": "Gel douche N°061",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_04749926-5131-4d65-90f6-6947811f7a4a.jpg?v=1711755856",
+            "hint": "gel douche n°061",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche frais, sensuel et sportif qui cherche à incarner une vision moderne de la virilité. Un choc de sensations contrastées, où l'exaltation de la fraîcheur des notes de tête s'oppose à la sensualité boisée des notes de fond.\nLe gel douche parfumé Chogan se caractérise par une texture dou..."
+        },
+        {
+            "id": 10106,
+            "name": "Gel douche N°033",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_eb600e22-0e21-4e31-8857-4a775401e199.jpg?v=1711755695",
+            "hint": "gel douche n°033",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé qui combine un cocktail d'agrumes de bergamote et de citron avec des notes délicates de fleur d'olivier et des notes fortesd'anis étoilé et de bois de gaïac.Les notes de fond du tabac et de la fève tonka réchauffent le parfum et le rendent enveloppant et sensuel. Charme natu..."
+        },
+        {
+            "id": 10107,
+            "name": "Gel douche N°016",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_325c54ef-cfed-435e-b9eb-3dacc73e9288.jpg?v=1711755524",
+            "hint": "gel douche n°016",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'équilibre parfait entre virilité et sensualité. Un classique réinventé grâce à l'association de la lavande et de notes vanillées sexy. C'est un gel douche parfumé doté d'un parfum magnétique et séduisant, unique, moderne, doux, construit sur des contrastes et absolument irrésistibles.\nLe gel do..."
+        },
+        {
+            "id": 10108,
+            "name": "Gel douche N°020",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_63c47118-0232-4419-81a8-8b3303a34b49.jpg?v=1711755560",
+            "hint": "gel douche n°020",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Ce gel douche raconte une histoire de séduction, d'intensité et de sensualité audacieuse. Un homme séduisant et mystérieux, dont le charme irrésistible et le pouvoir de séduction effacent tout le reste à son passage.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule..."
+        },
+        {
+            "id": 10109,
+            "name": "Gel douche N°005",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_c3e1f65a-17f9-47ac-94bd-31c55f2e990f.jpg?v=1711755486",
+            "hint": "gel douche n°005",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Les essences fruitées de pommes fraîches et d'agrumes dans les notes de tête soulignent parfaitement la personnalité unique de chaque homme. La sensualité est renforcée par les accords de clou de girofle et de cannelle, cachés dans le cœur du gel avec l'œillet et l'acajou. Le bois de cèdre et le ..."
+        },
+        {
+            "id": 10110,
+            "name": "Gel douche N°001",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_98216047-dc8a-449f-961b-edcb3c7fcee6.jpg?v=1711755358",
+            "hint": "gel douche n°001",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'humour, la sensualité et l'esprit gentleman donnent vie à un gel douche unique, capable de mélanger des notes fraîches, des senteurs aromatiques et épicées, des notes de fruits juteux, mais aussi des notes florales et des bois chauds. La note finale est un cuir doux.\nLe gel douche parfumé Choga..."
+        },
+        {
+            "id": 10111,
+            "name": "Gel douche N°010",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810.jpg?v=1711754970",
+            "hint": "gel douche n°010",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche à l'aura mystérieuse, un élixir magique, une fragrance qui libère énergie et sensualité.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes aromatiques. Il nettoie en douceur les peaux les plus sensibles. Il nourrit, protège et laisse ..."
+        },
+        {
+            "id": 10112,
+            "name": "DIFFUSEUR DE PARFUM - « WONDERFUL WOODS »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16814660210.jpg?v=1705375303",
+            "hint": "diffuseur de parfum - « wonderful woods »",
+            "price": 30.0,
+            "category": "parfums",
+            "description": "Grace au diffuseur en spray pour pièces et tissus Home Care  «WONDERFUL WOODS», vous pouvez utiliser un seul produit pour rafraîchir les pièces de la maison (Salon, chambre, douche ou cuisine), les vêtements ou les tissus d'ameublement en quelques instants. Il suffit de vaporiser un peu de produi...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10113,
+            "name": "DIFFUSEUR DE PARFUM - « FRUITY VANILLA »",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16814659570.jpg?v=1705375077",
+            "hint": "diffuseur de parfum - « fruity vanilla »",
+            "price": 30.0,
+            "category": "parfums",
+            "description": "Grace au diffuseur en spray pour pièces et tissus Home Care  « FRUITY VANILLA », vous pouvez utiliser un seul produit pour rafraîchir les pièces de la maison (Salon, chambre, douche ou cuisine), les vêtements ou les tissus d'ameublement en quelques instants. Il suffit de vaporiser un peu de produ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10114,
+            "name": "DIFFUSEUR DE PARFUM - « BLOOMING ORIENT»",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16814658770.jpg?v=1709718366",
+            "hint": "diffuseur de parfum - « blooming orient»",
+            "price": 30.0,
+            "category": "parfums",
+            "description": "Grace au diffuseur en spray pour pièces et tissus Home Care  « FRUITY VANILLA », vous pouvez utiliser un seul produit pour rafraîchir les pièces de la maison (Salon, chambre, douche ou cuisine), les vêtements ou les tissus d'ameublement en quelques instants. Il suffit de vaporiser un peu de produ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10115,
+            "name": "Gel douche N°007",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_c194746a-6e9e-4818-b421-7663dc777995.jpg?v=1709717326",
+            "hint": "gel douche n°007",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'essence du luxe et de la féminité absolue, qui est devenue une légende. Il est difficile de décrire la sensation que l'on ressent en se lavant avec ce gel douche : c'est comme une promenade dans une prairie fleurie à l'odeur intense, comme une plongée dans un \"bouquet fleuri\".\nLe gel douche par..."
+        },
+        {
+            "id": 10116,
+            "name": "Gel douche N°019",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_cdae211a-3a2c-427c-a1cc-1ca1ec44e44f.jpg?v=1709717265",
+            "hint": "gel douche n°019",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé exubérant et sensuel, qui commence par la fraîcheur du Néroli et se mêle à l'intensité du Citron d'Amalfi, animé par une touche pétillante de Framboise. Les notes de cœur sont un triomphe floral de fleur d'oranger, de jasmin et de gardénia. En fond, les notes de patchouli se..."
+        },
+        {
+            "id": 10117,
+            "name": "Gel douche N°042",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_70dba66f-1d81-4a10-b1c6-00d6788a1eca.jpg?v=1709717021",
+            "hint": "gel douche n°042",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Une essence qui évoque la grâce, la lumière et la liberté. Dédié à une femme intelligente, cultivée et charmante. Un gel qui représente la \"quintessence du sourire\". Elle brille comme une \"étincelle de vie\", créée pour les femmes sophistiquées qui croient au bien vivre.\nLe gel douche parfumé Chog..."
+        },
+        {
+            "id": 10118,
+            "name": "Gel douche N°055W : Black Addiction",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_a22634af-980d-4672-86da-f5e2141441ed.jpg?v=1709716957",
+            "hint": "gel douche n°055w : black addiction",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé inspiré par une femme unique et déterminée, sûre d'elle, libre, glamour, constamment à la recherche de nouvelles émotions. Doté d'un parfum adrénaline, noir comme le café, capable de créer une dépendance avec l'exquise féminité des fleurs blanches et de la vanille.\nLe gel do..."
+        },
+        {
+            "id": 10119,
+            "name": "Gel douche N°080W : Absolutely",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_b812f51d-d7fa-4010-b328-4c1717f2e076.jpg?v=1709716818",
+            "hint": "gel douche n°080w : absolutely",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un hommage à la féminité moderne : une combinaison irrésistible de force et d'esprit d'indépendance. Ce gel douche parfumé exprime à la fois la féminité, la grâce et le mystère: c'est un chypre moderne, élégant, voluptueux, intense et doux. Une combinaison de trois accords : nectar de cassis, chy..."
+        },
+        {
+            "id": 10120,
+            "name": "Gel douche N°119W : Dark Affair",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_c6334d24-7b4b-41ff-9741-e02219ce182e.jpg?v=1709716626",
+            "hint": "gel douche n°119w : dark affair",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé est dédié aux femmes les plus extraverties et les plus originales, qui font du mystère leur arme gagnante. C'est doté d'un parfum qui laisse un sillage irrésistible, capable de rendre intrigante celle qui le porte.\nLe gel douche parfumé Chogan se caractérise par une texture ..."
+        },
+        {
+            "id": 10121,
+            "name": "Gel douche N°121W : Secret Desire",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360.jpg?v=1709716498",
+            "hint": "gel douche n°121w : secret desire",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Pour les femmes les plus courageuses, qui aiment le jour mais n'ont pas peur de la nuit, qui aiment enfreindre les règles et aller à contre-courant, qui s'épanouissent dans le frisson de l'interdit.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes..."
+        },
+        {
+            "id": 10122,
+            "name": "Crème à Raser Avant Rasage",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17023710030.jpg?v=1708423693",
+            "hint": "crème à raser avant rasage",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème Velobarba Aurodhea, fraîche et douce, adoucit la peau et permet à la lame du rasoir de glisser en douceur, garantissant un rasage rapide et délicat.Enrichie en glycérine et en aloe vera, qui hydratent, apaisent et protègent la peau, la crème de rasage aide à prévenir les irritations. Ell..."
+        },
+        {
+            "id": 10123,
+            "name": "Parfum N°039W : Darling",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°039w : darling",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum est comme un jeu dans une prairie fleurie au printemps : il est frais, délicat, jeune, spontané, pétillant. Il exprime toute la joie de vivre d'une femme ou d'une jeune fille joyeuse, élégante mais toujours libre, gaie et parfois même un peu irrévérencieuse.\nPyramide olfactive:\n\n\nNotes ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10124,
+            "name": "Parfum LOVE - PASSION",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16438008720_d407e438-f1ae-4685-83cf-477e559fadc3.jpg?v=1705380267",
+            "hint": "parfum love - passion",
+            "price": 25.0,
+            "category": "parfums",
+            "description": "« Scented Love - Passion » est un symbole de l'amour pur.Découvrez l'élixir envoûtant de Love Passion, un parfum exquis créé avec soin pour capturer l'essence ardente de l'amour. Les notes envoûtantes de roses veloutées se mêlent délicatement aux accords sensuels de vanille, créant une symphonie ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10125,
+            "name": "Parfum LOVE - ROMANCE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16438008720_34f60fb5-137b-4114-978c-f06d374e7397.jpg?v=1705380224",
+            "hint": "parfum love - romance",
+            "price": 25.0,
+            "category": "parfums",
+            "description": "« Scented Love - Romance » est un symbole de l'amour fou.Plongez dans l'émotion intime de Love Romance, un parfum envoûtant créé spécialement pour représenter l'amour. Les notes florales délicates s'entrelacent avec des accords mystérieux, tissant une trame olfactive qui évoque la romance pure. C...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10126,
+            "name": "Parfum LOVE - KISS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16438008720_b5dd2b28-1def-4fa8-9bb0-e738ca7338b5.jpg?v=1705380157",
+            "hint": "parfum love - kiss",
+            "price": 25.0,
+            "category": "parfums",
+            "description": "« Scented Love - Kiss » est un symbole de l'amour tendre.Explorez l'éclat émotionnel de Love KISS, un parfum envoûtant conçu pour capturer la passion profonde de l'amour. Les notes enivrantes de fleurs épanouies se marient harmonieusement à des accords audacieux, créant une symphonie olfactive qu...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10127,
+            "name": "Coffret  AMOUR  INCONDITIONEL (Homme)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16976339900_4f5aff00-b591-4ed9-84ce-095b04bcc964.jpg?v=1705380087",
+            "hint": "coffret  amour  inconditionel (homme)",
+            "price": 80.0,
+            "category": "parfums",
+            "description": "Le précieux coffret « AMOUR INCONDITIONEL » est une célébration sensorielle parfaite pour la saison de l'affection. Laissez-vous emporter par le parfum envoûtant qui évoque la passion profonde, accompagné d'une crème anti-âge pour le visage qui hydratera votre peau et luttera ccontre les rides et...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10128,
+            "name": "Coffret  AMOUR  INCONDITIONEL (Femme)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16976336590_11a77bef-1847-442e-b391-e22caa76fe3a.jpg?v=1705380025",
+            "hint": "coffret  amour  inconditionel (femme)",
+            "price": 70.0,
+            "category": "parfums",
+            "description": "Le précieux coffret « AMOUR INCONDITIONEL » est une célébration sensorielle parfaite pour la saison de l'affection. Laissez-vous emporter par le parfum envoûtant qui évoque la passion profonde, accompagné d'une crème anti-âge pour le visage qui hydratera votre peau et luttera ccontre les rides et...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10129,
+            "name": "Coffret  AMOUR  CHARNEL",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16499448090_5b2ed7b5-e505-49be-98e9-e65f8cf013a5.jpg?v=1705379975",
+            "hint": "coffret  amour  charnel",
+            "price": 55.0,
+            "category": "parfums",
+            "description": "Le précieux coffret « AMOUR CHARNEL » de Chogan est conçu pour mettre en valeur la beauté de chaque femme et lui offrir un agréable moment de bien-être grâce à la crème de jour au Lait d'Ânesse, qui rendra la peau visiblement plus radieuse et plus élastique, et au séduisant parfum « Scented Love ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10130,
+            "name": "Coffret  AMOUR  ÉTERNEL",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16499448240_1_d3c55a8a-f0a4-4946-9d17-ff37ae653637.jpg?v=1705379904",
+            "hint": "coffret  amour  éternel",
+            "price": 55.0,
+            "category": "parfums",
+            "description": "Le précieux coffret « AMOUR ÉTERNEL » de Chogan est conçu pour mettre en valeur la beauté de chaque femme et lui offrir un agréable moment de bien-être grâce à la crème de jour au Lait d'Ânesse, qui rendra la peau visiblement plus radieuse et plus élastique, et au séduisant parfum « Scented Love ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10131,
+            "name": "PARFUM DE POCHE FEMME (ÉTUI + PARFUM)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16990006130_25b55f18-b9c7-4c4b-99ee-c4efa44fca63.jpg?v=1705379787",
+            "hint": "parfum de poche femme (étui + parfum)",
+            "price": 42.0,
+            "category": "parfums",
+            "description": "Découvrez nos parfums rechargeables conçus pour simplifier votre quotidien. Leur format pratique s'adapte parfaitement à vos déplacements  quotidiens (travail, école, sorties,...), petits voyages, sorties et déplacements professionnels. L'étui compact assure une protection élégante, offrant la li...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10132,
+            "name": "PARFUM DE POCHE HOMME (ÉTUI + PARFUM)",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16990006590_be6fd6e2-4052-47d7-b32b-ab288a1544a8.jpg?v=1705379740",
+            "hint": "parfum de poche homme (étui + parfum)",
+            "price": 42.0,
+            "category": "parfums",
+            "description": "Découvrez nos parfums rechargeables conçus pour simplifier votre quotidien. Leur format pratique s'adapte parfaitement à vos déplacements  quotidiens (travail, école, sorties,...), petits voyages, sorties et déplacements professionnels. L'étui compact assure une protection élégante, offrant la li...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10133,
+            "name": "ÉTUI À PARFUM DE POCHE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16990006470.jpg?v=1705378945",
+            "hint": "étui à parfum de poche",
+            "price": 30.0,
+            "category": "parfums",
+            "description": "Étui pour les recharges de parfum en spray, Pratique, compacte et esthétiquement attrayant, cet étui est parfait pour une utilisation dans n'importe quel contexte et te permet de vaporiser ton parfum préféré à tout moment.L'étui comprend un vaporisateur et n'inclut pas la recharge de parfum.\nDéco...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10134,
+            "name": "Coffret  VIDE 05",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16789602290_4d73795e-6e70-4643-a841-49e58e0c4cf3.jpg?v=1705370309",
+            "hint": "coffret  vide 05",
+            "price": 8.0,
+            "category": "parfums",
+            "description": "Découvrez l'art de l'offrande avec nos coffrets exquis, méticuleusement conçus pour sublimer chaque présent. Ces écrins somptueux, parfaits pour abriter des bijoux scintillants, de la lingerie enchanteresse, des parfums envoûtants et des trésors de beauté, transforment chaque cadeau en une expéri...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10135,
+            "name": "Coffret  VIDE 04",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16789579590.jpg?v=1705370275",
+            "hint": "coffret  vide 04",
+            "price": 8.0,
+            "category": "parfums",
+            "description": "Découvrez l'art de l'offrande avec nos coffrets exquis, méticuleusement conçus pour sublimer chaque présent. Ces écrins somptueux, parfaits pour abriter des bijoux scintillants, de la lingerie enchanteresse, des parfums envoûtants et des trésors de beauté, transforment chaque cadeau en une expéri...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10136,
+            "name": "Coffret  VIDE 01",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16739547290.jpg?v=1705370401",
+            "hint": "coffret  vide 01",
+            "price": 8.0,
+            "category": "parfums",
+            "description": "Découvrez l'art de l'offrande avec nos coffrets exquis, méticuleusement conçus pour sublimer chaque présent. Ces écrins somptueux, parfaits pour abriter des bijoux scintillants, de la lingerie enchanteresse, des parfums envoûtants et des trésors de beauté, transforment chaque cadeau en une expéri...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10137,
+            "name": "Coffret  VIDE 02",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16739548070.jpg?v=1705369706",
+            "hint": "coffret  vide 02",
+            "price": 8.0,
+            "category": "parfums",
+            "description": "Découvrez l'art de l'offrande avec nos coffrets exquis, méticuleusement conçus pour sublimer chaque présent. Ces écrins somptueux, parfaits pour abriter des bijoux scintillants, de la lingerie enchanteresse, des parfums envoûtants et des trésors de beauté, transforment chaque cadeau en une expéri...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10138,
+            "name": "Parfum N°109W : Pure Gold Intense",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/109-removebg-preview.png?v=1692046451",
+            "hint": "parfum n°109w : pure gold intense",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum noble et sensuel où les notes de Jasmin et de Rose se mêlent au charme oriental de la Vanille et de la Fève Tonka. Le Jasmin brille par ses notes florales intenses et enveloppantes, la Rose libère toute sa force et sa beauté avec des accents presque épicés. Le cœur de Vanille et de Fève...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10139,
+            "name": "Parfum N°139U : Sahara Blush",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_319bfdf1-bd4c-4ea7-8d4c-8f2aef1afad3.png?v=1703901316",
+            "hint": "parfum n°139u : sahara blush",
+            "price": 65.0,
+            "category": "parfums",
+            "description": "Un parfum mixte, à la fois frais et intense, qui associe la délicatesse raffinée des accords floraux à l'intensité sensuelle du bois d'agar. Caractérisé par de merveilleux contrastes, le parfum évoque la magie des déserts lointains, qui séduisent les voyageurs avec des notes orientales de bois pr...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10140,
+            "name": "Parfum N°132",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°132",
+            "price": 45.0,
+            "category": "parfums",
+            "description": "Un parfum frais et vif, caractérisé par des accords floraux élégants. Le parfum s'ouvre sur des notes pétillantes et lumineuses debergamote et de fleur d'oranger. En cœur, la tubéreuse et le jasmin d’Inde créent une explosion olfactive capiteuse, douce et sensuelle. Enfin, le fond raffiné et pers...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10141,
+            "name": "PARFUM ENFANT: GARÇON  ( de 2 à 10 ans )",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16980468850_b906824b-1bdb-4a18-9596-49afee0da344.jpg?v=1702570333",
+            "hint": "parfum enfant: garçon  ( de 2 à 10 ans )",
+            "price": 29.0,
+            "category": "parfums",
+            "description": "Un parfum léger et frais qui enveloppera votre enfant (fils) d'une étreinte douce et délicate. Un bouquet floral, agréablement citronné, spécialement conçu pour évoquer le calme et la tranquillité des bébés, mais qui convient également aux mères.\nIl est hypoallergénique, doux et durable. Son desi...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10142,
+            "name": "Parfum N°020M : Obscuro",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°020m : obscuro",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum raconte une histoire de séduction, d'intensité et de sensualité audacieuse. Un homme séduisant et mystérieux, dont le charme irrésistible et le pouvoir de séduction effacent tout le reste à son passage.\nPyramide olfactive:\n\n\nNotes de tête: Cardamome\n\nNotes de cœur: Bergamote, Cèdre, Lav...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10143,
+            "name": "Parfum N°106U : Rebel Icon",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview.png?v=1692049882",
+            "hint": "parfum n°106u : rebel icon",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "C'est un parfum du groupe olfactif oriental cuiré, décadent, au fort pouvoir enivrant. Son caractère fort et intense séduit les sens, transportant là où les désirs deviennent réalité.\nFragance: Le départ est caractérisé par des notes de Sauge Sclarée et de Lavande ; le cœur explose avec des notes...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10144,
+            "name": "SPRAY NETTOYANT DÉSINFECTANT RÉFRIGÉRATEURS: CLEANFRIDGE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_16074916331_1.jpg?v=1702046745",
+            "hint": "spray nettoyant désinfectant réfrigérateurs: cleanfridge",
+            "price": 13.5,
+            "category": "produit-entretien",
+            "description": "CLEAN FRIDGE est un détergent désinfectant pour tous les réfrigérateurs, même de dernière génération et technologiques, qui sèche rapidement en laissant un parfum de fraicheur et de proprété. Spécialement formulé pour nettoyer et assainir efficacement et délicatement l'intérieur et l'extérieur du..."
+        },
+        {
+            "id": 10145,
+            "name": "DÉTARTRANT POUR FER À REPASSER: IRON DECALK",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_15549675391.jpg?v=1702046417",
+            "hint": "détartrant pour fer à repasser: iron decalk",
+            "price": 14.0,
+            "category": "produit-entretien",
+            "description": "IRON DECALK dissout les incrustations de calcaire présentes dans la chaudière et sur la plaque, protégeant les surfaces internes des formations ultérieures. Utilisé périodiquement, IRON DECALK maintient le fer à vapeur à 100 % de sa fonctionnalité, dans le meilleur état d'entretien, prolongeant a..."
+        },
+        {
+            "id": 10146,
+            "name": "GEL ANTI-ODEURS CANALISATIONS: SMELL CLEAN",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_15549675211.jpg?v=1702046080",
+            "hint": "gel anti-odeurs canalisations: smell clean",
+            "price": 16.5,
+            "category": "produit-entretien",
+            "description": "DRAIN CLEANER GEL spécifiquement formulé avec des agents biologiques, s'il est utilisé régulièrement, est le remède idéal pour éliminer les mauvaises odeurs et les résidus de tous les drains et canalisations, en les gardant toujours propres. Empêche la formation de blocages gênants sans nuire à l..."
+        },
+        {
+            "id": 10147,
+            "name": "DÉTERGENT POUR L’ENTRETIEN DES LAVE-VAISSELLE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_15549674241.jpg?v=1702045701",
+            "hint": "détergent pour l’entretien des lave-vaisselle",
+            "price": 9.0,
+            "category": "produit-entretien",
+            "description": "WASHER PLUS Pour lave-vaiselle (4 en 1) est un dégraissant émulsifiant, détartrant, assainissant et désodorisant, spécialement formulé pour l'entretien ordinaire et extraordinaire des lave-vaisselle. Avec un seul cycle de lavage à vide, il est capable d'éliminer instantanément toutes les graisses..."
+        },
+        {
+            "id": 10148,
+            "name": "DÉTERGENT POUR L’ENTRETIEN DES MACHINES À LAVER",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_15549678351.jpg?v=1702045321",
+            "hint": "détergent pour l’entretien des machines à laver",
+            "price": 10.0,
+            "category": "produit-entretien",
+            "description": "WASHER PLUS MACHINE (4 en 1) est un dégraissant émulsifiant, détartrant, assainissant et désodorisant, spécialement formulé pour l'entretien ordinaire et extraordinaire des machines à laver. Avec un seul cycle de lavage à vide, il est capable d'éliminer instantanément tous les résidus de saleté, ..."
+        },
+        {
+            "id": 10149,
+            "name": "APRÈS-SHAMPOING BIO NOURRISSANT À L’HUILE D'AVOCAT ET D’ARGAN",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/AR03.jpg?v=1716413188",
+            "hint": "après-shampoing bio nourrissant à l’huile d'avocat et d’argan",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'après-shampoing Aurodhea à l'huile d'Argan renforce les cheveux, les rendant naturellement doux et légers. La teneur élevée en vitamine E reconstitue les substances perdues lors de lavages fréquents. L'huile d'Argan donne aux cheveux une protection, une hydratation et un aspect fort et brillant..."
+        },
+        {
+            "id": 10150,
+            "name": "APRÈS-SHAMPOING RÉPARATEUR À LA BAVE D’ESCARGOT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16959919050.jpg?v=1702043675",
+            "hint": "après-shampoing réparateur à la bave d’escargot",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "L'après-shampoing à la bave d'Escargot a une action restructurante, nourrissante et démêlante. Particulièrement adapté aux cheveux abîmés, traités ou fragilisés, cet après-shampoing nourrit en profondeur et répare les cheveux grâce à l'action synergique de la bave d'Escargot, de l'huile d'Argan e..."
+        },
+        {
+            "id": 10151,
+            "name": "MASQUE BIO NOURISSANT ET VOLUMISATEUR À HUILE D’ARGAN",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_16370725761.jpg?v=1702043388",
+            "hint": "masque bio nourissant et volumisateur à huile d’argan",
+            "price": 11.0,
+            "category": "produit-pour-la-peau",
+            "description": "Offrez à vos cheveux une cure de luxe avec notre Masque à l'Huile d'Argan ! Formulé avec de l'huile d'argan pure et riche en acides gras essentiels, ce masque pénètre profondément dans chaque mèche pour nourrir intensément et hydrater vos cheveux. Notre masque capillaire Bio Nourrissant à l'huile..."
+        },
+        {
+            "id": 10152,
+            "name": "MASQUE RÉPARATEUR INTENSE À LA BAVE D’ESCARGOT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BV05.jpg?v=1716411480",
+            "hint": "masque réparateur intense à la bave d’escargot",
+            "price": 13.0,
+            "category": "produit-pour-la-peau",
+            "description": "Revitalisez vos cheveux avec notre révolutionnaire Masque à la Bave d'Escargot ! Infusé avec des propriétés régénératrices uniques, ce masque est un véritable sauveur pour les cheveux abîmés et cassants. La bave d'escargot, riche en protéines, collagène et élastine, travaille en profondeur pour r..."
+        },
+        {
+            "id": 10153,
+            "name": "MASQUE: HYDRATION INTENSE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CAP14B.jpg?v=1716394926",
+            "hint": "masque: hydration intense",
+            "price": 10.0,
+            "category": "produit-pour-la-peau",
+            "description": "Offrez à vos cheveux une Hydratation Intense avec notre Masque à l'Aloe Vera. Ce masque est parfait pour les cuirs chevelus sensibles, les cheveux secs, et déshydratés. L'Aloe Vera, reconnu pour ses propriétés apaisantes et hydratantes, pénètre profondément pour retenir l'hydration dans les cheve..."
+        },
+        {
+            "id": 10154,
+            "name": "SHAMPOING ANTI-CHUTES : POUR ÉVITER LA CASSE ET RETENIR LES LONGUEURS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16922771110.jpg?v=1702039661",
+            "hint": "shampoing anti-chutes : pour éviter la casse et retenir les longueurs",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampoing anti-chute Aurodhea est parfait pour nettoyer les cheveux faibles et cassants qui ont tendance à tomber et à s'affiner. Sa formule contient de la Caféine et du Serenoa, qui aident à lutter contre la chute des cheveux et les rendent plus brillants, plus doux et plus volumineux. Plus p..."
+        },
+        {
+            "id": 10155,
+            "name": "SHAMPOING CONTRE LES PELLICULES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16850101390.jpg?v=1702039553",
+            "hint": "shampoing contre les pellicules",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampoing antipelliculaire Aurodhea grâce à sa formulation composée de tensioactifs naturels, est extrêmement doux pour les cheveux et le cuir chevelu. La présence de Piroctone olamine, un principe actif aux propriétés antipelliculaires, séborégulatrices et antimicrobiennes, et d'Acide Salicyl..."
+        },
+        {
+            "id": 10156,
+            "name": "SHAMPOING LAVAGES FRÉQUENTS À L’ALOE VERA",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16933975471.jpg?v=1702039246",
+            "hint": "shampoing lavages fréquents à l’aloe vera",
+            "price": 11.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampoing à l'Aloe vera nettoie en douceur les cheveux stressés par les lavages fréquents, ce qui le rend idéal pour une utilisation quotidienne. Sa formule légère mais efficace nettoie le cuir chevelu sans l'irriter, grâce à la présence de tensioactifs végétaux doux. Il contient du jus d'Aloe..."
+        },
+        {
+            "id": 10157,
+            "name": "SHAMPOING POUR LA BRILLANCE DES CHEVEUX",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16850102670.jpg?v=1702039087",
+            "hint": "shampoing pour la brillance des cheveux",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampoing à la bave d'escargot nettoie et fortifie, redonnant douceur et brillance aux cheveux fragiles, abîmés et teints. Il élimine également les impuretés et les cellules mortes. Il est particulièrement adapté aux cuirs chevelus sensibles et délicats, car il rétablit rapidement leur état ph..."
+        },
+        {
+            "id": 10158,
+            "name": "SHAMPOING NOURRISSANT POUR GAGNER EN VOLUME",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/LA03.jpg?v=1716348207",
+            "hint": "shampoing nourrissant pour gagner en volume",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampoing au lait d'ânesse, recommandé pour les lavages fréquents, est très délicat et nourrissant, laissant les cheveux doux. Le composant lipidique naturel, dérivé du lait d'ânesse, de l'huile d'amande douce et de l'huile de karité, le rend particulièrement adapté aux peaux délicates et sens..."
+        },
+        {
+            "id": 10159,
+            "name": "SHAMPOING CONTRE LES POUX ET LES DÉMANGEAISONS",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/NM01B.jpg?v=1716347992",
+            "hint": "shampoing contre les poux et les démangeaisons",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le shampooing au Neem Chogan est utile pour lutter contre les cheveux gras et les pellicules. Il est indiqué pour réguler la production de sébum, prévenir la formation des poux et apaiser les démangeaisons. Le Neem a de fortes propriétés élastiques, hydratantes, apaisantes et anti-séborrhéiques. ..."
+        },
+        {
+            "id": 10160,
+            "name": "GEL NETTOYANT: Peau Normale et Peau sèche",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16869860540.png?v=1702037880",
+            "hint": "gel nettoyant: peau normale et peau sèche",
+            "price": 25.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le gel nettoyant pour le visage Aurodhea à la bave d'escargot est utile pour le nettoyage quotidien et convient aux peau noramles, sèches et deshydratées. Il a été formulé avec un mélange d'ingrédients doux dont l'action nettoyante facilite le nettoyage du visage, l'élimination des impuretés et d..."
+        },
+        {
+            "id": 10161,
+            "name": "MASQUE PEEL-OFF POUR PEAUX GRASSES, MIXTES ET IMPURES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16879446140.jpg?v=1702037314",
+            "hint": "masque peel-off pour peaux grasses, mixtes et impures",
+            "price": 19.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque facial Peel-off pour les peaux grasses, mixtes et impures, exfolie la peau en douceur,éliminant les cellules mortes et les points noirs. Il contient : des extraits de Jasmin, qui guérissent les marques post-acnéiques ; de Réglisse, qui minimise les imperfections superficielles de la pea..."
+        },
+        {
+            "id": 10162,
+            "name": "MASQUE PURIFIANT SEBOREGULATEUR A L'ACIDE SALICYLIQUE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17073859700.jpg?v=1715870245",
+            "hint": "masque purifiant seboregulateur a l'acide salicylique",
+            "price": 15.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque purifiant élimine les impuretés et les toxines. L'action équilibrante du sébum est assuré par l'acide salicylique et des ingrédients actifs spécifiques et fonctionnels, tels que l'extrait de citronet l'extrait d'hamamélis. Convient aux peaux mixtes et grasses.\nTesté sous contrôle dermat..."
+        },
+        {
+            "id": 10163,
+            "name": "MASQUE VISAGE DERMOPURIFIANT À L’ARGILE VERTE ET HUILE DE NEEM",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16246002580.jpg?v=1702036179",
+            "hint": "masque visage dermopurifiant à l’argile verte et huile de neem",
+            "price": 15.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque visage à l’argile verte et huile de Neem réduit les imperfections et éclaircit le teint. L’argile verte, riche en minéraux et absorbant, aide à normaliser la production de sébum ; l’Huile de Neem, grâce à ses propriétés antibactériennes et anti-inflammatoires, et le beurre de Karité boo..."
+        },
+        {
+            "id": 10164,
+            "name": "MASQUE PEEL-OFF POUR PEAUX MATURES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17078987630.png?v=1714600254",
+            "hint": "masque peel-off pour peaux matures",
+            "price": 22.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le masque Peel-off pour peaux matures hydrate, exfolie et contraste le vieillissement cutané. Il contient l'Avoine Strigosa, un ingrédient actif qui assure une hydratation profonde et continue, jusqu'à 24 heures, et possède des propriétés réparatrices. Le Galactoarabinan est un polysaccharide qui..."
+        },
+        {
+            "id": 10165,
+            "name": "CRÈME CONTOUR DES YEUX CONTRE LES RIDES, RIDULES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR22B.jpg?v=1716339357",
+            "hint": "crème contour des yeux contre les rides, ridules",
+            "price": 27.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour le contour des yeux à l'Aloe Vera et protéines de soie décongestionne le contour des yeux, réduit le gonflement, les rides et ridules. Enrichie en vitamine B5 et en acide hyaluronique, il contribue à repulper le contour de l’œil et à réparer la barrière cutanée. Parfaitement adapté ..."
+        },
+        {
+            "id": 10166,
+            "name": "SÉRUM GEL ANTI-TACHES PURIFIANT A L'ACIDE SALICYLIQUE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/GEL01.jpg?v=1716332812",
+            "hint": "sérum gel anti-taches purifiant a l'acide salicylique",
+            "price": 22.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le sérum gel anti-tâches pour le visage purifiant avec l’acide salicylique Chogan est parfait contre les taches et il agit efficacement contre l’acné et les rougissements. Il est idéal pour les adolescents et pour les personnes avec des problèmes d’acné, pendant des périodes de stress, de fatigue..."
+        },
+        {
+            "id": 10167,
+            "name": "CRÈME CLARIFIANTE POUR PEAU GRASSE ET PEAU ACNEIQUE",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16994328840.jpg?v=1702031130",
+            "hint": "crème clarifiante pour peau grasse et peau acneique",
+            "price": 35.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour le visage à l'huile de Neem est idéale pour les peaux grasses, impures, séborrhéiques et acnéiques, même en présence de points noirs et de folliculite. Sa formulation spécifique exerce une action purifiante, astringente, antibactérienne et sébo-normalisante. Convient également en ca..."
+        },
+        {
+            "id": 10168,
+            "name": "NETTOYANT DERMO-PURIFIANT ANTI-ACNÉ: Peau Grasse et Peau Mixte",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR11B.jpg?v=1716331573",
+            "hint": "nettoyant dermo-purifiant anti-acné: peau grasse et peau mixte",
+            "price": 20.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le nettoyant dermo-purifiant anti-acné est le produit idéal pour nettoyer en profondeur votre visage. Il convient surtout aux peaux présentant des points noirs, ou une peau grasse ou mixte ou alors de l'acné causés par une sécrétion excessive de sébum grâce à l'action purifiante de l'acide salicy..."
+        },
+        {
+            "id": 10169,
+            "name": "EAU MICELLAIRE 3 EN 1",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR12B.jpg?v=1716332016",
+            "hint": "eau micellaire 3 en 1",
+            "price": 15.0,
+            "category": "produit-pour-la-peau",
+            "description": "L’eau micellaire, grâce à son pouvoir démaquillant, élimine le maquillage waterproof et les impuretés en un seul geste, en laissant le visage nettoyé et frais. Elle est un indispensable pour un double nettoyage profond de la peau chaque soir. Elle est idéale même  pour les contours des yeux, grâc..."
+        },
+        {
+            "id": 10170,
+            "name": "LE LAIT DÉMAQUILLANT",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR13B.jpg?v=1716331852",
+            "hint": "le lait démaquillant",
+            "price": 15.5,
+            "category": "produit-pour-la-peau",
+            "description": "Le lait démaquillant  effectue une action démaquillante douce mais efficace, éliminant toute trace de maquillage. Les différents extraits naturels de la formule exercent une action apaisante combinée sur lapeau. Plus précisément, l'Aloe vera combat les irritations, rétablit l'équilibre hydrolipid..."
+        },
+        {
+            "id": 10171,
+            "name": "LOTION TONIQUE POUR PEAUX NORMALES, SÈCHES ET SENSIBLES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR14B.jpg?v=1716332604",
+            "hint": "lotion tonique pour peaux normales, sèches et sensibles",
+            "price": 15.5,
+            "category": "produit-pour-la-peau",
+            "description": "La lotion tonique pour le visage pour les peaux Normales, Sèches et Sensibles est un produit qui nettoie les pores sans altérer l'équilibre de la peau. Les extraits de calendula, de camomille et de mauve apaisent les irritations et préviennent les rougeurs. La lotion tonique pour le visage élimin..."
+        },
+        {
+            "id": 10172,
+            "name": "LOTION TONIQUE POUR PEAUX GRASSES, MIXTES ET ACNÉIQUES",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CR26B.jpg?v=1716332413",
+            "hint": "lotion tonique pour peaux grasses, mixtes et acnéiques",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "La lotion tonique faciale pour les peaux impures, grasses, acnéiques et mixtes est un allié précieux pour éliminer l'excès de sébum et les points noirs. Sa formule permet de purifier la peau en profondeur et de renforcer les défenses de la peau, en laissant une agréable sensation de nettoyage sur..."
+        },
+        {
+            "id": 10173,
+            "name": "Dentifrice Blanchissant à l'Aloe Vera: FORMAT MINI pour Voyage",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16860546011.jpg?v=1701831696",
+            "hint": "dentifrice blanchissant à l'aloe vera: format mini pour voyage",
+            "price": 6.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le dentifrice blanchissant est le produit idéal pour l'hygiène et les soins bucco-dentaires. Sa formule sans fluor, adaptée aux adultes et aux enfants, a une action apaisante sur les gencives et les muqueuses de la bouche. En fait, l'Aloe vera est utilisé depuis des siècles pour nettoyer les dent..."
+        },
+        {
+            "id": 10174,
+            "name": "Dentifrice Blanchissant au Charbon Actif",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17005563700.png?v=1701831177",
+            "hint": "dentifrice blanchissant au charbon actif",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le dentifrice Black contient du charbon actif, qui élimine les bactéries, éclaircit les taches dentaires et a une action blanchissante grâce à sa formule à base de Charbon actif. Il contient du Pyrophosphate de sodium, une substance capable d'éliminer le Magnésium et le Calcium de la salive, empê..."
+        },
+        {
+            "id": 10175,
+            "name": "Dentifrice Blanchissant à l'Aloe Vera",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16860546010.png?v=1701830477",
+            "hint": "dentifrice blanchissant à l'aloe vera",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le dentifrice blanchissant est le produit idéal pour l'hygiène et les soins bucco-dentaires. Sa formule sans fluor, adaptée aux adultes et aux enfants, a une action apaisante sur les gencives et les muqueuses de la bouche. En fait, l'Aloe vera est utilisé depuis des siècles pour nettoyer les dent..."
+        },
+        {
+            "id": 10176,
+            "name": "Dentifrice Sensitive à l'Aloe Vera",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16959920740.jpg?v=1701830188",
+            "hint": "dentifrice sensitive à l'aloe vera",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le dentifrice Sensitive est idéal pour les gencives sensibles grâce à son action apaisante et calmante. Son utilisation procure un soulagement immédiat, en atténuant l'inflammation des gencives grâce aux extraits de Calendula et de Camomille. Ces ingrédients conviennent aux gencives sensibles ou ..."
+        },
+        {
+            "id": 10177,
+            "name": "Nettoyant intime avec Aloe vera: FORMAT MINI pour Voyage",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16016417400.jpg?v=1701829848",
+            "hint": "nettoyant intime avec aloe vera: format mini pour voyage",
+            "price": 3.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le nettoyant pour l'hygiène intime nettoye doucement, en respectant l'équilibre et les défences naturelles des parties intimes. Il est enrichi en jus d'aloe vera qui aide à prévenir les irritations. Il respecte le ph physiologique des parties intimes (ph 4,5). Idéal pour vos déplacements et voyag..."
+        },
+        {
+            "id": 10178,
+            "name": "Nettoyant intime pour peaux délicates à la Mauve et Camomille",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16467239080.jpg?v=1701829626",
+            "hint": "nettoyant intime pour peaux délicates à la mauve et camomille",
+            "price": 8.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Nettoyant intime à la camomille et à la mauve de Chogan nettoie en douceur tout en respectant l'équilibre et les défenses naturelles des parties intimes. Il est enrichi d'Aloe vera, qui apaise et protège contre l'inconfort et les brûlures intimes et aide à prévenir les irritations. L'huile ess..."
+        },
+        {
+            "id": 10179,
+            "name": "Nettoyant intime à la Bave d'escargot",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16659922130.jpg?v=1701829533",
+            "hint": "nettoyant intime à la bave d'escargot",
+            "price": 8.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le nettoyant intime à la bave d'escargot laisse une sensation de fraîcheur totale, sans altérer le pH des muqueuses. Les principes de la bave d'escargot donnent de l'élasticité et exercent une forte action anti-inflammatoire. Il est enrichi en Propolis, antiseptique, antimicrobien et antifongique..."
+        },
+        {
+            "id": 10180,
+            "name": "Nettoyant intime Extra doux au lait d'Ânesse",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16968336760.jpg?v=1701829167",
+            "hint": "nettoyant intime extra doux au lait d'ânesse",
+            "price": 10.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le nettoyant intime au lait d'Anesse se caractérise par une base d'origine végétale, qui assure un nettoyage doux et respectueux du pH de la peau. Hydratant et apaisant, le lait d'ânesse aide à protéger la peau et à contrer l'apparition d'inconforts ou d'irritations. Enrichi en extraits de Sauge,..."
+        },
+        {
+            "id": 10181,
+            "name": "Nettoyant intime Aloe vera bio avec Mauve et Camomille",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16467239230.jpg?v=1701828186",
+            "hint": "nettoyant intime aloe vera bio avec mauve et camomille",
+            "price": 8.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le nettoyant intime Chogan à l'aloe vera nettoie doucement en respectant l'équilibre et les défenses immunitaires des parties intimes. Il est riche en extraits de mauve et de camomille qui apaisent , protègent et aident la prévention des irritations. Il respecte le pH physiologique des parties in..."
+        },
+        {
+            "id": 10182,
+            "name": "Crème Anti-âge après rasage",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16838853090_42bae0ef-9d29-4b17-b6a9-4ccd56d79bb5.jpg?v=1701826939",
+            "hint": "crème anti-âge après rasage",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème après-rasage anti-âge est parfaite pour une utilisation après le rasage. Le panthénol et le menthol rendent la peau douce et soyeuse, en exerçant une action émolliente et rafraîchissante. L'Allantoïne aide à apaiser et à régénérer la peau, la laissant hydratée et stimulant la synthèse du..."
+        },
+        {
+            "id": 10183,
+            "name": "Crème après-rasage parfumée",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SQHJDL.jpg?v=1714600902",
+            "hint": "crème après-rasage parfumée",
+            "price": 14.5,
+            "category": "produit-pour-la-peau",
+            "description": "La crème après-rasage parfumée senteur SILVER MOUNTAIN - CREED redonne du confort à la peau agressée par le rasage. Elle atténue les irritations et les rougeurs grâce à la synergie de l'huile d'Amande douce, de l'Aloe vera, del'Hamamélis et du Panthénol, aux propriétés apaisantes et anti-inflamma..."
+        },
+        {
+            "id": 10184,
+            "name": "Crème main à la bave d’Escargot",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16938160110_048abc37-54d9-4f39-a687-765bbb9ccb1c.png?v=1701825983",
+            "hint": "crème main à la bave d’escargot",
+            "price": 18.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour les mains à la bave d'escargot est idéale pour les mains marquées par le temps, sèches et gercées. Les principes actifs contenus naturellement dans la bave d'escargot (collagène, allantoïne, élastine, acide glycolique, vitamines A, C et E) reconstituent les tissus et réduisent les r..."
+        },
+        {
+            "id": 10185,
+            "name": "Crème main au Calendula",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16908919430.png?v=1701825515",
+            "hint": "crème main au calendula",
+            "price": 10.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour les mains au Calendula est conçue pour soigner les mains sèches, sujettes aux craquelures et aux rougeurs dues au froid et à l'utilisation de détergents. Le Calendula et le beurre deKarité nourrissent la peau en profondeur, exerçant une action apaisante et cicatrisante rapide et fav..."
+        },
+        {
+            "id": 10186,
+            "name": "Crème main à l'Aloe vera",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16300593370.jpg?v=1701825281",
+            "hint": "crème main à l'aloe vera",
+            "price": 10.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour les mains à l'Aloe Vera a des propriétés anti-rougeurs grâce à l'Allantoïne, l'Aloe Vera et la Camomille. L'activité émolliente est due à l'huile d'amande douce et à l'huile d'argan, tandis quele beurre de karité donne du tonus et de l'élasticité. Le produit, riche en vitamine E, ma..."
+        },
+        {
+            "id": 10187,
+            "name": "Déodorant Spray pour les pieds",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16950276120.jpg?v=1701823986",
+            "hint": "déodorant spray pour les pieds",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Le Déodorant Spray Aurodhea est l'allié indispensable pour avoir toujours des pieds frais et parfumés. Sa formule, enrichie d'un actif anti-transpirant, régule la transpiration et donc la prolifération bactérienne,contribuant à réduire et neutraliser les mauvaises odeurs. Enrichi en Aloe Vera, ce..."
+        },
+        {
+            "id": 10188,
+            "name": "Crème pieds au Menthol et Calendula",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16391262240.jpg?v=1701823610",
+            "hint": "crème pieds au menthol et calendula",
+            "price": 8.5,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour les pieds avec l'extrait de menthol redonne du bien-être aux pieds fatigués, rafraîchit grâce au menthol et donne une sensation de soulagement immédiat ; elle est spécialement formulée pour les pieds secs et crevassés. Elle exerce une instantanée activité adoucissante, veloutante et..."
+        },
+        {
+            "id": 10189,
+            "name": "Crème pieds à l’huile de Neem",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16879603340.jpg?v=1701823339",
+            "hint": "crème pieds à l’huile de neem",
+            "price": 14.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème à l'huile de Neem Aurodhea dorlote les pieds et les protège des infections grâce à ses propriétés antifongiques et antibactériennes. Son action permet de soigner certaines maladies telles que les mycoses et les champignons de la peau, problèmes rencontrés notamment par les personnes qui ..."
+        },
+        {
+            "id": 10190,
+            "name": "Crème pieds Bio à l'huile d'Argan, Beurre de Karité et Aloe Vera",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16869070030.png?v=1701821497",
+            "hint": "crème pieds bio à l'huile d'argan, beurre de karité et aloe vera",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "La crème pour les pieds à l'huile d'Argan Aurodhea redonne du bien-être aux jambes et aux pieds lourds etfatigués. Grâce à la présence de l'huile d'Argan, elle hydrate et protège la peau des pieds, améliorant leur aspect général et les laissant parfaitement soignés, lisses et doux dès les premièr..."
+        },
+        {
+            "id": 10191,
+            "name": "Parfum N°016M : Sailor",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°016m : sailor",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "L'équilibre parfait entre virilité et sensualité. Un classique réinventé grâce à l'association de la lavande et de notes vanillées sexy. C'est un parfum magnétique et séduisant, unique, moderne, doux, construit sur des contrastes et absolument irrésistibles.\nPyramide olfactive:\n\n\nNotes de tête: B...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10192,
+            "name": "Parfum de Cheveux N°042W : Bonheur Supreme",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_17_5703a56b-8e95-4003-bea9-30b71f9c307e.png?v=1693908424",
+            "hint": "parfum de cheveux n°042w : bonheur supreme",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "La brume capillaire parfumée Aurodhea enveloppe vos cheveux d'un parfum irrésistible, empêchant les mauvaises odeurs de se déposer sur vos cheveux et créant un agréable sillage parfumé sur votre passage. Enrichi en vitamine E, en protéines de Soie et en Ginkgo Biloba, ce produit rend vos cheveux ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10193,
+            "name": "Parfum de Cheveux N°023",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_17_bd390674-7ed4-49de-8667-8fc81d7e0dff.png?v=1693908276",
+            "hint": "parfum de cheveux n°023",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "La brume capillaire parfumée Aurodhea enveloppe vos cheveux d'un parfum irrésistible, empêchant les mauvaises odeurs de se déposer sur vos cheveux et créant un agréable sillage parfumé sur votre passage. Enrichi en vitamine E, en protéines de Soie et en Ginkgo Biloba, ce produit rend vos cheveux ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10194,
+            "name": "Parfum de Cheveux N°019",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_17_2628d906-a6b5-42ba-882b-2236d9cb8e36.png?v=1693908113",
+            "hint": "parfum de cheveux n°019",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "La brume capillaire parfumée Aurodhea enveloppe vos cheveux d'un parfum irrésistible, empêchant les mauvaises odeurs de se déposer sur vos cheveux et créant un agréable sillage parfumé sur votre passage. Enrichi en vitamine E, en protéines de Soie et en Ginkgo Biloba, ce produit rend vos cheveux ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10195,
+            "name": "Parfum de Cheveux N°007",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_17_e59ae4d7-6dfb-46fa-a71f-084ab9ca4c27.png?v=1693907915",
+            "hint": "parfum de cheveux n°007",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "La brume capillaire parfumée Aurodhea enveloppe vos cheveux d'un parfum irrésistible, empêchant les mauvaises odeurs de se déposer sur vos cheveux et créant un agréable sillage parfumé sur votre passage. Enrichi en vitamine E, en protéines de Soie et en Ginkgo Biloba, ce produit rend vos cheveux ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10196,
+            "name": "Parfum de Cheveux N°001",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_17.png?v=1693907613",
+            "hint": "parfum de cheveux n°001",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "La brume capillaire parfumée Aurodhea enveloppe vos cheveux d'un parfum irrésistible, empêchant les mauvaises odeurs de se déposer sur vos cheveux et créant un agréable sillage parfumé sur votre passage. Enrichi en vitamine E, en protéines de Soie et en Ginkgo Biloba, ce produit rend vos cheveux ...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10197,
+            "name": "Brume Parfumée N°044",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_16_62697de2-e485-47e3-b991-8d75ba7ace8c.png?v=1693907302",
+            "hint": "brume parfumée n°044",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "Positive et équilibrée, romantique et déterminée, cette brume est intense mais sans ostentation. Une brume qui évoque des torrents d'eau cristalline, s'élevant des merveilleuses Alpes suisses, la détente et la réunification avec soi-même : des scénarios que seul un paysage pur et pétillant peut c...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10198,
+            "name": "Brume Parfumée N°068",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_16_6d5d17bc-2ac7-47b4-99e4-a470dcae63f6.png?v=1693907146",
+            "hint": "brume parfumée n°068",
+            "price": 10.0,
+            "category": "parfums",
+            "description": "Un brume décisive, magnétique et audacieuce. Elle dégage dans ses sillages olfactifs la force d'une personne extrêmement sûre d'elle et qui n'a pas peur d'affirmer sa singularité.\nLes brumes parfumées pour le corps de Chogan sont une excellente alternative aux parfums classiques. Plus légères et ...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10199,
+            "name": "Brume Parfumée N°007",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16994318880.jpg?v=1699874710",
+            "hint": "brume parfumée n°007",
+            "price": 14.9,
+            "category": "parfums",
+            "description": "L'essence du luxe et de la féminité absolue, qui est devenue une légende. Il est difficile de décrire la sensation que l'on ressent en portant cette brume : c'est comme une promenade dans une prairie fleurie à l'odeur intense, comme une plongée dans un \"bouquet fleuri\".\nLes brumes parfumées pour ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10200,
+            "name": "Déodorant Spray Naturel",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_10.png?v=1693871374",
+            "hint": "déodorant spray naturel",
+            "price": 11.0,
+            "category": "parfums",
+            "description": "Le déodorant Spray naturel Chogan ne change pas la naturelle transpiration de la peau.Le Trietil citrate aide à prévenir la formation des mauvaises odeurs grâce à la présence d’agents apaisants comme la Glycérine et l’Aloé Vera, qui hydrate, apaise et rafraîchit en rétablissant la couche hydrolip...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10201,
+            "name": "Déodorant Spray Longue durée",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16953935030.jpg?v=1714592335",
+            "hint": "déodorant spray longue durée",
+            "price": 14.0,
+            "category": "parfums",
+            "description": "Le déodorant Spray Longue Durée Aurodhea garantit une sensation de fraicheur jusqu'à 24heures après son utilisation. Grâce à sa molécule déodorante, il forme un film protecteur sur la peau et inhibe la prolifération des bactéries responsables des mauvaises odeurs.Sa formule hydro-alcoolique est e...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10202,
+            "name": "Déocrème Longue durée N°007",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_3.png?v=1693869453",
+            "hint": "déocrème longue durée n°007",
+            "price": 13.0,
+            "category": "parfums",
+            "description": "L'essence du luxe et de la féminité absolue, qui est devenue une légende. Il est difficile de décrire la sensation que l'on ressent en portant ce déocrème : c'est comme une promenade dans une prairie fleurie à l'odeur intense, comme une plongée dans un \"bouquet fleuri\".\nLe Déocrème naturel Chogan...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10203,
+            "name": "Déocrème Longue durée N°001",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_2.png?v=1693869129",
+            "hint": "déocrème longue durée n°001",
+            "price": 13.0,
+            "category": "parfums",
+            "description": "L'humour, la sensualité et l'esprit gentleman donnent vie à un déodorant cremeux unique, capable de mélanger des notes fraîches, des senteurs aromatiques et épicées, des notes de fruits juteux, mais aussi des notes florales et des bois chauds. La note finale est un cuir doux.\nLe Déocrème naturel ...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10204,
+            "name": "Parfum N°033M : Nightfall",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°033m : nightfall",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum qui combine un cocktail d'agrumes de bergamote et de citron avec des notes délicates de fleur d'olivier et des notes fortesd'anis étoilé et de bois de gaïac.Les notes de fond du tabac et de la fève tonka réchauffent le parfum et le rendent enveloppant et sensuel. Charme naturel et mystè...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10205,
+            "name": "Gel douche N°003",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_2dd8724f-bc6b-4c58-81ee-1edb748f576e.jpg?v=1711755448",
+            "hint": "gel douche n°003",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé plein de contradictions : frais mais vigoureux, comme une rencontre entre l'eau et le feu.\nPyramide olfactive:\n\nNotes de tête: Aubépine, Bergamote, Camomille, Cèdre, Citron, Lavande, Mandarine, Noix de muscade\n\nNotes de cœur: Bois de santal, Cèdre, Chevrefeuille, Feuille de ..."
+        },
+        {
+            "id": 10206,
+            "name": "Gel douche N°002",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_0957d2bb-6e35-4249-9eec-6a8f1e352c18.jpg?v=1711755412",
+            "hint": "gel douche n°002",
+            "price": 16.0,
+            "category": "produit-pour-la-peau",
+            "description": "Un gel douche parfumé inspiré de l'île de Pantelleria : frais et léger, profond et raffiné. Doté d'un parfum intensément masculin qui, avec sa fraîcheur minérale, symbolise la rencontre de la mer avec la roche.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enric..."
+        },
+        {
+            "id": 10207,
+            "name": "Gel douche N°023",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_4567ccc5-b07f-42bd-b4e6-e5a2a79b264d.jpg?v=1709717207",
+            "hint": "gel douche n°023",
+            "price": 16.0,
+            "category": "parfums",
+            "description": "Ce gel à la senteur enveloppante se veut une véritable potion qui envoûte les sens de tous ceux qui s'en imprègnent. Conçu pour la femme séductrice qui aime s'entourer de regards.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes aromatiques. Il ne...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10208,
+            "name": "Parfum N°130U : Oceanic Pulse",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_f27b27aa-e012-4b25-892d-6fb2aff30506.png?v=1692053446",
+            "hint": "parfum n°130u : oceanic pulse",
+            "price": 65.0,
+            "category": "parfums",
+            "description": "Un parfum qui raconte la beauté et la puissance de la mer, enveloppant les sens dans un tourbillon enivrant à la fois sucré et épicé, combinant des notes ensoleillées et saumâtres pour créer un portrait marin irrésistible.\nFragance:  Un parfum à la fois calme et orageux. Le départ de Bergamote, d...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10209,
+            "name": "Parfum N°129U : Chlorophyll",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/117_TOBACCO-removebg-preview_104f8072-aaf2-474c-81a7-f35276805977.png?v=1692053144",
+            "hint": "parfum n°129u : chlorophyll",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum oriental innovant dans lequel les senteurs fraîches de la Méditerranée s'associent aux notes sensuelles et rêveuses de l'ambre et de la vanille. Un parfum parfait pour les femmes et les hommes, capable de caresser les sens et de transmettre une charge d'énergie.\nFragance: Ce parfum s'ou...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10210,
+            "name": "Parfum N°124U : Everlasting",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview_050db8fb-381b-4188-87bd-b4e6b583d8fd.png?v=1692052917",
+            "hint": "parfum n°124u : everlasting",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum perturbateur, capable de raconter et d'embrasser l'univers avec ses senteurs. Un parfum qui ne connaît pas de limites, parfait pour les hommes et les femmes. Un parfum au caractère profond, sombre et fascinant qui capture le devenir de toute chose, le passage du temps.\nFragance: La frag...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10211,
+            "name": "Parfum N°118U : Scarlet Fire",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/118-removebg-preview.png?v=1692052676",
+            "hint": "parfum n°118u : scarlet fire",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum lumineux, dense et intense : une harmonie sensuelle et magnétique pour les amateurs de senteurs douces et enveloppantes. Il caresse la peau comme un souffle fleuri et ambré dans lequel se mêlent des notes boisées. Une alchimie poétique où la note délicate du Jasmin se mêle aux nuances m...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10212,
+            "name": "Parfum N°134U : Orange Nectar",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_bf76245a-f58a-41b9-87da-c0d2b1ddbd13.png?v=1692052311",
+            "hint": "parfum n°134u : orange nectar",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum capiteux, chaud et fruité, où la succulente Pêche rejoint un cœur mêlant des notes florales de Jasmin à des notes alcoolisées de Rhum et de Cognac. La vague finale de Patchouli, de bois de Santal, de Cashmeran et de vétiver captive les sens, rejoignant les notes sucrées de Vanille et de...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10213,
+            "name": "Parfum N°128U : Sugar Poison",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview_7ea8dd2c-ee72-428e-8906-99cd14d15cfd.png?v=1692051793",
+            "hint": "parfum n°128u : sugar poison",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum séduisant, irrésistible et plein de contrastes. La fragrance s'ouvre sur des notes fraîches d'agrumes et des notes intenses de Rhum, de Myrrhe et d'Oliban. Le cœur associe des senteurs florales de Narcisse, de Frangipanier et de Rose à des notes riches de Café et d'Orge. Enfin, le fond ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10214,
+            "name": "Parfum N°127U : Agar Forest",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview_a2db2798-691d-4166-9939-e3cdebd97e8d.png?v=1692051612",
+            "hint": "parfum n°127u : agar forest",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum rare et exotique, caractérisé par le précieux parfum du bois d'Agar. Il s'ouvre sur des notes épicées de poivre de Sichuan, de Cardamome et de notes boisées chaudes. Le cœur se distingue par des notes de bois d'Agar, de Santal et de Vétiver. Le fond irrésistible est enrichi par les note...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10215,
+            "name": "Parfum N°126U : Lumière Dorée",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview_be45c117-d859-4cf0-9488-1fa02ba03a1b.png?v=1692051524",
+            "hint": "parfum n°126u : lumière dorée",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum qui évoque l'image d'îles lointaines et ensoleillées. Le départ du parfum associe des notes épicées de cardamome et de poivre rose à la fraîcheur de la bergamote. La sensualité florale du jasmin, de la tubéreuse et de l'ylang-ylang caractérise le cœur ; le benjoin, la fève tonka, l'ambr...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10216,
+            "name": "Parfum N°125U : Mediterraneo",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/117_TOBACCO-removebg-preview.png?v=1692051334",
+            "hint": "parfum n°125u : mediterraneo",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum qui évoque la splendeur onirique du littoral italien avec une explosion de senteurs d'agrumes. L'idylle méditerranéenne et l'atmosphère ensoleillée sont exprimées par des notes de fleur d'Oranger, de Jasmin et de Muguet, qui donnent à la fragrance légèreté et éclat. Le parfum s'achève s...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10217,
+            "name": "Parfum N°117U : Velvet Smoke",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/106-removebg-preview_74e9c5d8-089f-41ee-a28b-3859ff5934f4.png?v=1692050855",
+            "hint": "parfum n°117u : velvet smoke",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "C'est un parfum opulent, chaleureux et emblématique : une version moderne d'un club d'hommes de l'ancien monde. Ce doux parfum oriental s'ouvre immédiatement sur des notes épicées et herbacées. Le cœur se déploie avec des essences opulentes de fleurs de tabac, de fève tonka, de cacao et de vanill...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10218,
+            "name": "Parfum N°112U : Riviera",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/123-removebg-preview_2a2c1f30-d0b7-4b8f-9e22-a1556072cc41.png?v=1692050435",
+            "hint": "parfum n°112u : riviera",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum frais et pétillant qui évoque les senteurs portées par la brise marine. Ses accords d'agrumes, aromatiques et floraux évoquent des images d'eaux cristallines et la végétation luxuriante du littoral italien.\nFragance: Un parfum qui équilibre des notes lumineuses d'agrumes et de fleurs av...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10219,
+            "name": "Parfum N°111U : Ruby Love",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/123-removebg-preview_c7c28443-d96e-484f-9bc1-fe69bb5bca7e.png?v=1692050213",
+            "hint": "parfum n°111u : ruby love",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum complexe dans lequel la douceur de la Cerise juteuse rencontre l'intensité de la Liqueur et la touche provocante de l'Amande amère. Le cœur déborde de vagues de Cerises, sucrées et acidulées, associées à des nuances florales enchanteresses de Rose turque et de Jasmin. Le fond est caract...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10220,
+            "name": "Parfum N°102U : Soft Rays",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_accd9d01-8caf-417e-a9c2-bf0e3e435229.png?v=1692049587",
+            "hint": "parfum n°102u : soft rays",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum qui interprète de façon moderne l'accord ambré raffiné, véritable essence de la famille des parfums orientaux. Comme un vent chaud d'Orient, l'Ylang-Ylang aux pétales jaunes déploie sa force exotique sur un accord ambré de Vanille et de Ciste labdanum. Au fur et à mesure que la fragranc...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10221,
+            "name": "Parfum N°101U : Soft Caress",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/109-removebg-preview_c050f356-6643-4bf4-8c94-60b51dc0fa72.png?v=1692049493",
+            "hint": "parfum n°101u : soft caress",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "C'est un parfum oriental ambré qui allie la palette des parfums raffinés de la Méditerranée aux notesdouces et balsamiques de l'Arabie. Somptueux comme de la soie moirée, le parfum mystérieux prend desnotes ambrées et violettes au fur et à mesure qu'il se déploie. La vivacité de la Bergamote écla...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10222,
+            "name": "Parfum N°075M : Xcellence",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview_09dfcf18-c54d-4db1-8dee-6de7edeae147.png?v=1692048669",
+            "hint": "parfum n°075m : xcellence",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum masculin mystérieux, qui combine les règles de la parfumerie conventionnelle avec le moderne et l'exotique. Un must-have pour l'homme aventureux et fort, un parfum intemporel qui laisse un sillage sensuel incomparable et persistant.\nFragance: Un parfum intemporel qui ravive les sens ave...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10223,
+            "name": "Parfum N°074M : Essence Noir",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/074-removebg-preview.png?v=1692048539",
+            "hint": "parfum n°074m : essence noir",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un parfum masculin intense et hypnotique, caractérisé par des notes boisées et enfumées. Un parfum pour hommes à la forte personnalité, qui crée presque une dépendance avec ses notes irrésistibles de tabac, de cannabis et de café.\nFragance: Un parfum intense et surprenant, jamais accablant. Il s’...",
+            "subCategory": "homme"
+        },
+        {
+            "id": 10224,
+            "name": "Parfum N°123W : Sweet Rebel",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/123-removebg-preview.png?v=1692048139",
+            "hint": "parfum n°123w : sweet rebel",
+            "price": 52.0,
+            "category": "parfums",
+            "description": "Un concentré de sensualité qui associe des notes délicates et innocentes à des senteurs plus voluptueuses. Idéal pour la femme timide mais sensuelle, réservée mais aussi séductrice.\nFragance: Le parfum s'ouvre sur des notes fraîches d' Osmanthus, de Jasmin et de Rose de mai, qui se mêlent à un cœ...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10225,
+            "name": "Parfum N°135U : Mystic Forest",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°135u : mystic forest",
+            "price": 57.0,
+            "category": "parfums",
+            "description": "Un parfum enveloppant, mystérieux et contrasté. Un parfum capable d'insuffler énergie, sensualité et charme à l'homme ou à la femme qui le porte. Il fait vibrer les désirs avec l'élégance de l'Iris et la sensualité de ses notes de fond.\nPyramide olfactive:\n\n\nNotes de tête: Baies de genevrier, Cyp...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10226,
+            "name": "Parfum N°114U : Desert Whisper",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°114u : desert whisper",
+            "price": 48.0,
+            "category": "parfums",
+            "description": "Un parfum capable de mener loin, entre senteurs orientales et dunes sinueuses. Une essence rare et nuancée qui vous transporte dans un voyage où la force et la solidité du bois de Oud apparaissent clairement.\nPyramide olfactive:\n\n\nNotes de tête: Bergamote, Citron, Framboise\n\nNotes de cœur: Cannel...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10227,
+            "name": "Parfum N°110U : Mystic Spell",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°110u : mystic spell",
+            "price": 48.0,
+            "category": "parfums",
+            "description": "Positif et équilibré, romantique et déterminé, ce parfum est intense mais sans ostentation. Un parfum qui évoque des torrents d'eau cristalline, s'élevant des merveilleuses Alpes suisses, la détente et la réunification avec soi-même : des scénarios que seul un paysage pur et pétillant peut créer....",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10228,
+            "name": "Parfum N°073U : The Summit",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°073u : the summit",
+            "price": 48.0,
+            "category": "parfums",
+            "description": "Un jeu entre la chaleur des notes boisées, la fraîcheur des agrumes et la sensualité profonde des notes musquées. Un parfum qui exprime le dynamisme, l'envie de se mettre à l'épreuve et un caractère bien trempé.\nPyramide olfactive:\n\n\nNotes de tête: Bergamote, Citron, Pamplemousse\n\nNotes de cœur: ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10229,
+            "name": "Parfum N°044U : Frozen Crest",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°044u : frozen crest",
+            "price": 48.0,
+            "category": "parfums",
+            "description": "Positif et équilibré, romantique et déterminé, ce parfum est intense mais sans ostentation. Un parfum qui évoque des torrents d'eau cristalline, s'élevant des merveilleuses Alpes suisses, la détente et la réunification avec soi-même : des scénarios que seul un paysage pur et pétillant peut créer....",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10230,
+            "name": "Parfum N°105U : Expresso",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°105u : expresso",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum qui met en valeur la note gourmande du café. Les notes de tête sont une éruption de tons floraux qui anticipent un cœur inédit de rose délicate, noyé dans un mélange arabe de café noir. La base est constituée de notes ambrées, de vanille et de musc blanc.\nPyramide olfactive:\n\n\nNotes de ...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10231,
+            "name": "Parfum N°100U : Mystic Woods",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°100u : mystic woods",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum s'épanouit sur la peau avec la délicatesse de la Rose, l'irrésistibilité des épices et la douceur du Bois d'Agar. Dans sa base crémeuse d'Ambre et de Santal émerge un tourbillon de Vanille, qui adoucit le mélange sans l'envahir.\nPyramide olfactive:\n\n\nNotes de tête: Calamba, Cardamome, R...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10232,
+            "name": "Parfum N°072U : Earth Memory",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°072u : earth memory",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum polyvalent, convenant aussi bien aux hommes qu'aux femmes, évoquant une liberté rêveuse et une élégance décomposée d'inspiration bohème.\nPyramide olfactive:\n\n\nNotes de tête: Cèdre\n\n\nNotes de cœur: Bois de santal, Patchouli, Vétiver\n\nNotes de fond: Baume de Tolu, Ciste, fève tonka, Musc,...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10233,
+            "name": "Parfum N°099U : Orange Sun",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°099u : orange sun",
+            "price": 45.0,
+            "category": "parfums",
+            "description": "Un hommage à la beauté et à la paix de la côte amalfitaine. Un parfum qui raconte l'arôme intrigant des agrumes et de la nature, créant une fragrance effervescente et magique qui évoque les paysages paradisiaques d'Amalfi.\nPyramide olfactive:\n\n\nNotes de tête: Basilic, Cassis, Citron, Estragon, Me...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10234,
+            "name": "Parfum N°054U : Night Flower",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°054u : night flower",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum voluptueux créé pour les personnalités sophistiquées et intrigantes. Un parfum qui captive par ses notes chaudes et sombres, créant un parfum moderne et intemporel avec un cœur d'Orchidée.\nPyramide olfactive:\n\n\nNotes de tête: Bergamote, Cassis, Citron, Gardénia, Jasmin, Mandarine, Truff...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10235,
+            "name": "Parfum N°155U : True Self",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/001.jpg?v=1734290567",
+            "hint": "parfum n°155u : true self",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum à l'âme minimaliste, androgyne et inspiré par les valeurs de l'égalité des chances. Un parfum qui convient aussi bien aux hommes qu'aux femmes et qui célèbre les relations humaines et l'esprit de partage.\nPyramide olfactive:\n\n\nNotes de tête: Ananas, Bergamote, Cardamome, Citron, Mandari...",
+            "subCategory": "mixte"
+        },
+        {
+            "id": 10236,
+            "name": "Parfum N°047W : Night Gem",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°047w : night gem",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Somptueux mais excentrique, glamour mais ironique, ce parfum est dédié à la femme qui sait être sexy et sûre d'elle, qui marche la tête haute. Un parfum inspiré par la somptuosité des robes du soir.\nPyramide olfactive:\n\n\nNotes de tête: Cardamome, Gingembre, Poivre\n\nNotes de cœur: Fleur d'oranger,...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10237,
+            "name": "Parfum N°028 W : Etherea",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°028 w : etherea",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum audacieux qui expérimente la combinaison de notes orientales classiques, telles que la vanille et le patchouli, avec des notes gourmandes de chocolat, de caramel et des touches fraîches de notes fruitées.\nPyramide olfactive:\n\n\nNotes de tête: Ananas, Bergamote, Cassis, Jasmin, Mandarine,...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10238,
+            "name": "Parfum N°010W : Stranger",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°010w : stranger",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum à l'aura mystérieuse, un élixir magique, une fragrance qui libère énergie et sensualité.\nPyramide olfactive:\n\n\nNotes de tête: Jasmin\n\n\nNotes de cœur: Notes boisées\n\nNotes de fond: Ambre\n\n\n\n\nFormat: 70mL\n\n\n\n\nMode d'emploi: Vaporisez une petite quantité de parfum directement sur la zone q...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10239,
+            "name": "Parfum N°067W : Victoria",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°067w : victoria",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum au sillage divin, destiné aux femmes fortes, les Cléopâtre modernes. Il exprime la fierté, la féminité et la délicatesse.\nPyramide olfactive:\n\n\nNotes de tête: Gingembre, Jasmin, Mandarine\n\nNotes de cœur: Sel, Vanille\n\nNotes de fond: Ambre gris, Bois de cachemire, Bois de santal\n\n\n\n\nForm...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10240,
+            "name": "Parfum N°019W : Prestige For Her",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°019w : prestige for her",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum exubérant et sensuel, qui commence par la fraîcheur du Néroli et se mêle à l'intensité du Citron d'Amalfi, animé par une touche pétillante de Framboise. Les notes de cœur sont un triomphe floral de fleur d'oranger, de jasmin et de gardénia. En fond, les notes de patchouli se diluent dan...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10241,
+            "name": "Parfum N°053W : Vanité",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°053w : vanité",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Un parfum qui révèle le mystère de l'attraction. Un parfum captivant, avec des notes florales, se combine avec un cœur sensuel de Musc Ambre et rencontre l'élégance naturelle des bois. Son parfum évoque la sensualité de la peau d'une femme.\nPyramide olfactive:\n\n\nNotes de tête: Gardénia, Rose bulg...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10242,
+            "name": "Parfum N°025W : Her Secret",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°025w : her secret",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "La présence du Musc en note de cœur assure une incroyable persistance du parfum et dilue le caractère sucré de la Fleur d'Oranger et de la Vanille, rendant la fragrance plus enveloppante et sophistiquée, unique.\nPyramide olfactive:\n\n\nNotes de tête: Bergamote, Fleur d'oranger, Osmanthus\n\n\nNotes de...",
+            "subCategory": "femme"
+        },
+        {
+            "id": 10243,
+            "name": "Parfum N°027W : L’Amour Rare",
+            "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/007_1.jpg?v=1739178011",
+            "hint": "parfum n°027w : l’amour rare",
+            "price": 35.0,
+            "category": "parfums",
+            "description": "Ce parfum déclenche un tourbillon de sensations et de souvenirs. Une fragrance qui enveloppe de ses notes orientales chaudes et florales fraîches, parmi lesquelles triomphe la rose, emblème de tous les amours.\nPyramide olfactive:\n\n\nNotes de tête: Ananas, Bergamote, Fleur d'abricotier, Lila, Mugue...",
+            "subCategory": "femme"
         }
     ]
 }
