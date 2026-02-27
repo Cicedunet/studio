@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "name": "Lait Corporel Nourrissant",
+            "name": "Dentifrice Black Power au Charbon Actif",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-30094722_3e7db49c-a42d-4d4f-8a76-bfef6de31f15_480x.png?v=1717667621",
             "hint": "body lotion",
             "price": 16.9,
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "name": "Gommage Exfoliant Doux",
+            "name": "CRÈME VISAGE AU COLLAGÈNE ET À L’ACIDE HYALURONIQUE",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-25154516_e2c3ad98-205d-4995-9542-d794aefeefb0_480x.png?v=1717669409",
             "hint": "face scrub",
             "price": 26.9,
@@ -29,7 +29,7 @@
         },
         {
             "id": 4,
-            "name": "Gommage Exfoliant Doux",
+            "name": "GEL NETTOYANT VISAGE À LA BAVE D'ESCARGOT",
             "image": "https://parfum-inspiration.com/cdn/shop/files/www.chogangroupspa.com_aurodhea_productDetail_7783_5aaa3394-6549-485c-b16a-85d97d5ee6b0_480x.png?v=1717669330",
             "hint": "face scrub",
             "price": 24.9,
@@ -38,16 +38,16 @@
         },
         {
             "id": 5,
-            "name": "Gommage Exfoliant Doux",
+            "name": "MASQUE CHEVEUX DÉMÊLANT À L’HUILE D’ARGAN",
             "image": "https://parfum-inspiration.com/cdn/shop/files/download_34e7cd58-b9e0-4363-9a3a-10fa5eceb40e_480x.webp?v=1728578908",
             "hint": "face scrub",
             "price": 29.9,
-            "category": "produit-pour-la-peau",
+            "category": "soin-capillaire",
             "description": "MASQUE CHEVEUX DÉMÊLANT À L’HUILE D’ARGAN - 500 ML CHOGAN"
         },
         {
             "id": 6,
-            "name": "Gommage Exfoliant Doux",
+            "name": "NETTOYANT INTIME AU LAIT D'ÂNESSE",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-25103832_ef361336-d4f7-492b-b6d3-3f2b22174273_480x.png?v=1717669602",
             "hint": "face scrub",
             "price": 9.9,
@@ -56,7 +56,7 @@
         },
         {
             "id": 7,
-            "name": "Gommage Exfoliant Doux",
+            "name": "CRÈME DE NUIT POUR LE VISAGE AU LAIT D’ÂNESSE 50 ML",
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17212119430guida-render-LA05B_480x.jpg?v=1722514414",
             "hint": "face scrub",
             "price": 59.9,
@@ -65,7 +65,7 @@
         },
         {
             "id": 8,
-            "name": "Gommage Exfoliant Doux",
+            "name": "Peptilux Men – Crème visage jour effet « soft focus » avec TQ-10™",
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17273457500guida-render-LUX007_480x.webp?v=1740568713",
             "hint": "face scrub",
             "price": 83.0,
@@ -75,7 +75,7 @@
         {
             "id": 9,
             "name": "Masque Cheveux à la Kératine",
-            "image": "/images/catalogue/masque-cheveux.jpg",
+            "image": "https://images.unsplash.com/photo-1527799822344-429dfa622ca4?auto=format&fit=crop&q=80&w=800",
             "hint": "hair mask",
             "price": 24,
             "category": "soin-capillaire",
@@ -84,7 +84,7 @@
         {
             "id": 10,
             "name": "Fond de Teint Longue Tenue",
-            "image": "/images/catalogue/fond-de-teint.jpg",
+            "image": "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&q=80&w=800",
             "hint": "foundation makeup",
             "price": 29,
             "category": "maquillage",
@@ -93,7 +93,7 @@
         {
             "id": 11,
             "name": "Rouge à Lèvres Mat Velours",
-            "image": "/images/catalogue/rouge-a-levres.jpg",
+            "image": "https://images.unsplash.com/photo-1586776977607-310e9c725c37?auto=format&fit=crop&q=80&w=800",
             "hint": "lipstick",
             "price": 18,
             "category": "maquillage",
@@ -102,7 +102,7 @@
         {
             "id": 12,
             "name": "Huile Sèche Pailletée Corps et Cheveux",
-            "image": "/images/catalogue/huile-seche.jpg",
+            "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=800",
             "hint": "shimmer body oil",
             "price": 26,
             "category": "soin-capillaire",
@@ -110,65 +110,65 @@
         },
         {
             "id": 13,
-            "name": "Détartrant pour Machine à Café",
+            "name": "HUILE NOURRISSANTE POUR CUTICULES ET ONGLES",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-27101519_5fcaa5c5-7803-4654-864a-f34235dd9ad7_480x.png?v=1717669113",
             "hint": "cleaning product",
             "price": 11.9,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "HUILE NOURRISSANTE POUR CUTICULES ET ONGLES - 8 ML CHOGAN"
         },
         {
             "id": 14,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "HUILE ESSENTIELLE DE MENTHE DES CHAMPS",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29141046_ce8c131c-f4a9-48bd-97a6-8386a776864c_480x.png?v=1717668030",
             "hint": "oven cleaner",
             "price": 15.0,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "HUILE ESSENTIELLE DE MENTHE DES CHAMPS CHOGAN"
         },
         {
             "id": 15,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "REVIZENT™",
             "image": "https://parfum-inspiration.com/cdn/shop/files/revizent-multifunktionale-oelmischung-50ml_480x.webp?v=1745964668",
             "hint": "oven cleaner",
             "price": 34.9,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "REVIZENT™ - Mélange d'huiles essentielles multifonctionnel - 50 ml"
         },
         {
             "id": 16,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "HUILE ESSENTIELLE D’ORANGE DOUCE 10 ML",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29143418_7aa03462-6684-440b-9077-794542725add_480x.png?v=1717667981",
             "hint": "oven cleaner",
             "price": 9.0,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "HUILE ESSENTIELLE D’ORANGE DOUCE 10 ML"
         },
         {
             "id": 17,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "MUNOZENT™ Mélange d'huiles essentielles stimulant l'immunité",
             "image": "https://parfum-inspiration.com/cdn/shop/files/munozent-immunstaerkende-oelmischung-10ml_480x.webp?v=1745964653",
             "hint": "oven cleaner",
             "price": 29.9,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "MUNOZENT™ Mélange d'huiles essentielles stimulant l'immunité - 10 ml"
         },
         {
             "id": 18,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "HUILE PURE EXTRA DE LIN BIOLOGIQUE CERTIFIÉ",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29132149_8824a3b5-ef78-4439-9c2c-7e98403ae195_480x.png?v=1717668123",
             "hint": "oven cleaner",
             "price": 22.5,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "HUILE PURE EXTRA DE LIN BIOLOGIQUE CERTIFIÉ CHOGAN"
         },
         {
             "id": 19,
-            "name": "Nettoyant Four et Plaque de Cuisson",
+            "name": "HUILE ESSENTIELLE DE BERGAMOTE",
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29143057_c8f900ef-a9c1-46da-b4c0-c058bf46a4c9_480x.png?v=1717667989",
             "hint": "oven cleaner",
             "price": 20.9,
-            "category": "produit-entretien",
+            "category": "produit-pour-la-peau",
             "description": "HUILE ESSENTIELLE DE BERGAMOTE CHOGAN"
         },
         {
@@ -177,7 +177,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078108170_250x.webp?v=1719437930",
             "hint": "home fragrance",
             "price": 19,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRILGROUT - NETTOYANT CONCENTRÉ POUR JOINT CHOGAN"
         },
         {
@@ -186,7 +186,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR16939942300_480x.webp?v=1720475053",
             "hint": "home fragrance",
             "price": 11.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BAGNOLUX- NETTOYANT ANTICALCAIRE POLISSANT - 750 ML CHOGAN"
         },
         {
@@ -195,7 +195,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078105200_1_480x.webp?v=1721832111",
             "hint": "home fragrance",
             "price": 15.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRILGREASE - DÉGRAISSANT ET ASSAINISSANT SUPER-CONCENTRÉ"
         },
         {
@@ -204,7 +204,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17107487790_480x.webp?v=1721830180",
             "hint": "home fragrance",
             "price": 22.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "TURBODRAIN – DÉBOUCHEUR EN GRANULES SUPER CONCENTRÉ"
         },
         {
@@ -213,7 +213,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078104220_480x.webp?v=1721832266",
             "hint": "home fragrance",
             "price": 12.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRIL WC - DÉTERGENT DÉTARTRANT CONCENTRÉ À ACTION BLANCHISSANTE"
         },
         {
@@ -222,7 +222,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29121231_fea86184-f13d-43b5-9277-7840a41f6d11_480x.png?v=1717668196",
             "hint": "home fragrance",
             "price": 11.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRILBATH - SPRAY NETTOYANT ANTI-CALCAIRE CHOGAN"
         },
         {
@@ -231,7 +231,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR1740747221025-02-28_BH0206-IMG-PRODOTTO_480x.webp?v=1747050519",
             "hint": "home fragrance",
             "price": 13.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRILGLASS - NETTOYANT POUR VITRES ET MIROIRS"
         },
         {
@@ -240,7 +240,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17099131950_480x.webp?v=1721832215",
             "hint": "home fragrance",
             "price": 16.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "FIRE CLEANSE – DÉTERGENT CONCENTRÉ DÉGRAISSANT ET DÉCARBONISANT"
         },
         {
@@ -258,7 +258,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17078152190_480x.webp?v=1721831311",
             "hint": "home fragrance",
             "price": 17.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "Brilparquet - Détergent désinfectant pour sols et revêtements en parquet CHOGAN"
         },
         {
@@ -267,7 +267,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17107594950_480x.webp?v=1721830660",
             "hint": "home fragrance",
             "price": 12.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "SAVERDISH - NETTOYANT POUR L'ENTRETIEN DES LAVE-VAISSELLE"
         },
         {
@@ -276,7 +276,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17097118790_480x.webp?v=1721831994",
             "hint": "home fragrance",
             "price": 15.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "FLOOR CLEANER – DÉTERGENT POUR SOLS ET SURFACES LAVABLES"
         },
         {
@@ -285,7 +285,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29110355_549c6ef7-e019-4a99-9a93-a674c383cabc_480x.png?v=1717668249",
             "hint": "home fragrance",
             "price": 12.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "TOTALBRILL - DÉTÉRGENT ASSAINISSANT MULTI-SURFACES (750 ML) CHOGAN"
         },
         {
@@ -294,7 +294,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/PR17412670060BH0212_480x.jpg?v=1756632202",
             "hint": "home fragrance",
             "price": 12.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "BRILTOTAL - DÉTERGENT POUR L'HYGIÈNE ANTI-POUSSIÈRE CHOGAN"
         },
         {
@@ -303,7 +303,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28225039_d5f1d7d1-43d9-4fcf-a7c8-bce8b89f4cb2_480x.png?v=1717668335",
             "hint": "home fragrance",
             "price": 12.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "WILMA - CHIFFON EN MICROFIBRE POUR UNE BRILLANCE EXTRAORDINAIRE CHOGAN"
         },
         {
@@ -312,7 +312,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29112516_64bbc6af-a3a1-43c4-a0e5-1bc7567c8cac_480x.png?v=1717668245",
             "hint": "home fragrance",
             "price": 7.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "SPLENDIVETRO - NETTOYANT POUR LES VITRES, LES CRISTAUX ET LES MIROIRS - 750 ML CHOGAN"
         },
         {
@@ -321,7 +321,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29115335_9184ecbb-03fe-4c16-b9ba-2527d3682e80_480x.png?v=1717668212",
             "hint": "home fragrance",
             "price": 3.99,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "MAGIC SPONGE CHOGAN"
         },
         {
@@ -330,7 +330,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28230534_0e6a08b5-60e4-4de2-878d-dccb9c459ece_480x.png?v=1717668320",
             "hint": "home fragrance",
             "price": 6.49,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "CATHY-CHIFFON EN MICROFIBRE POUR LE NETTOYAGE DE LA CUISINE CHOGAN"
         },
         {
@@ -339,7 +339,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29231133_82bf37a2-2154-4f6b-925c-51a801def656_480x.png?v=1717667758",
             "hint": "home fragrance",
             "price": 3.5,
-            "category": "senteur-maison",
+            "category": "hygiene-dentaire",
             "description": "BROSSE À DENTS -SOIES MOYENNES (BLANC-VERT) CHOGAN"
         },
         {
@@ -357,7 +357,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/dt17_ccfb7ee8-af7e-435d-b6d2-4eff91b5adb2_480x.png?v=1717669997",
             "hint": "home fragrance",
             "price": 9.99,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "FLOOR WASHER LAVAGE SOL SANS RINÇAGE (750 ML) CHOGAN"
         },
         {
@@ -366,7 +366,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29105743_793becde-7b38-42dc-9248-779aaac330a0_480x.png?v=1717668260",
             "hint": "home fragrance",
             "price": 16.5,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "DEFROST - DÉGIVRANT POUR FREEZER/CONGÉLATEUR (600 ML) CHOGAN"
         },
         {
@@ -375,7 +375,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-28153226_7db31357-70b2-4749-9478-d121e4aa9f83_480x.png?v=1717668592",
             "hint": "home fragrance",
             "price": 39.9,
-            "category": "senteur-maison",
+            "category": "produit-entretien",
             "description": "IGIENPLUS NETTOYANT LIQUIDE POUR L'HYGIÈNE DES MAINS - 5000 ML CHOGAN"
         },
         {
@@ -393,7 +393,7 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29231700_e19dc4b9-aba7-41f5-ab65-3627344450b7_480x.png?v=1717667747",
             "hint": "home fragrance",
             "price": 3.5,
-            "category": "senteur-maison",
+            "category": "hygiene-dentaire",
             "description": "BROSSE À DENTS EXTRA CLEAN - SOIES MOYENNES (BLACK EDITION) CHOGAN"
         },
         {
@@ -402,13 +402,13 @@
             "image": "https://parfum-inspiration.com/cdn/shop/files/Captured_ecran2024-01-29232142_3503a0bf-491c-4ebb-92d7-eaefa97b902c_480x.png?v=1717667740",
             "hint": "home fragrance",
             "price": 3.5,
-            "category": "senteur-maison",
+            "category": "hygiene-dentaire",
             "description": "BROSSE À DENTS EXTRA CLEAN - SOIES MOYENNES (ROUGE-BLANC) CHOGAN"
         },
         {
             "id": 46,
             "name": "Lunettes de Vue Rétro",
-            "image": "/images/catalogue/lunettes-retro.jpg",
+            "image": "https://images.unsplash.com/photo-1511499767390-a75ca5f9387e?auto=format&fit=crop&q=80&w=800",
             "hint": "retro eyeglasses",
             "price": 75,
             "category": "lunettes",
@@ -1027,7 +1027,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_12_87445d0e-ac27-4e95-b44b-f45c3bdf0afa.png?v=1693872100",
             "hint": "déocrème longue durée n°042 inspiré de la vie est belle - lancome",
             "price": 13.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Une essence qui évoque la grâce, la lumière et la liberté. Dédié à une femme intelligente, cultivée et charmante. Un déodorant qui représente la \"quintessence du sourire\". Elle brille comme une \"étincelle de vie\", créée pour les femmes sophistiquées qui croient au bien vivre.\nLe déo-crème longue ...",
             "subCategory": "femme"
         },
@@ -1047,7 +1047,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/COLAGEN.png?v=1746478049",
             "hint": "the beauty drink collagen : solution revolutionnaire pour une  peau sans imperfection, radieuse et uniforme, des cheveux brillants et des ongles forts (630g)",
             "price": 139.0,
-            "category": "soin-capillaire",
+            "category": "produit-entretien",
             "description": "THE BEAUTY DRINK COLLAGEN est un complément alimentaire REVOLUTIONNAIRE, comme jamais vu auparavant, pour le bien-être et la beauté de la peau, des cheveux et des ongles, caractérisé par un agréable goût de pêche. Une solution innovante pour une Peau Parfaite. Enrichi en vitamines B et en Zinc, l...",
             "subCategory": "complement-alimentaire"
         },
@@ -1194,7 +1194,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SKIN_44f1c7d5-9ce1-40ce-a93f-da400ca25e54.jpg?v=1721875480",
             "hint": "belle peau : pour une  peau radieuse et uniforme, des cheveux brillants et des ongles forts",
             "price": 82.0,
-            "category": "soin-capillaire",
+            "category": "produit-entretien",
             "description": "Découvrez SKINAIL PLUS, notre complément alimentaire prêt à l'emploi, aromatisé à la vanille et présenté sous forme de gel. Conçu spécifiquement pour le bien-être et la beauté de votre peau, de vos cheveux et de vos ongles, SKINAIL PLUS est formulé avec des ingrédients puissants qui agissent en s...",
             "subCategory": "complement-alimentaire"
         },
@@ -1298,7 +1298,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/U20_aed37497-0860-4324-b345-f129919b3ab3.jpg?v=1718356188",
             "hint": "glow body oil - huile soyeuse, illuminatrice et pailletée",
             "price": 50.0,
-            "category": "produit-pour-la-peau",
+            "category": "produit-entretien",
             "description": "GLOW BODY OIL est une huile nourrissante, soyeuse et illuminatrice et pailletée qui donne une apparence dorée et éclatante pour les personnes qui aiment briller et ne veulent pas passer inaperçues.Sa formule à base d'huiles végétales hydrate et nourrit la peau, la protège du photovieillissement c..."
         },
         {
@@ -1400,7 +1400,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BV13.jpg?v=1716414309",
             "hint": "masque en spray démelllant et  fortifiant",
             "price": 30.0,
-            "category": "produit-pour-la-peau",
+            "category": "soin-capillaire",
             "description": "Le masque capillaire en spray à la bave d'escargot a une action restructurante sur les cheveux, réparant efficacement la fibre capillaire. Idéal pour les cheveux fins, cassants secs et ternes, sa formule est enrichie en huile d'Argan et en Panthénol, des composants qui aident à démêler les cheveu..."
         },
         {
@@ -1418,7 +1418,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/CAP17.jpg?v=1716391849",
             "hint": "gel cheveux extra fort",
             "price": 11.5,
-            "category": "soin-capillaire",
+            "category": "produit-entretien",
             "description": "Le gel extra fort permet une fixation et une modélisation forte des cheveux sans laisser des résidus tout en donnant du corps aux cheveux. Il protège également les cheveux des effets néfastes de la pollution. Définition et brillance longuetenue à votre coiffure\nTesté sous contrôle dermatologique...."
         },
         {
@@ -1619,7 +1619,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/BB03B_a9fc075c-1b86-4475-bc1d-471decb3cf01.jpg?v=1715869106",
             "hint": "lait corporel baby",
             "price": 23.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Le lait corporel Baby est spécialement conçu pour la peau sensible des bébés. Sa formule douce hydrate délicatement la peau, la laissant lisse, douce et intensément nourrie. L'extrait d'avoine est idéal pour traiter les peaux extrêmement sèches sujettes à l'atopie et aux démangeaisons. L'utilisat...",
             "subCategory": "mixte"
         },
@@ -1679,7 +1679,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/SOL06.jpg?v=1714847428",
             "hint": "spray protecteur pour cheveux",
             "price": 17.0,
-            "category": "soin-capillaire",
+            "category": "produit-pour-la-peau",
             "description": "Le Spray de Protection Solaire pour les cheveux est basé sur des ingrédients végétaux nourrissants et émollients, tels que l'huile de lin, l'huile d'argan, l'huile de noix de coco, l'aloe vera et le beurre de karité, qui revigorent les cheveux de la racine à la pointe et les protègent des rayons ...",
             "subCategory": "mixte"
         },
@@ -1738,7 +1738,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17000667470.png?v=1714593809",
             "hint": "déocrème désodorisant et anti-transpiration",
             "price": 17.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "La Déo-crème naturelle Aurodhea est un déodorant crémeux qui convient aux peaux particulièrement sensibles. Sa formule ne contient ni alcool ni sels d'aluminium. Son action adaptée et très efficace permet limiter la transpiration, et de soulager les sensations de sécheresse, les démangeaisons et ...",
             "subCategory": "homme"
         },
@@ -1748,7 +1748,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_4.png?v=1693869813",
             "hint": "déocrème longue durée n°068",
             "price": 13.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Un déodorant décisif, magnétique et audacieux. Il dégage dans ses sillages olfactifs la force d'une personne extrêmement sûre d'elle et qui n'a pas peur d'affirmer sa singularité.\nLe Déocrème naturel Chogan est un déodorant crémeux et efficace qui aide à soulager la sensation de sécheresse, les d...",
             "subCategory": "homme"
         },
@@ -2270,7 +2270,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_16370725761.jpg?v=1702043388",
             "hint": "masque bio nourissant et volumisateur à huile d’argan",
             "price": 11.0,
-            "category": "produit-pour-la-peau",
+            "category": "soin-capillaire",
             "description": "Offrez à vos cheveux une cure de luxe avec notre Masque à l'Huile d'Argan ! Formulé avec de l'huile d'argan pure et riche en acides gras essentiels, ce masque pénètre profondément dans chaque mèche pour nourrir intensément et hydrater vos cheveux. Notre masque capillaire Bio Nourrissant à l'huile..."
         },
         {
@@ -2671,7 +2671,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_10.png?v=1693871374",
             "hint": "déodorant spray naturel",
             "price": 11.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Le déodorant Spray naturel Chogan ne change pas la naturelle transpiration de la peau.Le Trietil citrate aide à prévenir la formation des mauvaises odeurs grâce à la présence d’agents apaisants comme la Glycérine et l’Aloé Vera, qui hydrate, apaise et rafraîchit en rétablissant la couche hydrolip...",
             "subCategory": "femme"
         },
@@ -2681,7 +2681,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR16953935030.jpg?v=1714592335",
             "hint": "déodorant spray longue durée",
             "price": 14.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Le déodorant Spray Longue Durée Aurodhea garantit une sensation de fraicheur jusqu'à 24heures après son utilisation. Grâce à sa molécule déodorante, il forme un film protecteur sur la peau et inhibe la prolifération des bactéries responsables des mauvaises odeurs.Sa formule hydro-alcoolique est e...",
             "subCategory": "femme"
         },
@@ -2691,7 +2691,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_3.png?v=1693869453",
             "hint": "déocrème longue durée n°007",
             "price": 13.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "L'essence du luxe et de la féminité absolue, qui est devenue une légende. Il est difficile de décrire la sensation que l'on ressent en portant ce déocrème : c'est comme une promenade dans une prairie fleurie à l'odeur intense, comme une plongée dans un \"bouquet fleuri\".\nLe Déocrème naturel Chogan...",
             "subCategory": "femme"
         },
@@ -2701,7 +2701,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/image-removebg-preview_2.png?v=1693869129",
             "hint": "déocrème longue durée n°001",
             "price": 13.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "L'humour, la sensualité et l'esprit gentleman donnent vie à un déodorant cremeux unique, capable de mélanger des notes fraîches, des senteurs aromatiques et épicées, des notes de fruits juteux, mais aussi des notes florales et des bois chauds. La note finale est un cuir doux.\nLe Déocrème naturel ...",
             "subCategory": "homme"
         },
@@ -2721,7 +2721,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074880810_2dd8724f-bc6b-4c58-81ee-1edb748f576e.jpg?v=1711755448",
             "hint": "gel douche n°003",
             "price": 16.0,
-            "category": "produit-pour-la-peau",
+            "category": "parfums",
             "description": "Un gel douche parfumé plein de contradictions : frais mais vigoureux, comme une rencontre entre l'eau et le feu.\nPyramide olfactive:\n\nNotes de tête: Aubépine, Bergamote, Camomille, Cèdre, Citron, Lavande, Mandarine, Noix de muscade\n\nNotes de cœur: Bois de santal, Cèdre, Chevrefeuille, Feuille de ..."
         },
         {
@@ -2739,7 +2739,7 @@
             "image": "https://cdn.shopify.com/s/files/1/0770/3789/6019/files/https___chogangroup.com_images_prodotti_big_PR17074886360_4567ccc5-b07f-42bd-b4e6-e5a2a79b264d.jpg?v=1709717207",
             "hint": "gel douche n°023",
             "price": 16.0,
-            "category": "parfums",
+            "category": "produit-pour-la-peau",
             "description": "Ce gel à la senteur enveloppante se veut une véritable potion qui envoûte les sens de tous ceux qui s'en imprègnent. Conçu pour la femme séductrice qui aime s'entourer de regards.\nLe gel douche parfumé Chogan se caractérise par une texture douce et une formule enrichie de notes aromatiques. Il ne...",
             "subCategory": "femme"
         },
