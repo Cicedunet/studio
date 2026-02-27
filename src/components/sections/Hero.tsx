@@ -25,18 +25,25 @@ const navLinks: NavLink[] = [
 const productLinks: NavLink[] = [
   { href: "/parfums", label: "Parfums", icon: List },
   { href: "/produits-minceur?tab=produits-minceur", label: "Minceur", icon: Weight },
-  { href: "/produits-minceur?tab=complements-alimentaires", label: "Compléments", icon: HeartPulse },
   {
-    label: "Catalogue",
-    icon: BookOpen,
+    label: "Soins",
+    icon: HeartPulse,
     subLinks: [
-      { href: "/catalogue?category=senteur-maison", label: "Senteur Maison" },
-      { href: "/catalogue?category=produit-pour-la-peau", label: "Produit pour la peau" },
-      { href: "/catalogue?category=lunettes", label: "Lunettes" },
-      { href: "/catalogue?category=autre", label: "Autre" },
+      { href: "/catalogue?category=produit-pour-la-peau", label: "Visage & Corps" },
+      { href: "/catalogue?category=soin-capillaire", label: "Cheveux" },
+      { href: "/catalogue?category=hygiene-dentaire", label: "Hygiène Dentaire" },
+      { href: "/catalogue?category=maquillage", label: "Maquillage" },
     ],
   },
-  { href: "/catalogue?category=produit-entretien", label: "Entretien Maison", icon: Droplets },
+  {
+    label: "Maison",
+    icon: Droplets,
+    subLinks: [
+      { href: "/catalogue?category=produit-entretien", label: "Entretien" },
+      { href: "/catalogue?category=senteur-maison", label: "Senteurs" },
+    ],
+  },
+  { href: "/catalogue?category=lunettes", label: "Lunettes", icon: ShoppingBag },
 ];
 
 const socialLinks = [
@@ -127,8 +134,8 @@ const Hero = () => {
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
           {/* Conteneur pour le texte et les liens sociaux */}
           <div className="flex flex-col items-start space-y-6 animate-in fade-in slide-in-from-left-8 duration-1000 delay-200">
-            <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-              Josy Madie: Votre guide vers l'Élégance & le Bien-Être
+            <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary animate-gradient-x">
+              Josy Madie: L'Élégance & le Bien-Être au Quotidien
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
               Je suis Josy Madie, maman, professionnelle des chiffres et distributrice de parfums haut de gamme. Passionnée par le bien-être et l'élégance, je partage ici des produits et astuces qui vont ravir ton quotidien. Je t'aide également à construire ton propre business en toute liberté suivi de conseils à la clé.

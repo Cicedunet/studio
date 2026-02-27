@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Store, BookOpen, List, Weight, ShoppingCart, Sparkles } from "lucide-react";
+import { Store, BookOpen, List, Weight, ShoppingCart, Sparkles, HeartPulse, Droplets } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,34 +18,38 @@ export default function ProductCatalog() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-8 md:grid-cols-2">
-            <Card className="flex flex-col items-center justify-center p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
-                <Sparkles className="h-10 w-10 text-accent" />
-                <h3 className="mt-4 text-2xl font-bold">Parfums d'Exception</h3>
-                <p className="mt-2 text-muted-foreground">Consultez la liste complète de nos équivalences de parfums.</p>
-                <Button asChild className="mt-6">
-                    <Link href="/parfums">Voir les parfums</Link>
-                </Button>
-            </Card>
-             <Card className="flex flex-col items-center justify-center p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
-                <Weight className="h-10 w-10 text-accent" />
-                <h3 className="mt-4 text-2xl font-bold">Objectif Minceur</h3>
-                <p className="mt-2 text-muted-foreground">Découvrez notre gamme pour vous aider à atteindre vos objectifs.</p>
-                <Button asChild className="mt-6">
-                    <Link href="/produits-minceur">Voir les produits</Link>
-                </Button>
-            </Card>
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              { title: "Parfumerie", desc: "Équivalences de luxe & fragrances", icon: Sparkles, href: "/parfums" },
+              { title: "Minceur & Bien-être", desc: "Cures détox & compléments", icon: Weight, href: "/produits-minceur" },
+              { title: "Soin Visage & Corps", desc: "Bave d'escargot, Aloe Vera...", icon: HeartPulse, href: "/catalogue?category=produit-pour-la-peau" },
+              { title: "Soin Capillaire", desc: "Shampoings & masques réparateurs", icon: Droplets, href: "/catalogue?category=soin-capillaire" },
+              { title: "Hygiène Dentaire", desc: "Blanchiment & soins naturels", icon: List, href: "/catalogue?category=hygiene-dentaire" },
+              { title: "Entretien Maison", desc: "Nettoyage pro & écologique", icon: Store, href: "/catalogue?category=produit-entretien" },
+            ].map((cat, i) => (
+              <Card key={i} className="group relative overflow-hidden border-none bg-secondary/30 p-6 transition-all duration-500 hover:bg-secondary/50 hover:shadow-2xl">
+                  <div className="absolute -right-4 -top-4 text-primary/10 transition-transform duration-500 group-hover:scale-150 group-hover:-rotate-12">
+                    <cat.icon size={120} />
+                  </div>
+                  <cat.icon className="h-10 w-10 text-primary mb-4" />
+                  <h3 className="text-xl font-bold">{cat.title}</h3>
+                  <p className="mt-2 text-sm text-muted-foreground">{cat.desc}</p>
+                  <Button asChild variant="ghost" className="mt-4 group-hover:translate-x-2 transition-transform p-0 hover:bg-transparent hover:text-primary">
+                      <Link href={cat.href} className="flex items-center gap-2">
+                        Découvrir <BookOpen className="h-4 w-4" />
+                      </Link>
+                  </Button>
+              </Card>
+            ))}
         </div>
 
          <div className="mt-16 text-center">
-             <Card className="inline-block p-8 text-center transition-all duration-300 hover:scale-105 hover:shadow-xl hover:bg-secondary/50">
-                <BookOpen className="mx-auto h-10 w-10 text-accent" />
-                <h3 className="mt-4 text-2xl font-bold">Catalogue Complet</h3>
-                <p className="mt-2 text-muted-foreground">Cosmétiques, bien-être, maison et plus encore.</p>
-                <Button asChild className="mt-6">
-                    <Link href="/catalogue">Voir le catalogue</Link>
-                </Button>
-            </Card>
+             <Button asChild size="lg" className="rounded-full px-8 py-6 text-lg shadow-xl hover:shadow-primary/20 transition-all hover:scale-105">
+                <Link href="/catalogue" className="flex items-center gap-2">
+                  <BookOpen className="h-5 w-5" />
+                  Consulter le Catalogue Complet
+                </Link>
+            </Button>
         </div>
       </div>
     </section>
