@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -28,6 +29,32 @@ export function ProductCard({ product }: ProductCardProps) {
   const { currency } = useCurrency();
   const { addToCart } = useCart();
   const { toast } = useToast();
+  const [imgSrc, setImgSrc] = useState(product.image);
+
+  // Update imgSrc if product.image changes
+  useEffect(() => {
+    setImgSrc(product.image);
+  }, [product.image]);
+
+  const fallbackImages: Record<string, string> = {
+    'hair mask': 'https://images.unsplash.com/photo-1527799822344-429dfa622ca4?auto=format&fit=crop&q=80&w=800',
+    'foundation makeup': 'https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&q=80&w=800',
+    'lipstick': 'https://images.unsplash.com/photo-1586776977607-310e9c725c37?auto=format&fit=crop&q=80&w=800',
+    'shimmer body oil': 'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=800',
+    'retro eyeglasses': 'https://images.unsplash.com/photo-1511499767390-a75ca5f9387e?auto=format&fit=crop&q=80&w=800',
+    'perfume bottle': 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=800',
+    'cleaning product': 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800',
+    'oven cleaner': 'https://images.unsplash.com/photo-1550963295-019d8a8a61c5?auto=format&fit=crop&q=80&w=800',
+    'body lotion': 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800',
+    'face scrub': 'https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&q=80&w=800'
+  };
+
+  const handleImageError = () => {
+    const fallback = fallbackImages[product.hint] || 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=800';
+    if (imgSrc !== fallback) {
+      setImgSrc(fallback);
+    }
+  };
 
   const price = convertPrice(product.price, currency);
   const whatsappMessage = encodeURIComponent(`Bonjour, je suis intéressé(e) par le produit : ${product.name} au prix de ${price} ${currency.symbol}. Pouvez-vous m'en dire plus ?`);
@@ -44,13 +71,14 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl border-muted/40">
       <CardHeader className="p-0">
-        <div className="aspect-square relative w-full overflow-hidden">
+        <div className="aspect-square relative w-full overflow-hidden bg-muted/20">
           <Image
-            src={product.image}
+            src={imgSrc}
             alt={product.name}
             width={400}
             height={400}
             data-ai-hint={product.hint}
+            onError={handleImageError}
             className="object-cover transition-transform duration-500 hover:scale-110"
           />
         </div>
