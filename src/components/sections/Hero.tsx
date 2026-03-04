@@ -135,10 +135,10 @@ const Hero = () => {
           {/* Conteneur pour le texte et les liens sociaux */}
           <div className="flex flex-col items-start space-y-6 animate-in fade-in slide-in-from-left-8 duration-1000 delay-200">
             <h1 className="font-headline text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary animate-gradient-x">
-              Josy Madie: L'Élégance & le Bien-Être au Quotidien
+              JOSCAAD53: L'Élégance & le Bien-Être au Quotidien
             </h1>
             <p className="text-lg text-muted-foreground md:text-xl">
-              Je suis Josy Madie, maman, professionnelle des chiffres et distributrice de parfums haut de gamme. Passionnée par le bien-être et l'élégance, je partage ici des produits et astuces qui vont ravir ton quotidien. Je t'aide également à construire ton propre business en toute liberté suivi de conseils à la clé.
+              Je suis JOSCAAD53, maman, professionnelle des chiffres et distributrice de parfums haut de gamme. Passionnée par le bien-être et l'élégance, je partage ici des produits et astuces qui vont ravir ton quotidien. Je t'aide également à construire ton propre business en toute liberté suivi de conseils à la clé.
               <br/><br/>
               Je t'invite à explorer mon univers raffiné.
             </p>

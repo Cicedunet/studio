@@ -26,6 +26,7 @@ export default function ProductCatalog() {
               { title: "Soin Capillaire", desc: "Shampoings & masques réparateurs", icon: Droplets, href: "/catalogue?category=soin-capillaire" },
               { title: "Hygiène Dentaire", desc: "Blanchiment & soins naturels", icon: List, href: "/catalogue?category=hygiene-dentaire" },
               { title: "Entretien Maison", desc: "Nettoyage pro & écologique", icon: Store, href: "/catalogue?category=produit-entretien" },
+              { title: "Senteurs Maison", desc: "Diffuseurs & parfums d'ambiance", icon: Droplets, href: "/catalogue?category=senteur-maison" },
             ].map((cat, i) => (
               <Card key={i} className="group relative overflow-hidden border-none bg-secondary/30 p-6 transition-all duration-500 hover:bg-secondary/50 hover:shadow-2xl">
                   <div className="absolute -right-4 -top-4 text-primary/10 transition-transform duration-500 group-hover:scale-150 group-hover:-rotate-12">
