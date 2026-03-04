@@ -8,16 +8,35 @@ import { Menu, Sparkles, Weight, BookOpen, Instagram, Facebook, MessageCircle, B
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-const navLinks = [
+interface SubLink {
+  href: string;
+  label: string;
+}
+
+interface NavLinkItem {
+  href?: string;
+  label: string;
+  icon: React.ElementType | (() => React.JSX.Element);
+  subLinks?: SubLink[];
+}
+
+const navLinks: NavLinkItem[] = [
   { href: "#profiler", label: "Mon Parfum Idéal", icon: Sparkles },
   { href: "#business", label: "Business", icon: Briefcase },
   { href: "#offres", label: "Offres", icon: Gift },
   { href: "#contact", label: "Contact", icon: Phone },
 ];
 
-const productLinks = [
+const productLinks: NavLinkItem[] = [
   { href: "/parfums", label: "Parfums", icon: List },
-  { href: "/produits-minceur?tab=produits-minceur", label: "Minceur", icon: Weight },
+  {
+    label: "Bien-être",
+    icon: Weight,
+    subLinks: [
+      { href: "/produits-minceur", label: "Minceur" },
+      { href: "/catalogue?category=complements-alimentaires", label: "Compléments Alimentaires" },
+    ],
+  },
   {
     label: "Soins",
     icon: HeartPulse,
@@ -25,6 +44,9 @@ const productLinks = [
       { href: "/catalogue?category=produit-pour-la-peau", label: "Visage & Corps" },
       { href: "/catalogue?category=soin-capillaire", label: "Cheveux" },
       { href: "/catalogue?category=hygiene-dentaire", label: "Hygiène Dentaire" },
+      { href: "/catalogue?category=hygiene-intime", label: "Hygiène Intime" },
+      { href: "/catalogue?category=produit-solaire", label: "Solaire" },
+      { href: "/catalogue?category=gamme-bebe", label: "Bébé & Enfant" },
       { href: "/catalogue?category=maquillage", label: "Maquillage" },
     ],
   },
@@ -36,7 +58,6 @@ const productLinks = [
       { href: "/catalogue?category=senteur-maison", label: "Senteurs" },
     ],
   },
-  { href: "/catalogue?category=lunettes", label: "Lunettes", icon: ShoppingBag },
 ];
 
 const socialLinks = [
@@ -77,7 +98,7 @@ const Hero = () => {
                       <span>Élégance & Bien-Être</span>
                     </Link>
                     <nav className="flex flex-col gap-4 text-lg font-medium">
-                      {[...productLinks, ...navLinks].map((link: any) => (
+                      {[...productLinks, ...navLinks].map((link) => (
                         link.subLinks ? (
                           <Accordion type="single" collapsible className="w-full" key={link.label}>
                             <AccordionItem value="item-1" className="border-b-0">
@@ -89,7 +110,7 @@ const Hero = () => {
                               </AccordionTrigger>
                               <AccordionContent>
                                 <div className="flex flex-col gap-4 pl-8 pt-2">
-                                  {link.subLinks.map((subLink: any) => (
+                                  {link.subLinks.map((subLink) => (
                                     <SheetClose asChild key={subLink.href}>
                                       <Link
                                         href={subLink.href}
@@ -123,7 +144,6 @@ const Hero = () => {
           </div>
         </header>
 
-        {/* Réintroduction d'une grille à deux colonnes */}
         <div className="grid items-center gap-8 md:grid-cols-2 lg:gap-12">
           {/* Conteneur pour le texte et les liens sociaux */}
           <div className="flex flex-col items-start space-y-6 animate-in fade-in slide-in-from-left-8 duration-1000 delay-200">
@@ -160,7 +180,7 @@ const Hero = () => {
         </div>
 
         <nav className="hidden md:flex flex-wrap items-center justify-center gap-4 mt-16 md:mt-24 text-lg font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000 delay-400">
-          {[...productLinks, ...navLinks].map((link: any) => (
+          {[...productLinks, ...navLinks].map((link) => (
             link.subLinks ? (
               <DropdownMenu key={link.label}>
                 <DropdownMenuTrigger asChild>
@@ -170,7 +190,7 @@ const Hero = () => {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
-                  {link.subLinks.map((subLink: any) => (
+                  {link.subLinks.map((subLink) => (
                     <DropdownMenuItem key={subLink.href} asChild>
                       <Link href={subLink.href}>{subLink.label}</Link>
                     </DropdownMenuItem>

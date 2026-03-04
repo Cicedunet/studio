@@ -21,10 +21,15 @@ export default function ProductCatalog() {
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {[
               { title: "Parfumerie", desc: "Équivalences de luxe & fragrances", icon: Sparkles, href: "/parfums" },
-              { title: "Minceur & Bien-être", desc: "Cures détox & compléments", icon: Weight, href: "/produits-minceur" },
+              { title: "Minceur", desc: "Cures & Brûle-graisses", icon: Weight, href: "/produits-minceur" },
+              { title: "Bien-être", desc: "Compléments alimentaires & Vitalité", icon: Weight, href: "/catalogue?category=complements-alimentaires" },
               { title: "Soin Visage & Corps", desc: "Bave d'escargot, Aloe Vera...", icon: HeartPulse, href: "/catalogue?category=produit-pour-la-peau" },
               { title: "Soin Capillaire", desc: "Shampoings & masques réparateurs", icon: Droplets, href: "/catalogue?category=soin-capillaire" },
               { title: "Hygiène Dentaire", desc: "Blanchiment & soins naturels", icon: List, href: "/catalogue?category=hygiene-dentaire" },
+              { title: "Hygiène Intime", desc: "Soins doux & respectueux", icon: HeartPulse, href: "/catalogue?category=hygiene-intime" },
+              { title: "Solaire", desc: "Protections & après-soleil", icon: Droplets, href: "/catalogue?category=produit-solaire" },
+              { title: "Bébé & Enfant", desc: "Douceur pour les petits", icon: HeartPulse, href: "/catalogue?category=gamme-bebe" },
+              { title: "Maquillage", desc: "Sublimez votre beauté", icon: Sparkles, href: "/catalogue?category=maquillage" },
               { title: "Entretien Maison", desc: "Nettoyage pro & écologique", icon: Store, href: "/catalogue?category=produit-entretien" },
               { title: "Senteurs Maison", desc: "Diffuseurs & parfums d'ambiance", icon: Droplets, href: "/catalogue?category=senteur-maison" },
             ].map((cat, i) => (

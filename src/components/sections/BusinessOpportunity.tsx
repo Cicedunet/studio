@@ -5,7 +5,7 @@ import { Quote, Rocket, Star } from "lucide-react";
 const testimonials = [
   {
     name: "Sophie D.",
-    quote: "Rejoindre l'équipe de JOSCAAD53 a changé ma vie. Je suis plus épanouie et financièrement indépendante.",
+    quote: "Rejoindre l'équipe JOSCAAD53 a changé ma vie. Je suis plus épanouie et financièrement indépendante.",
     role: "Partenaire",
   },
   {
