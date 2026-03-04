@@ -2,14 +2,17 @@
 
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image";
 import { BookOpen, ArrowLeft, MessageCircle, ShoppingBag } from "lucide-react";
 import Footer from "@/components/layout/Footer";
 import { CurrencySwitcher } from "@/components/CurrencySwitcher";
 import { ProductCard } from '@/components/ProductCard';
 import { Cart } from '@/components/Cart';
 import { useCurrency } from "@/context/CurrencyContext";
+import { convertPrice } from "@/lib/currency";
 import {
   Select,
   SelectContent,
@@ -30,6 +33,7 @@ interface Product {
 }
 
 function CatalogueContent() {
+  const { currency } = useCurrency();
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -50,12 +54,10 @@ function CatalogueContent() {
 
         setAllProducts(catalogueProducts);
 
-        // Nettoyage des catégories dynamiques sans erreurs de types
-        const dynamicCategories: string[] = Array.from(new Set(catalogueProducts
+        const dynamicCategories = Array.from(new Set(catalogueProducts
           .map((p: Product) => p.category)
           .filter((cat: string | undefined): cat is string => !!cat)
         )) as string[];
-        
         setCategories(['all', ...dynamicCategories.sort()]);
 
         const categoryFromUrl = searchParams.get('category');
@@ -66,8 +68,7 @@ function CatalogueContent() {
           setActiveFilter('all');
           setFilteredProducts(catalogueProducts);
         }
-      })
-      .catch(err => console.error("Erreur chargement produits:", err));
+      });
   }, [searchParams]);
 
   const handleFilter = (filter: string) => {
@@ -78,7 +79,7 @@ function CatalogueContent() {
       setFilteredProducts(allProducts);
     } else {
       params.set('category', filter);
-      setFilteredProducts(allProducts.filter((p: Product) => p.category === filter));
+      setFilteredProducts(allProducts.filter(p => p.category === filter));
     }
     router.push(`${pathname}?${params.toString()}`);
   };
@@ -134,7 +135,7 @@ export default function CataloguePage() {
                             Notre Catalogue
                         </h1>
                     </div>
-                    <Suspense fallback={<div className="text-center py-10">Chargement des produits...</div>}>
+                    <Suspense fallback={<div>Chargement des produits...</div>}>
                       <CatalogueContent />
                     </Suspense>
                     <div className="mt-16 text-center">
