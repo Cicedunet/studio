@@ -9,8 +9,8 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:9002';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: 'Élégance & Bien-Être | Josy Madie',
-  description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec Josy Madie.',
+  title: 'Élégance & Bien-Être | JOSCAAD53',
+  description: 'Découvrez des parfums d’exception et construisez votre business en toute liberté avec JOSCAAD53.',
 };
 
 export default function RootLayout({
